@@ -1,4 +1,4 @@
-import {FIRSTS,SUSHI,LEVELS,RULES,assess,sentence,answerOptions,TRAIN_LEVELS,TRAIN_TOKENS} from './data.js?v=20261027v17';
+import {FIRSTS,SUSHI,LEVELS,RULES,assess,sentence,answerOptions,TRAIN_LEVELS,TRAIN_TOKENS} from './data.js?v=20261027v18';
 // Animation events only: there is no game time limit or countdown.
 export class AnimationQueue{
  constructor(){this.position=0;this.paused=false;this.jobs=[];this.serial=0;}

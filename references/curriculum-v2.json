@@ -86,7 +86,7 @@
     },
     {
       "id": "wake",
-      "text": "起床",
+      "text": "起牀",
       "kind": "first",
       "jyutping": "hei cong",
       "jyutping_with_tones": "hei2 cong4",
@@ -97,9 +97,10 @@
           "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
         },
         {
-          "character": "床",
+          "character": "牀",
           "reading": "cong4",
-          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%C9"
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E7%89%80",
+          "readingSource": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%C9"
         }
       ]
     },
@@ -767,91 +768,91 @@
     {
       "first": "wake",
       "result": "hands",
-      "sentence": "我一起床，就洗手。",
+      "sentence": "我一起牀，就洗手。",
       "grade": "weak",
       "award_fish": false,
-      "student_feedback": "「起床」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "student_feedback": "「起牀」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "home",
-      "sentence": "我一起床，就回家去。",
+      "sentence": "我一起牀，就回家去。",
       "grade": "weak",
       "award_fish": false,
-      "student_feedback": "「起床」後可以「回家去」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "student_feedback": "「起牀」後可以「回家去」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "rice",
-      "sentence": "我一起床，就吃飯。",
+      "sentence": "我一起牀，就吃飯。",
       "grade": "weak",
       "award_fish": false,
-      "student_feedback": "「起床」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "student_feedback": "「起牀」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "water",
-      "sentence": "我一起床，就喝水。",
+      "sentence": "我一起牀，就喝水。",
       "grade": "correct",
       "award_fish": true,
-      "student_feedback": "起床後，可以立即喝水。",
+      "student_feedback": "起牀後，可以立即喝水。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "teeth",
-      "sentence": "我一起床，就刷牙。",
+      "sentence": "我一起牀，就刷牙。",
       "grade": "correct",
       "award_fish": true,
-      "student_feedback": "起床後，立即刷牙。",
+      "student_feedback": "起牀後，立即刷牙。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "classroom",
-      "sentence": "我一起床，就走進課室。",
+      "sentence": "我一起牀，就走進課室。",
       "grade": "weak",
       "award_fish": false,
-      "student_feedback": "「起床」後可以「走進課室」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "student_feedback": "「起牀」後可以「走進課室」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "play",
-      "sentence": "我一起床，就玩耍。",
+      "sentence": "我一起牀，就玩耍。",
       "grade": "weak",
       "award_fish": false,
-      "student_feedback": "「起床」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "student_feedback": "「起牀」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "skip",
-      "sentence": "我一起床，就跳繩。",
+      "sentence": "我一起牀，就跳繩。",
       "grade": "weak",
       "award_fish": false,
-      "student_feedback": "「起床」後可以「跳繩」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "student_feedback": "「起牀」後可以「跳繩」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "homework",
-      "sentence": "我一起床，就做功課。",
+      "sentence": "我一起牀，就做功課。",
       "grade": "weak",
       "award_fish": false,
-      "student_feedback": "「起床」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "student_feedback": "「起牀」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {
       "first": "wake",
       "result": "clothes",
-      "sentence": "我一起床，就穿衣服。",
+      "sentence": "我一起牀，就穿衣服。",
       "grade": "correct",
       "award_fish": true,
-      "student_feedback": "起床後，立即穿衣服。",
+      "student_feedback": "起牀後，立即穿衣服。",
       "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
     },
     {

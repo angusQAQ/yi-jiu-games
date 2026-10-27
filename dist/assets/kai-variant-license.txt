@@ -1,0 +1,14 @@
+Classroom Kai Variant — U+7240 牀
+
+Source font: 全字庫正楷體 TW-Kai (CNS11643).
+Original copyright and version metadata are recorded in references/kai-variant-font.json.
+Official source: https://data.gov.tw/dataset/5961
+Download mirror: https://github.com/XiaoPanPanKevinPan/fontCollection
+
+This open data is used under the Open Government Data License, version 1.0:
+https://data.gov.tw/license
+
+此開放資料依政府資料開放授權條款進行公眾釋出，使用者於遵守本條款各項規定之前提下，得利用之。
+原提供機關：國家發展委員會／數位發展部 CNS11643 全字庫。
+
+Modification: retained only U+7240 and required font metadata; renamed the subset to Classroom Kai Variant. Original glyph outlines are preserved. No other game characters use this supplemental font.

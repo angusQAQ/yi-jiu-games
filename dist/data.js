@@ -1,7 +1,7 @@
-import {TRAIN_LEVELS,TRAIN_TOKENS} from './train-data.js?v=20261027v17';
+import {TRAIN_LEVELS,TRAIN_TOKENS} from './train-data.js?v=20261027v18';
 export {TRAIN_LEVELS,TRAIN_TOKENS};
-import {COURSE} from './curriculum.js?v=20261027v17';
-import {DISTINCT} from './distinct-curriculum.js?v=20261027v17';
+import {COURSE} from './curriculum.js?v=20261027v18';
+import {DISTINCT} from './distinct-curriculum.js?v=20261027v18';
 export const TITLES={sushi:'壽司小店',fishing:'釣魚對戰',island:'小島生活任務',train:'小島句子列車'};
 const tiles={arriveHome:0,school:1,hungry:2,thirsty:3,wake:4,bell:5,park:6,dirty:7,hands:8,home:9,rice:10,water:11,teeth:12,classroom:13,play:14,skip:15,homework:16,clothes:17};
 const sushiWords=[...COURSE.firsts,...COURSE.results].map(w=>[w.id,{id:w.id,text:w.text,jp:w.jyutping,tile:tiles[w.id],atlas:'life'}]);

@@ -1,0 +1,27 @@
+{
+  "character": "牀",
+  "unicode": "U+7240",
+  "family": "Classroom Kai Variant",
+  "asset": "dist/assets/kai-variant-7240.woff2",
+  "source": "https://data.gov.tw/dataset/5961",
+  "license": "Open Government Data License, version 1.0",
+  "licenseUrl": "https://data.gov.tw/license",
+  "download": "https://raw.githubusercontent.com/XiaoPanPanKevinPan/fontCollection/main/TW-Kai-98_1_regen.woff2",
+  "sourceSha256": "4924995aad9ff3b2b7c2c92541203b4398f0fc13edde3f0b180dbc260346c756",
+  "assetSha256": "480b420378922709d93c6b1090f72c104efb2ae9a4351553ba235ca3915a8cdf",
+  "originalMetadata": [
+    "(c)2022 Ministry of Digital Affairs. You can use any of the following terms as needed. 1. Open Government Data License, version 1.0(https://data.gov.tw/en/license). 2. the SIL Open Font License, version 1.1. (https://scripts.sil.org/OFL)",
+    "TW-Kai",
+    "Version 11109.01",
+    "(c)2022數位發展部。使用者可依需求擇一使用以下條款：1.「政府資料開放授權條款-第一版」(https://data.gov.tw/license) ；2. 「開源字型授權1.1版(OFL 1.1) 」(https://scripts.sil.org/OFL)",
+    "全字庫正楷體",
+    "Version 11109.01",
+    "(c)2022 Ministry of Digital Affairs. You can use any of the following terms as needed. 1. Open Government Data License, version 1.0(https://data.gov.tw/en/license). 2. the SIL Open Font License, version 1.1. (https://scripts.sil.org/OFL)",
+    "TW-Kai",
+    "Version 11109.01"
+  ],
+  "modification": "Single-glyph subset renamed; outlines and proportions retained.",
+  "glyphs": [
+    29248
+  ]
+}

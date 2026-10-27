@@ -1,7 +1,7 @@
-import {WORDS,FIRSTS,SUSHI,LEVELS,TITLES,FIRST_SCENE,RULES,assess,sentence,answerOptions,TRAIN_LEVELS,TRAIN_TOKENS} from './data.js?v=20261027v17';
-import {newGame,chooseFirst,scoreResponse,nextPlayerRound,remainingFirsts,payOrder,chooseIsland,performIsland,completeIsland,nextIsland,reviewEntries,jumpRound,roundCount,finishGame,placeTrainToken,removeTrainToken,trainVerdict,departTrain} from './engine.js?v=20261027v17';
-import {paintedScene} from './painted-scenes-v4.js?v=20261027v17';
-import {TRAIN_CARRIAGE_ART} from './train-art.js?v=20261027v17';
+import {WORDS,FIRSTS,SUSHI,LEVELS,TITLES,FIRST_SCENE,RULES,assess,sentence,answerOptions,TRAIN_LEVELS,TRAIN_TOKENS} from './data.js?v=20261027v18';
+import {newGame,chooseFirst,scoreResponse,nextPlayerRound,remainingFirsts,payOrder,chooseIsland,performIsland,completeIsland,nextIsland,reviewEntries,jumpRound,roundCount,finishGame,placeTrainToken,removeTrainToken,trainVerdict,departTrain} from './engine.js?v=20261027v18';
+import {paintedScene} from './painted-scenes-v4.js?v=20261027v18';
+import {TRAIN_CARRIAGE_ART} from './train-art.js?v=20261027v18';
 const app=document.getElementById('app'),live=document.getElementById('live');
 let game=null,view='home',muted=false,lastFrame=performance.now(),audioTicket=0,audioPending=false,pictureSerial=0;
 const trainDrags=new Map();
@@ -25,7 +25,7 @@ function islandWordPicture(tile,label='生活動作圖畫'){const extraMap={1:0,
 function wordChoice(id,attrs='',cls=''){const w=WORDS[id];return `<button class="word-choice ${cls}" ${attrs} aria-label="${esc(w.text)}">${vocabPicture(id)}<strong>${w.text}</strong><small class="jp">${w.jp}</small>${cls==='wrong-card'||cls==='weak-card'?`<span class="wrong-badge">${icon('cross')}再試一試！</span>`:cls==='correct-card'?`<span class="choice-status status-correct">${icon('check')}</span>`:''}</button>`;}
 function sprite(name,frame=0,row=0,cls=''){return `<span class="sprite ${name}-sprite ${cls}" role="img" aria-label="${name==='customer'?'小客人':'小漁夫'}" style="--frame:${frame*100/3}%;--row:${row*100}%"></span>`;}
 function clearAudio(){audioTicket++;audioPending=false;speaker.onended=null;speaker.onerror=null;speaker.pause();document.querySelectorAll('.is-reading').forEach(b=>b.classList.remove('is-reading'));}
-function audio(id,after){if(muted){if(after)after();return;}clearAudio();const ticket=audioTicket;let finished=false;audioPending=true;speaker.src=`assets/audio/${id}.mp3?v=20261027v17`;const end=()=>{if(finished||ticket!==audioTicket)return;finished=true;audioPending=false;document.querySelectorAll('.is-reading').forEach(b=>b.classList.remove('is-reading'));if(after)after();};speaker.onended=end;speaker.onerror=end;const review=document.querySelector(`[data-review="${id}"]`);if(review)review.classList.add('is-reading');speaker.play().catch(end);}
+function audio(id,after){if(muted){if(after)after();return;}clearAudio();const ticket=audioTicket;let finished=false;audioPending=true;speaker.src=`assets/audio/${id}.mp3?v=20261027v18`;const end=()=>{if(finished||ticket!==audioTicket)return;finished=true;audioPending=false;document.querySelectorAll('.is-reading').forEach(b=>b.classList.remove('is-reading'));if(after)after();};speaker.onended=end;speaker.onerror=end;const review=document.querySelector(`[data-review="${id}"]`);if(review)review.classList.add('is-reading');speaker.play().catch(end);}
 function sayWord(id,after){audio('v2-word-'+id,after);}
 function announce(s){live.textContent=s;}
 function later(delay,fn){const current=game;if(current)current.queue.after(delay,()=>{if(game===current)fn();});}

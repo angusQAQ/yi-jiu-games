@@ -177,7 +177,7 @@
       ]
     },
     {
-      "text": "起床",
+      "text": "起牀",
       "jyutping": "hei cong",
       "jyutping_with_tones": "hei2 cong4",
       "characters": [
@@ -187,9 +187,10 @@
           "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
         },
         {
-          "character": "床",
+          "character": "牀",
           "reading": "cong4",
-          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%C9"
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E7%89%80",
+          "readingSource": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%C9"
         }
       ]
     },
@@ -511,7 +512,7 @@
       "下雨",
       "手髒",
       "天黑",
-      "起床"
+      "起牀"
     ],
     "results": [
       "吃飯",
@@ -793,25 +794,25 @@
         "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
       },
       {
-        "first": "起床",
+        "first": "起牀",
         "second": "吃飯",
         "semantic_class": "common_reasonable",
         "intrinsic_contradiction": false,
         "safe_binary_if_forced": "合理",
-        "explanation": "起床後可以吃早飯。",
+        "explanation": "起牀後可以吃早飯。",
         "teacher_note": null
       },
       {
-        "first": "起床",
+        "first": "起牀",
         "second": "喝水",
         "semantic_class": "common_reasonable",
         "intrinsic_contradiction": false,
         "safe_binary_if_forced": "合理",
-        "explanation": "起床後可以喝水。",
+        "explanation": "起牀後可以喝水。",
         "teacher_note": null
       },
       {
-        "first": "起床",
+        "first": "起牀",
         "second": "打傘",
         "semantic_class": "context_needed",
         "intrinsic_contradiction": false,
@@ -820,30 +821,30 @@
         "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
       },
       {
-        "first": "起床",
+        "first": "起牀",
         "second": "洗手",
         "semantic_class": "common_reasonable",
         "intrinsic_contradiction": false,
         "safe_binary_if_forced": "合理",
-        "explanation": "起床後可以先洗手。",
+        "explanation": "起牀後可以先洗手。",
         "teacher_note": null
       },
       {
-        "first": "起床",
+        "first": "起牀",
         "second": "開燈",
         "semantic_class": "common_reasonable",
         "intrinsic_contradiction": false,
         "safe_binary_if_forced": "合理",
-        "explanation": "房間昏暗時，起床後可以開燈。",
+        "explanation": "房間昏暗時，起牀後可以開燈。",
         "teacher_note": null
       },
       {
-        "first": "起床",
+        "first": "起牀",
         "second": "刷牙",
         "semantic_class": "common_reasonable",
         "intrinsic_contradiction": false,
         "safe_binary_if_forced": "合理",
-        "explanation": "起床後刷牙，是常見的習慣。",
+        "explanation": "起牀後刷牙，是常見的習慣。",
         "teacher_note": null
       }
     ],
@@ -933,15 +934,15 @@
       "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
     },
     {
-      "first": "起床",
+      "first": "起牀",
       "answer": "刷牙",
       "choices": [
         "刷牙",
         "打傘",
         "回家"
       ],
-      "sentence": "我一起床，就刷牙。",
-      "visual_cue": "客人在床邊拿着牙刷。",
+      "sentence": "我一起牀，就刷牙。",
+      "visual_cue": "客人在牀邊拿着牙刷。",
       "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
     },
     {
@@ -969,15 +970,15 @@
       "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
     },
     {
-      "first": "起床",
+      "first": "起牀",
       "answer": "穿衣服",
       "choices": [
         "穿衣服",
         "打傘",
         "回家"
       ],
-      "sentence": "我一起床，就穿衣服。",
-      "visual_cue": "客人在床邊，手拿校服。",
+      "sentence": "我一起牀，就穿衣服。",
+      "visual_cue": "客人在牀邊，手拿校服。",
       "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
     },
     {
@@ -989,7 +990,7 @@
         "刷牙"
       ],
       "sentence": "我一天黑，就睡覺。",
-      "visual_cue": "客人在床上蓋好被子；窗外有月亮。",
+      "visual_cue": "客人在牀上蓋好被子；窗外有月亮。",
       "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
     }
   ],
