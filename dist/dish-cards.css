@@ -1,0 +1,24 @@
+/* The dish is a quiet background; the words and meaning picture carry the task. */
+.ingredient{max-width:400px;aspect-ratio:1.3;background:transparent;border:0;border-radius:22px}
+.ingredient:hover,.ingredient:focus-visible{background:transparent}
+.sushi-plate{position:absolute;left:0;right:0;top:13%;bottom:0;border:8px solid #91bdc8;border-bottom:12px solid #6e9eae;border-radius:50%;background:#e6f2ef;box-shadow:inset 0 0 0 8px #fffdf4,inset 0 0 0 11px #b5d2ce}
+.plate-1{border-color:#d2b36f;border-bottom-color:#b19153;background:#f7efd7;box-shadow:inset 0 0 0 8px #fffdf4,inset 0 0 0 11px #e6d4a0}
+.plate-2{border-color:#9abc91;border-bottom-color:#749b6e;background:#edf3e0;box-shadow:inset 0 0 0 8px #fffdf4,inset 0 0 0 11px #c5d7b2}
+.dish-wordcard{position:absolute;left:3%;right:3%;top:12%;bottom:17%;display:grid;grid-template-columns:minmax(0,1fr) 44%;align-items:center;gap:10px;padding:13px;background:#fffdf4;border:3px solid #bfa777;border-bottom:7px solid #ac945f;border-radius:19px}
+.dish-wordtext{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;min-width:0;color:#244958}
+.dish-wordtext>strong{font-size:clamp(35px,3.4vw,58px);line-height:1.2;white-space:nowrap;font-weight:900;-webkit-text-stroke:.9px currentColor}
+.dish-wordtext>strong.long-word{font-size:clamp(30px,2.65vw,44px)}
+.dish-wordtext>.jp{font-size:clamp(21px,1.9vw,30px);line-height:1.25;text-align:center;white-space:normal;font-weight:900}
+.dish-wordcard>.dish-meaning{width:100%;height:auto;aspect-ratio:1;border-radius:12px;border:2px solid #d8c7a1}
+.ingredient.correct-card{background:transparent;border:0}
+.ingredient.correct-card .dish-wordcard{border-color:#5a8e65;background:#edf7df}
+.wrong-badge{position:absolute;z-index:4;right:1%;top:-2%;background:#fff1e7;border:3px solid #b96c57;border-radius:12px;padding:6px 12px;color:#9d4038;font-size:clamp(22px,2vw,31px);line-height:1.2;white-space:nowrap;font-weight:900;-webkit-text-stroke:.6px currentColor}
+.request-story{display:flex;align-items:center;justify-content:center;gap:9px;width:36%;max-width:320px;flex-shrink:0}
+.request-story>.vocab-picture{width:44%;height:auto;aspect-ratio:1}
+.request-story>span:not(.vocab-picture){color:#a77627;font-size:30px}
+@media(max-height:800px) and (min-width:1000px){.ingredient{max-width:335px}.dish-wordcard{gap:8px;padding:11px}.dish-wordtext{gap:10px}.dish-wordtext>strong{font-size:45px}.dish-wordtext>strong.long-word{font-size:34px}.dish-wordtext>.jp{font-size:23px}}
+@media(max-width:1150px){.dish-wordcard{gap:6px;padding:9px;grid-template-columns:minmax(0,1fr) 43%}.dish-wordtext>strong{font-size:37px}.dish-wordtext>strong.long-word{font-size:29px}.dish-wordtext>.jp{font-size:21px}}
+@media(max-width:850px){.ingredients{gap:8px;align-items:center}.ingredient{width:31%;flex-basis:31%;max-width:31%;aspect-ratio:.88}.sushi-plate{top:40%;bottom:0;border-width:5px}.dish-wordcard{top:0;bottom:18%;display:flex;flex-direction:column;gap:8px;padding:9px 6px}.dish-wordtext{gap:6px;flex-shrink:0}.dish-wordtext>strong{font-size:30px}.dish-wordtext>strong.long-word{font-size:24px}.dish-wordtext>.jp{font-size:18px}.dish-wordcard>.dish-meaning{width:70%;max-width:100px;aspect-ratio:1}}
+@media(max-width:850px){.request-story{width:80%;max-width:230px}}
+@media(max-width:500px){.ingredient{aspect-ratio:.65}.dish-wordcard{padding:9px 4px;gap:7px;border-width:2px;border-bottom-width:5px}.dish-wordtext>strong{font-size:27px}.dish-wordtext>strong.long-word{font-size:22px}.dish-wordtext>.jp{font-size:17px}.dish-wordcard>.dish-meaning{width:85%}.sushi-plate{border-width:4px;box-shadow:inset 0 0 0 4px #fffdf4}}
+.correct-badge{position:absolute;z-index:6;right:1%;top:-2%;display:flex;align-items:center;gap:5px;background:#eff9df;border:3px solid #699667;border-radius:12px;padding:6px 12px;color:#2f7549;font-size:clamp(22px,2vw,31px);line-height:1.2;white-space:nowrap;font-weight:900;-webkit-text-stroke:.6px currentColor}.correct-badge>.icon{width:30px;height:30px;stroke-width:4}

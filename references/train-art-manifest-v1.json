@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "created_at": "2026-10-27",
+  "generator": {
+    "source": "built-in image_gen.imagegen",
+    "mode": "built-in",
+    "cli_fallback_used": false
+  },
+  "style_references_viewed": [
+    "work/ocean-classroom/dist/assets/fish-words-v3.png",
+    "work/ocean-classroom/dist/assets/vocab-v2.png"
+  ],
+  "assets": [
+    {
+      "name": "train-words-v1.png",
+      "path": "work/ocean-classroom/dist/assets/train-words-v1.png",
+      "source_path": "generated-source:exec-a9a024bc-8ede-468b-be21-feca9be7ab00.png",
+      "prompt": "Use case: illustration-story.\nAsset type: a word-picture atlas for a cooperative Primary 2 Chinese sentence game for non-Chinese-speaking 7-year-olds.\nPrimary request: Create ONE PNG canvas, exact 4:3 landscape aspect ratio, preferably 1440×1080 pixels, consisting of EXACTLY FOUR COLUMNS AND THREE ROWS, TWELVE EQUAL SQUARE CELLS. The invisible grid boundaries are x=25%,50%,75%, y=33.333%,66.667%. Every cell is an independent square illustration filling its cell edge to edge. No gutters, no margins, no drawn borders, no labels, no numbers, no typography. Do not change the row or column count.\nStyle/medium: warm hand-painted children's textbook illustration, soft gouache and watercolor paper texture, gentle warm cream tones, clear readable body language, friendly ink-like contour details, softly modeled shading. The recurring boy has East Asian features, is seven years old, with short tousled black hair, large expressive dark eyes, healthy ordinary proportions, blue T-shirt and navy shorts with white socks and sneakers. Use the exact same recurring boy in all relevant cells. Arms, hands, fingers, and legs must be natural and correct. Simple scene backgrounds and uncluttered compositions. Consistent illustrated textbook aesthetic.\nLayout content, strictly row-major, left to right:\nFIRST ROW, four square cells:\nCell 0: AFRAID OF THE DARK. The boy alone sits on his bed in a dim bedroom at night, eyes worried, shoulders slightly hunched, hands naturally clutching his blanket, looking toward a dark corner; clearly afraid but gentle and child-safe. A small unlit bedside lamp is visible.\nCell 1: SWITCHES ON A LITTLE LAMP. In the same bedroom, the same boy reaches one hand to the small bedside lamp switch; that bedside lamp now glows warm yellow and gently lights the room. His expression relaxes. Keep his hand and the lamp completely within this cell.\nCell 2: STUMBLES AND FALLS. Full-body scene in a simple playground, the boy gently stumbles down onto both hands and one knee on a soft surface, the other knee bent naturally. Safe, mild fall, surprised expression. No wound, no blood, no violence, no dangerous object.\nCell 3: STARTS CRYING. Close waist-up view of the same boy, visibly crying with tears on his cheeks and a sad mouth, both hands resting naturally at his sides. No injury, no blood, no extra hands.\nSECOND ROW, four square cells:\nCell 4: FINISHES A SHORT RUN. The boy on a school running track has just finished a short run and is slowing to a stop, a little tired, sweat droplets, hands naturally on his hips as he catches his breath. Show the red track curving behind him. No word, sign, finish-line text, or numeral.\nCell 5: RESTS. Same boy sits comfortably on a simple playground bench after running, relaxed shoulders, feet resting naturally, small contented smile, quietly catching his breath.\nCell 6: HAPPY. Portrait of the same boy standing upright with a simple bright joyful smile, eyes smiling; calm happy pose.\nCell 7: DANCES WITH JOY. Show the same boy head to toe with all hands and feet visible and well inside the square. Both arms raised apart, one foot lifted, the other grounded, exuberant dancing pose and happy face. EXACTLY TWO arms, TWO hands, TWO legs, TWO feet. Body and joints anatomically coherent.\nTHIRD ROW, four square cells:\nCell 8: RECEIVES A GIFT. The boy happily receives one small wrapped present with a ribbon from a friend's or adult's two hands entering from the side. The boy's two hands clearly accept the present. All meaningful hands, gift, and boy face remain inside this cell.\nCell 9: SAYS THANK YOU. The boy holds that received wrapped gift tucked against his abdomen with one arm, makes a polite slight bow with a friendly thankful smile, and puts his free hand over his chest. No speech bubble, text, caption, symbol, or extra arm.\nCell 10: I / MYSELF. Chest-up view of the boy gently pointing one index finger at his own chest, looking toward the viewer with a clear small smile; his other arm relaxed naturally.\nCell 11: A spare decorative warm coastal railway station view, no person needed: tiny seaside platform, calm blue sea, low green island hills and a few small flowers, no train required.\nConstraints: One exact 4 columns × 3 rows atlas, twelve equal square cells, 4:3 overall. Scene content never crosses cell boundaries; keep faces, limbs, gifts and important objects safely inside cells with breathing room. No visible grid, gutters, frames or borders. No text of any language, characters, labels, numerals, watermarks, logos or speech bubbles.",
+      "actual_dimensions": {
+        "width": 1448,
+        "height": 1086,
+        "aspect_ratio": "4:3"
+      },
+      "sha256": "333c7760ce1a52cc216d58f526d190e0427e05267b469aa2a63a63b7d24ec676",
+      "grid": {
+        "columns": 4,
+        "rows": 3,
+        "ordering": "row-major",
+        "ideal_cell_width": 362,
+        "ideal_cell_height": 362,
+        "ideal_x_boundaries": [
+          0,
+          362,
+          724,
+          1086,
+          1448
+        ],
+        "ideal_y_boundaries": [
+          0,
+          362,
+          724,
+          1086
+        ],
+        "measured_scene_transition_x_approx": [
+          362,
+          724.5,
+          1086
+        ],
+        "measured_scene_transition_y_approx": [
+          360.5,
+          722.5
+        ],
+        "recommended_crop_inset_pixels": 3,
+        "note": "Exact 4:3 canvas with 4-by-3 conceptual grid. Painted horizontal transitions vary by approximately 2 pixels from mathematical equal-square boundaries; a 3-pixel internal crop guard avoids neighboring-scene hairlines. No resampling performed."
+      },
+      "cells": [
+        {
+          "index": 0,
+          "concept": "怕黑",
+          "description": "Boy worried in dim bedroom with unlit bedside lamp."
+        },
+        {
+          "index": 1,
+          "concept": "開小燈",
+          "description": "Same boy touches bedside lamp switch; room lit warmly."
+        },
+        {
+          "index": 2,
+          "concept": "跌倒",
+          "description": "Gentle playground stumble onto hands and knee; no wound or blood."
+        },
+        {
+          "index": 3,
+          "concept": "哭起來",
+          "description": "Boy clearly cries with tears; no injury."
+        },
+        {
+          "index": 4,
+          "concept": "跑完步",
+          "description": "Boy catches breath after a short run on a red track; no text."
+        },
+        {
+          "index": 5,
+          "concept": "休息",
+          "description": "Same boy seated relaxed on playground bench."
+        },
+        {
+          "index": 6,
+          "concept": "開心",
+          "description": "Boy smiling happily."
+        },
+        {
+          "index": 7,
+          "concept": "手舞足蹈",
+          "description": "Full-body joy dance with two raised arms and one lifted leg."
+        },
+        {
+          "index": 8,
+          "concept": "收到禮物",
+          "description": "Boy receives one wrapped present from adult hands."
+        },
+        {
+          "index": 9,
+          "concept": "說謝謝",
+          "description": "Boy holds received gift, bows slightly, free hand over chest."
+        },
+        {
+          "index": 10,
+          "concept": "我",
+          "description": "Boy points one index finger at his own chest."
+        },
+        {
+          "index": 11,
+          "concept": "spare",
+          "description": "Decorative coastal station platform view."
+        }
+      ],
+      "qa": {
+        "visual_inspection_completed": true,
+        "correct_cell_order": true,
+        "exact_canvas_ratio": true,
+        "twelve_scenes": true,
+        "no_gutters_borders_text_or_numerals": true,
+        "style_match": "Warm painted textbook style, same recurring black-haired East Asian boy in blue clothes.",
+        "action_readability": "All eleven concepts visually distinct and age appropriate.",
+        "anatomy": "Inspected visible arms, hands and legs. Joy dance has two arms and two legs with natural joints; gift/thanks/pointing gestures coherent.",
+        "content_safety": "Gentle stumble and crying only; no injury, blood or disturbing content.",
+        "meaningful_objects_inside_cells": true,
+        "caveat": "Painted horizontal scene transitions are approximately 2 pixels above the ideal mathematical row boundaries; use documented internal crop guard."
+      }
+    },
+    {
+      "name": "train-station-v1.png",
+      "path": "work/ocean-classroom/dist/assets/train-station-v1.png",
+      "source_path": "generated-source:exec-e88508dc-ebab-459c-95d4-1c062e69d613.png",
+      "prompt": "Use case: illustration-story.\nAsset type: cover art for a cooperative primary-school train sentence game.\nPrimary request: Create one landscape 1536×1024 PNG, a pleasant simple warm hand-painted coastal island railway station scene. A cute small vintage steam locomotive is parked beside the low platform, and its front chimney, rounded engine nose and cowcatcher unmistakably point RIGHT. The engine and one little carriage are comfortably inside the composition. Calm blue ocean beyond the tracks, low softly rounded green island hills, a tiny welcoming seaside station cottage, a few small flowers beside the platform. Clear wide open sky and a calm, friendly mood.\nStyle/medium: soft warm gouache and watercolor children's textbook illustration on subtle paper texture, friendly ink-like contour details, softly modeled shading, carefully painted natural scenery; warm cream light, gentle sea blues and sage greens, small cheerful engine with navy-blue body and warm red details. Broad landscape composition with uncluttered forms and inviting readability for seven-year-old children.\nLighting/mood: soft late-morning sunlight, gentle happy coastal calm.\nConstraints: whole cover scene, not a grid or sprite sheet. Cute SMALL steam engine pointing RIGHT. No text, station name, sign lettering, numbers, labels, logos, watermark, speech bubbles, interfaces, or human figures. No dramatic steam plume obscuring the scene. No busy ornamental details.",
+      "actual_dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2"
+      },
+      "sha256": "427df40b6c85d67144df134f9271443dc1d18982df9bcef55cf525d54f0d6cc7",
+      "grid": null,
+      "qa": {
+        "visual_inspection_completed": true,
+        "scene": "Warm hand-painted coastal island railway station, calm ocean, low green hills, few flowers, simple welcoming cottage.",
+        "engine_points_right": true,
+        "engine_and_carriage_inside_frame": true,
+        "no_text_logos_or_numerals": true,
+        "no_human_figures": true,
+        "style_match": "Soft gouache and watercolor textbook illustration."
+      }
+    }
+  ],
+  "modifications": "Only the two new PNGs and this new manifest were written; existing project code and existing assets were not modified."
+}
+

@@ -1,0 +1,5 @@
+Kenney Fish Pack 2.0
+Official source: https://kenney.nl/assets/fish-pack
+Official download: https://kenney.nl/media/pages/assets/fish-pack/07ae98c5b6-1747237960/kenney_fish-pack_2.zip
+License: Creative Commons CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/
+Files fish1 to fish7 map to outlined double-resolution blue, green, orange, pink, red, brown and grey fish. Unmodified PNGs.

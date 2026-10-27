@@ -1,0 +1,440 @@
+{
+  "tool": "built-in image_gen",
+  "outputDirectory": "work/ocean-classroom/dist/assets",
+  "nativePixelsPreserved": true,
+  "postGenerationPixelEdits": [],
+  "generatedAtLocalDate": "2026-10-27",
+  "layout": {
+    "columns": 4,
+    "rows": 4,
+    "frameCount": 16,
+    "order": "row-major",
+    "overallAspect": "4:3",
+    "cellAspect": "4:3"
+  },
+  "note": "Native outputs are 1448×1086. Each cell is 362×271.5 source pixels; parent instructed SVG/CSS fractional source coordinates are valid and no resampling should occur.",
+  "assets": [
+    {
+      "filename": "island-ball-16-v4.png",
+      "path": "work/ocean-classroom/dist/assets/island-ball-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "grid": {
+        "columns": 4,
+        "rows": 4
+      },
+      "cellWidth": 362,
+      "cellHeight": 271.5,
+      "cells": [
+        {
+          "frame": 1,
+          "x": 0,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 2,
+          "x": 362,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 3,
+          "x": 724,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 4,
+          "x": 1086,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 5,
+          "x": 0,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 6,
+          "x": 362,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 7,
+          "x": 724,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 8,
+          "x": 1086,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 9,
+          "x": 0,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 10,
+          "x": 362,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 11,
+          "x": 724,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 12,
+          "x": 1086,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 13,
+          "x": 0,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 14,
+          "x": 362,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 15,
+          "x": 724,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 16,
+          "x": 1086,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        }
+      ],
+      "styleSceneReference": "work/ocean-classroom/dist/assets/island-ball-v2.png",
+      "generatedSource": "generated-source:exec-475db61d-cfd6-4327-bd48-eec368baddc1.png",
+      "prompts": [
+        "Use case: scientific-educational. Asset type: production animation sprite atlas for a primary-school learning game. The attached image is a STYLE AND SCENE REFERENCE ONLY; its two-panel layout must NOT be copied. Generate ONE landscape PNG, overall 4:3 aspect ratio, 3072 x 2304 preferred (2048 x 1536 acceptable), containing EXACTLY 4 columns and 4 rows of equal landscape 4:3 animation frames. Each frame fills exactly one sixteenth of the canvas. Row-major chronological order: read each row left to right, then continue on next row. There must be exactly 16 frames, every single frame a successive DIFFERENT pose of one continuous action, not duplicated static before/after tiles. No gutters, no white gaps, no panel dividers, no drawn grid, no borders, no text, no labels, no numbers, no watermark. Each frame must be a complete full-bleed picture from the same fixed camera. Match the reference's warm beautiful gouache primary textbook illustration, East Asian boy about age 7, short black hair, bright blue T-shirt, navy shorts, white socks and blue shoes. Same boy identity, same face and same proportions all 16 frames. Exactly 2 natural arms, 2 hands with normal five-finger anatomy, 2 legs; no extra limbs or missing fingers. Entire body including shoes, hair, hands and all action objects inside every cell with safe margins. Frame-to-frame background, lighting, camera, actor size, foot positions and scene geometry must be perfectly fixed. These are individual animation frames that will be cropped and played at 16fps; no visual narrative lettering is permitted. Scene: same sunny school basketball court as the reference, trees, school, fence, bench left, hoop right. Boy stands at identical fixed position in each cell, basketball directly to his right on ONE vertical path. Show one physically natural basketball dribble: he begins with right palm resting on top of the basketball at waist height in frame 1, pushes it down in frames 2–7 as his right hand follows lower, ball reaches and visibly squashes slightly against ground in frame 8, and ball rebounds progressively upward in frames 9–16 until palm returns naturally to its top at waist height frame 16. All 16 basketball heights must be successive and different except the physically necessary beginning/end height; do not repeat a two-picture alternation. Ball stays same orange basketball with same dark seams and same diameter except slight ground compression in frame 8. Full explicit continuous trajectory by frame: 1 waist-high; 2 just below waist; 3 lower; 4 upper thigh; 5 mid thigh; 6 knee; 7 ankle-high; 8 bottom touches ground; 9 just leaves ground; 10 ankle; 11 shin; 12 knee; 13 lower thigh; 14 upper thigh; 15 below waist; 16 waist. His right palm/forearm follows this motion naturally with modest bending of knees near the bounce, left arm relaxed. Keep body scale and feet fixed. Use little or no motion lines so real changing ball position is the readable animation."
+      ],
+      "qa": {
+        "visuallyInspected": true,
+        "visualNotes": [
+          "Clear ball descent to ground at frame 8 and rebound, with natural arm and knee changes.",
+          "A small secondary dip occurs at frame 13 before the ball rises again; retained per parent instruction permitting bounce-cycle variation.",
+          "Full body and two arms/hands remain visible; no text or drawn gutters."
+        ],
+        "readyForParentReview": true
+      }
+    },
+    {
+      "filename": "island-wind-16-v4.png",
+      "path": "work/ocean-classroom/dist/assets/island-wind-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "grid": {
+        "columns": 4,
+        "rows": 4
+      },
+      "cellWidth": 362,
+      "cellHeight": 271.5,
+      "cells": [
+        {
+          "frame": 1,
+          "x": 0,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 2,
+          "x": 362,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 3,
+          "x": 724,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 4,
+          "x": 1086,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 5,
+          "x": 0,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 6,
+          "x": 362,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 7,
+          "x": 724,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 8,
+          "x": 1086,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 9,
+          "x": 0,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 10,
+          "x": 362,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 11,
+          "x": 724,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 12,
+          "x": 1086,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 13,
+          "x": 0,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 14,
+          "x": 362,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 15,
+          "x": 724,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 16,
+          "x": 1086,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        }
+      ],
+      "styleSceneReference": "work/ocean-classroom/dist/assets/island-wind-v2.png",
+      "generatedSource": "generated-source:exec-301ccdf9-c1db-4102-8d54-0aac6e1b5bf1.png",
+      "prompts": [
+        "Use case: scientific-educational. Asset type: production animation sprite atlas for a primary-school learning game. The attached image is a STYLE AND SCENE REFERENCE ONLY; its two-panel layout must NOT be copied. Generate ONE landscape PNG, overall 4:3 aspect ratio, 3072 x 2304 preferred (2048 x 1536 acceptable), containing EXACTLY 4 columns and 4 rows of equal landscape 4:3 animation frames. Each frame fills exactly one sixteenth of the canvas. Row-major chronological order: read each row left to right, then continue on next row. There must be exactly 16 frames, every single frame a successive DIFFERENT pose of one continuous action, not duplicated static before/after tiles. No gutters, no white gaps, no panel dividers, no drawn grid, no borders, no text, no labels, no numbers, no watermark. Each frame must be a complete full-bleed picture from the same fixed camera. Match the reference's warm beautiful gouache primary textbook illustration, East Asian boy about age 7, short black hair, bright blue T-shirt, navy shorts, white socks and blue shoes. Same boy identity, same face and same proportions all 16 frames. Exactly 2 natural arms, 2 hands with normal five-finger anatomy, 2 legs; no extra limbs or missing fingers. Entire body including shoes, hair, hands and all action objects inside every cell with safe margins. Frame-to-frame background, lighting, camera, actor size, foot positions and scene geometry must be perfectly fixed. These are individual animation frames that will be cropped and played at 16fps; no visual narrative lettering is permitted. Scene: same sunny park as the reference, bench on left, tree canopy, flowerbeds and dark green fence. Boy stands in exactly one fixed place and holds one toy pinwheel on a straight wooden stick in his right hand at face level, arm and hand stationary throughout. Pinwheel has one central golden hub and exactly four colored blades: red, yellow, green and blue in fixed cyclic order, one rigid pinwheel rotating around the center; the pinwheel center and handle remain perfectly fixed in all frames. Chronological animation: frame 1 boy smiling mouth relaxed, pinwheel stationary; frame 2 boy begins blowing with cheeks puffed and lips rounded; frames 3–16 he keeps blowing while the blades rotate clockwise in different progressive angles in EVERY frame. The four colored blades must change orientation even between frames having similar silhouette. Blade rotation angles in row-major order are: 0, 12, 28, 47, 69, 94, 122, 153, 187, 224, 264, 307, 353, 402, 454, 509 degrees; do NOT print these numbers. Add only delicate breath strokes near the mouth from frame 2 onward. No second pinwheel, no changing blade count, no disconnected stick, no moving hub. Keep the exact same boy and complete body, stable right gripping hand, relaxed left hand, environment fixed.",
+        "Use case: scientific-educational. OUTPUT: exact 2048×1536 pixels, an animation atlas with16 equal512×384cells in a4×4grid, row-major. Refine this animation sheet. Keep warm painted style, stable body, park, fixed handle hand and EXACT FOUR columns by FOUR equal rows. IMPORTANT change the FOUR colored pinwheel blades into a clearly progressive clockwise rotation across ALL SIXTEEN frames, with a different orientation in every frame. Do not duplicate blade orientations in adjacent frames or show a static row. Use sharply visible distinct red, yellow, blue, green blades, never blur the colors together. Rotation of red blade from top: row1 angles0°,20°,40°,60°; row2 80°,100°,120°,140°; row3 160°,180°,200°,220°; row4 240°,260°,280°,300°. These angles are instructions only, do NOT print numerals or text. One golden central hub fixed in exactly same position and straight stick fixed in each cell. Boy's relaxed mouth in first cell; blowing lips and puffed cheeks all latercells, subtle breath lines. Entire boy inside every cell."
+      ],
+      "qa": {
+        "visuallyInspected": true,
+        "visualNotes": [
+          "Blowing begins frame 2, four colored blades show progressive rotation through multiple orientations.",
+          "Handle and gripping hand remain stable, full body and normal two-arm anatomy.",
+          "Some middle-frame blade-angle increments are visually subtle; one targeted rotation refinement completed."
+        ],
+        "readyForParentReview": true
+      }
+    },
+    {
+      "filename": "island-doorbell-16-v4.png",
+      "path": "work/ocean-classroom/dist/assets/island-doorbell-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "grid": {
+        "columns": 4,
+        "rows": 4
+      },
+      "cellWidth": 362,
+      "cellHeight": 271.5,
+      "cells": [
+        {
+          "frame": 1,
+          "x": 0,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 2,
+          "x": 362,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 3,
+          "x": 724,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 4,
+          "x": 1086,
+          "y": 0,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 5,
+          "x": 0,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 6,
+          "x": 362,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 7,
+          "x": 724,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 8,
+          "x": 1086,
+          "y": 271.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 9,
+          "x": 0,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 10,
+          "x": 362,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 11,
+          "x": 724,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 12,
+          "x": 1086,
+          "y": 543,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 13,
+          "x": 0,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 14,
+          "x": 362,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 15,
+          "x": 724,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        },
+        {
+          "frame": 16,
+          "x": 1086,
+          "y": 814.5,
+          "width": 362,
+          "height": 271.5
+        }
+      ],
+      "styleSceneReference": "work/ocean-classroom/dist/assets/island-doorbell-v2.png",
+      "generatedSource": "generated-source:exec-c286b562-28a7-4f33-ac67-1e95b40177d1.png",
+      "prompts": [
+        "Create a contact sheet of EXACTLY SIXTEEN thumbnail paintings arranged as EXACTLY FOUR EQUAL COLUMNS and FOUR EQUAL ROWS, total4:3rectangle. Each of the16 thumbnails is independently landscape4:3 and occupies exactly25%ofcanvaswidth by25%ofcanvasheight. NO gutters, NO borders, NO text. ALLFOURCOLUMNSMUSTBEFULLYVISIBLE. Referenceimage is only STYLEandCHARACTERreference, notlayout. This is a16frameanimation spriteatlas.\nEvery thumbnail shows the SAME compact scene in identical framing: warmgouache children's textbook, a fullbody7yearoldEastAsianboyinblueTshirt/navyshorts/whitesocks/blueshoes standing in LEFTTHIRD, a redwallpushbutton at CENTER, a smallbrassbell directlyabovebutton, a SLIVER of woodenhousecloseddoor in RIGHTTHIRD. Keep entireboy, bothfeet,button,bell insideeachthumbnailwith10%margin. Crop mostdoorandplants to make room for completeboy. Exactly2arms2hands, normal5fingers. Fixed camera and background.\nSixteen consecutive actionframes inrowmajororder, EVERYframeadifferentpose:\nToprow4frames: fingerapproachesbutton; fingerpressesbutton; handstartsreleasingandbelltiltsright; fingerwithdrawsandbelltiltsmoreright.\nSecondrow4frames: handwithdrawsmoreandbellmaxright; handlowerandbellreturning; handlowerandbellvertical; handlowerandbelltiltsleft.\nThirdrow4frames: handnearwaistandbellmaxleft; handlowerandbelllessleft; handlowerandbellvertical; handrelaxesandbelltiltsright.\nBottomrow4frames: handrestsboysmilesbellright; handrestsboysmilesbelllessright; handrestsboysmilesbellslightleft; handrestsboysmilesbellalmostvertical.\nFixedbuttononwall, belltophingefixed, bellclapperswingsnaturally, thinwirejoinsbuttontobell, smallorangeringingstrokes. No lettering. Most importantconstraint: EXACTLY4equalthumbnailcolumns and4equalrows withcompleteboyineach."
+      ],
+      "qa": {
+        "visuallyInspected": true,
+        "visualNotes": [
+          "Corrected to four equal full columns and four rows; all sixteen boy/button/bell scenes complete.",
+          "Index presses button at frame 2, hand releases and lowers, smile appears while brass bell swings.",
+          "Compact composition preserves cream wall, wooden door slice, path and greenery; geometry is substantially stable.",
+          "A thin connecting cable is not clearly visible despite prompt. Very thin pale cell-edge seams may be visible at atlas boundaries; native pixels preserved."
+        ],
+        "readyForParentReview": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import {readFileSync,statSync} from 'node:fs';
+import {newGame,jumpRound,roundCount,finishGame,reviewEntries,payOrder,chooseFirst,scoreResponse,placeTrainToken,removeTrainToken,trainVerdict,departTrain} from './dist/engine.js';
+import {SUSHI,FIRSTS,TRAIN_LEVELS,TRAIN_TOKENS,LEVELS,answerOptions,sentence} from './dist/data.js';
+for(const type of ['sushi','fishing','island','train']){
+ const fresh=newGame(type);assert.equal(reviewEntries(fresh).length,roundCount(type));assert.equal(fresh.money,0);assert.equal(fresh.players[0].score,0);
+ for(const phase of ['ready','walking','answering','serving','paying','retry','selected','acting','complete','finished','assembling','departing']){
+  const g=newGame(type);g.phase=phase;g.paused=true;g.queue.paused=true;g.money=10;g.paid.add('order-0');g.stars.add(0);let stale=0;g.queue.after(10,()=>stale++);
+  const next=jumpRound(g,roundCount(type)-1);assert.equal(next.round,roundCount(type)-1);assert.equal(next.paused,false);assert.equal(next.money,10);assert(next.paid.has('order-0'));assert(next.stars.has(0));assert.notEqual(next,g);g.queue.paused=false;g.queue.tick(100000);assert.equal(stale,0);
+  finishGame(next);assert.equal(next.phase,'finished');assert.equal(next.paused,false);assert.equal(next.queue.jobs.length,0);assert.equal(reviewEntries(next).length,roundCount(type));
+ }
+ const g=newGame(type);g.queue.after(1,()=>{});for(const n of [-1,NaN,1.5,roundCount(type)])assert.equal(jumpRound(g,n),null);assert.equal(g.queue.jobs.length,1);
+}
+const paid=newGame('sushi');payOrder(paid,SUSHI[0].id);const revisit=jumpRound(paid,0);assert.equal(payOrder(revisit,SUSHI[0].id),false);assert.equal(revisit.money,10);
+const fish=newGame('fishing');chooseFirst(fish.players[0],FIRSTS[0]);scoreResponse(fish.players[0],answerOptions(FIRSTS[0])[0]);const replay=jumpRound(fish,0),before=replay.players[0].score;const verdict=scoreResponse(replay.players[0],answerOptions(FIRSTS[0])[0]);assert.equal(verdict.replay,true);assert.equal(replay.players[0].score,before);assert.equal(replay.players[0].records.length,1);assert.equal(replay.players[1].score,0);
+assert.equal(TRAIN_LEVELS.length,5);for(const [i,q]of TRAIN_LEVELS.entries()){
+ assert.equal(q.showLengthHints,i<3);assert.equal(q.tokens.length,i===2?8:7);assert.equal(new Set(q.tokens).size,q.tokens.length);assert.equal(q.tokens.map(id=>TRAIN_TOKENS[id].text).join(''),q.sentence);assert.equal(q.sentence.match(/，/g).length,1);assert(q.sentence.endsWith('。'));
+ const g=jumpRound(newGame('train'),i);assert.equal(trainVerdict(g).complete,false);assert.equal(departTrain(g),false);assert.equal(placeTrainToken(g,'not-a-card',0),false);
+ for(let n=0;n<q.tokens.length;n++)assert(placeTrainToken(g,q.tokens[n],(n+1)%q.tokens.length));assert(trainVerdict(g).complete);assert.equal(trainVerdict(g).correct,false);assert.equal(departTrain(g),false);
+ for(let n=0;n<q.tokens.length;n++){placeTrainToken(g,q.tokens[n],n);assert.equal(new Set(g.trainSlots.filter(Boolean)).size,g.trainSlots.filter(Boolean).length);}assert(trainVerdict(g).correct);assert(departTrain(g));assert.equal(departTrain(g),false);assert.equal(placeTrainToken(g,q.tokens[0],1),false);assert.equal(removeTrainToken(g,q.tokens[0]),false);
+ const jumped=jumpRound(g,i);assert(jumped.trainSlots.every(id=>id===null));assert.equal(jumped.phase,'assembling');assert(jumped.stars.has(i));
+ for(const id of q.tokens){assert(statSync('dist/assets/audio/'+TRAIN_TOKENS[id].audio+'.mp3').size>1000);}assert(statSync('dist/assets/audio/'+q.audio+'.mp3').size>1000);
+}
+const c=newGame('train'),ids=TRAIN_LEVELS[0].tokens;placeTrainToken(c,ids[0],0);placeTrainToken(c,ids[1],1);placeTrainToken(c,ids[0],1);assert.deepEqual(c.trainSlots.slice(0,2),[ids[1],ids[0]]);removeTrainToken(c,ids[0]);assert.equal(c.trainSlots[1],null);c.paused=true;assert.equal(placeTrainToken(c,ids[0],0),false);
+const all=[...reviewEntries(newGame('sushi')),...reviewEntries(newGame('fishing')),...reviewEntries(newGame('island')),...reviewEntries(newGame('train'))];assert.equal(new Set(all.map(q=>q.text)).size,31);
+const source=readFileSync('dist/app.js','utf8');assert(source.includes('setPointerCapture'));assert(source.includes('pointercancel'));assert(source.includes('cancelTrainDrags()'));assert(source.includes('data-jump-level'));assert(source.includes('全部題目總結'));assert(source.indexOf("if(a==='summary')")<source.indexOf('if(game?.paused)return;'));
+console.log('PASS: four complete summaries; jumps from 12 phases and pause; stale callbacks cancelled; preserved money/scores; replay without duplicate awards; five draggable seven/eight-carriage sentences with punctuation; 3 length-hint and 2 equal-width levels; 31 distinct sentences.');
+const audioManifest=JSON.parse(readFileSync('references/audio-v3-manifest.json'));for(const q of TRAIN_LEVELS){assert.equal(audioManifest[q.audio],q.sentence);if(q.showLengthHints)assert.notEqual(q.first.length,q.result.length);}for(const t of Object.values(TRAIN_TOKENS)){if(t.jp)assert(!/[0-9]/.test(t.jp));assert.equal(audioManifest[t.audio],t.voiceLabel);}
+for(const f of ['train-words-v3.png','train-carriages-16-v3.png','train-engine-16-v1.png','train-station-v1.png']){const bytes=readFileSync('dist/assets/'+f);assert(bytes.length>1000);if(f==='train-words-v3.png'||f==='train-engine-16-v1.png')assert.equal(bytes.readUInt32BE(16)/bytes.readUInt32BE(20),4/3);if(f==='train-carriages-16-v3.png'){assert.equal(bytes.readUInt32BE(16)/bytes.readUInt32BE(20),3/4);assert.equal(bytes[25],6,'Carriages preserve genuine alpha');}if(f==='train-engine-16-v1.png')assert.equal(bytes[25],6,'Locomotive preserves alpha');}
+const painted=JSON.parse(readFileSync('references/train-painted-v2-manifest.json'));const cars=painted.assets.find(a=>a.frames===16&&a.file.includes('carriages'));assert.equal(cars.frameBounds.length,16);assert.equal(new Set(cars.frameBounds.map(f=>f.sha256)).size,16);assert.equal(TRAIN_TOKENS['train-yi'].tile,null);assert.equal(TRAIN_TOKENS['train-jiu'].tile,null);assert.equal(TRAIN_TOKENS['train-comma'].tile,null);assert.equal(TRAIN_TOKENS['train-period'].tile,null);
+console.log('PASS: 16 distinct native painted carriage frames, registered without image deformation; revised life sentences, no duplicated topics, matching Cantonese clips, four enlarged text-only symbol cards.');

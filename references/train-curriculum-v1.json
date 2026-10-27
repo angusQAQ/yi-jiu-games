@@ -1,0 +1,522 @@
+{
+  "version": "train-v1",
+  "verificationDate": "2026-10-27",
+  "title": "句子小火車",
+  "audience": "香港小學二年級非華語學生",
+  "grammarTarget": "一……就……：前一件事發生或完成後，後一件事緊接着發生。",
+  "task": "把七張字詞及標點卡逐張拖到七節車廂，根據兩幅插圖排成句子。",
+  "carriageCount": 7,
+  "chunkPattern": [
+    "我",
+    "一",
+    "first",
+    "，",
+    "就",
+    "result",
+    "。"
+  ],
+  "matchingRule": "判斷以兩幅插圖的情境與順序為準；不同人物的個人習慣不構成普遍對錯。",
+  "pronunciationPolicy": "各字讀音按 CUHK 粵語審音配詞字庫、配合本句字義選讀；jp 顯示香港語言學學會粵拼並去掉聲調數字。短語拼音由各字的已核對讀音組成，不把合成短語冒稱為字庫的整詞條目。",
+  "punctuationPolicy": "逗號及句號卡不用顯示拼音；語音標籤分別為「逗號」及「句號」。",
+  "dictionary": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/",
+  "auditFile": "cuhk-train-v1-audit.json",
+  "levels": [
+    {
+      "id": "train-1",
+      "index": 1,
+      "difficulty": "simple",
+      "first": "怕黑",
+      "result": "開小燈",
+      "sentence": "我一怕黑，就開小燈。",
+      "firstJyutping": "paa hak",
+      "resultJyutping": "hoi siu dang",
+      "tokenIds": [
+        "train-wo",
+        "train-yi",
+        "train-1-first",
+        "train-comma",
+        "train-jiu",
+        "train-1-result",
+        "train-period"
+      ],
+      "showLengthHints": true,
+      "lengthHints": {
+        "first": 2,
+        "result": 3,
+        "chunks": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          3,
+          1
+        ]
+      },
+      "illustrationBrief": "畫面一：同一個孩子在昏暗房間裏露出害怕的表情。畫面二：他立即打開身旁的小燈。",
+      "pedagogicalNote": "害怕黑暗後立即開小燈，是圖中人物的合理反應。"
+    },
+    {
+      "id": "train-2",
+      "index": 2,
+      "difficulty": "simple",
+      "first": "跌倒",
+      "result": "哭起來",
+      "sentence": "我一跌倒，就哭起來。",
+      "firstJyutping": "dit dou",
+      "resultJyutping": "huk hei loi",
+      "tokenIds": [
+        "train-wo",
+        "train-yi",
+        "train-2-first",
+        "train-comma",
+        "train-jiu",
+        "train-2-result",
+        "train-period"
+      ],
+      "showLengthHints": true,
+      "lengthHints": {
+        "first": 2,
+        "result": 3,
+        "chunks": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          3,
+          1
+        ]
+      },
+      "illustrationBrief": "畫面一：孩子剛剛絆倒，坐在地上。畫面二：同一孩子立即哭起來。避免血或嚴重受傷。",
+      "pedagogicalNote": "跌倒後隨即哭起來，承接清楚；判斷限於圖中情境，不把每個人跌倒都必須哭當成規則。"
+    },
+    {
+      "id": "train-3",
+      "index": 3,
+      "difficulty": "simple",
+      "first": "跑完步",
+      "result": "休息",
+      "sentence": "我一跑完步，就休息。",
+      "firstJyutping": "paau jyun bou",
+      "resultJyutping": "jau sik",
+      "tokenIds": [
+        "train-wo",
+        "train-yi",
+        "train-3-first",
+        "train-comma",
+        "train-jiu",
+        "train-3-result",
+        "train-period"
+      ],
+      "showLengthHints": true,
+      "lengthHints": {
+        "first": 3,
+        "result": 2,
+        "chunks": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          2,
+          1
+        ]
+      },
+      "illustrationBrief": "畫面一：孩子剛跑完步，在終點停下並微喘。畫面二：同一孩子立即坐在長椅休息。",
+      "pedagogicalNote": "「完」清楚標示前一動作完成，之後立即休息，適合教承接關係。"
+    },
+    {
+      "id": "train-4",
+      "index": 4,
+      "difficulty": "normal",
+      "first": "開心",
+      "result": "手舞足蹈",
+      "sentence": "我一開心，就手舞足蹈。",
+      "firstJyutping": "hoi sam",
+      "resultJyutping": "sau mou zuk dou",
+      "tokenIds": [
+        "train-wo",
+        "train-yi",
+        "train-4-first",
+        "train-comma",
+        "train-jiu",
+        "train-4-result",
+        "train-period"
+      ],
+      "showLengthHints": false,
+      "lengthHints": null,
+      "illustrationBrief": "畫面一：孩子露出開心的表情。畫面二：同一孩子隨即高興地揮動雙手、抬起雙腳。",
+      "pedagogicalNote": "可作圖中人物的立即反應；用具體動作解釋四字詞「手舞足蹈」。"
+    },
+    {
+      "id": "train-5",
+      "index": 5,
+      "difficulty": "normal",
+      "first": "收到禮物",
+      "result": "說謝謝",
+      "sentence": "我一收到禮物，就說謝謝。",
+      "firstJyutping": "sau dou lai mat",
+      "resultJyutping": "syut ze ze",
+      "tokenIds": [
+        "train-wo",
+        "train-yi",
+        "train-5-first",
+        "train-comma",
+        "train-jiu",
+        "train-5-result",
+        "train-period"
+      ],
+      "showLengthHints": false,
+      "lengthHints": null,
+      "illustrationBrief": "畫面一：孩子剛接過另一人送來的禮物。畫面二：孩子立即面向送禮者，以說話及禮貌表情表示謝意。",
+      "pedagogicalNote": "收到禮物後立即道謝，時間順序及語意自然。"
+    }
+  ],
+  "tokens": [
+    {
+      "id": "train-wo",
+      "text": "我",
+      "jp": "ngo",
+      "jpWithTones": "ngo5",
+      "voiceLabel": "我",
+      "characters": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+      ]
+    },
+    {
+      "id": "train-yi",
+      "text": "一",
+      "jp": "jat",
+      "jpWithTones": "jat1",
+      "voiceLabel": "一",
+      "characters": [
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+      ]
+    },
+    {
+      "id": "train-jiu",
+      "text": "就",
+      "jp": "zau",
+      "jpWithTones": "zau6",
+      "voiceLabel": "就",
+      "characters": [
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+      ]
+    },
+    {
+      "id": "train-comma",
+      "text": "，",
+      "jp": "",
+      "voiceLabel": "逗號",
+      "characters": [],
+      "sources": []
+    },
+    {
+      "id": "train-period",
+      "text": "。",
+      "jp": "",
+      "voiceLabel": "句號",
+      "characters": [],
+      "sources": []
+    },
+    {
+      "id": "train-1-first",
+      "text": "怕黑",
+      "jp": "paa hak",
+      "jpWithTones": "paa3 hak1",
+      "voiceLabel": "怕黑",
+      "characters": [
+        {
+          "character": "怕",
+          "reading": "paa3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%C8"
+        },
+        {
+          "character": "黑",
+          "reading": "hak1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%C2"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%C8",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%C2"
+      ]
+    },
+    {
+      "id": "train-1-result",
+      "text": "開小燈",
+      "jp": "hoi siu dang",
+      "jpWithTones": "hoi1 siu2 dang1",
+      "voiceLabel": "開小燈",
+      "characters": [
+        {
+          "character": "開",
+          "reading": "hoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+        },
+        {
+          "character": "小",
+          "reading": "siu2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4p"
+        },
+        {
+          "character": "燈",
+          "reading": "dang1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BFO"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4p",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BFO"
+      ]
+    },
+    {
+      "id": "train-2-first",
+      "text": "跌倒",
+      "jp": "dit dou",
+      "jpWithTones": "dit3 dou2",
+      "voiceLabel": "跌倒",
+      "characters": [
+        {
+          "character": "跌",
+          "reading": "dit3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%5E"
+        },
+        {
+          "character": "倒",
+          "reading": "dou2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%CB"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%5E",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%CB"
+      ]
+    },
+    {
+      "id": "train-2-result",
+      "text": "哭起來",
+      "jp": "huk hei loi",
+      "jpWithTones": "huk1 hei2 loi4",
+      "voiceLabel": "哭起來",
+      "characters": [
+        {
+          "character": "哭",
+          "reading": "huk1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%FA"
+        },
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%FA",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+      ]
+    },
+    {
+      "id": "train-3-first",
+      "text": "跑完步",
+      "jp": "paau jyun bou",
+      "jpWithTones": "paau2 jyun4 bou6",
+      "voiceLabel": "跑完步",
+      "characters": [
+        {
+          "character": "跑",
+          "reading": "paau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%5D"
+        },
+        {
+          "character": "完",
+          "reading": "jyun4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%B9"
+        },
+        {
+          "character": "步",
+          "reading": "bou6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8B"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%5D",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%B9",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8B"
+      ]
+    },
+    {
+      "id": "train-3-result",
+      "text": "休息",
+      "jp": "jau sik",
+      "jpWithTones": "jau1 sik1",
+      "voiceLabel": "休息",
+      "characters": [
+        {
+          "character": "休",
+          "reading": "jau1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%F0"
+        },
+        {
+          "character": "息",
+          "reading": "sik1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%A7"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%F0",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%A7"
+      ]
+    },
+    {
+      "id": "train-4-first",
+      "text": "開心",
+      "jp": "hoi sam",
+      "jpWithTones": "hoi1 sam1",
+      "voiceLabel": "開心",
+      "characters": [
+        {
+          "character": "開",
+          "reading": "hoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+        },
+        {
+          "character": "心",
+          "reading": "sam1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%DF"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%DF"
+      ]
+    },
+    {
+      "id": "train-4-result",
+      "text": "手舞足蹈",
+      "jp": "sau mou zuk dou",
+      "jpWithTones": "sau2 mou5 zuk1 dou6",
+      "voiceLabel": "手舞足蹈",
+      "characters": [
+        {
+          "character": "手",
+          "reading": "sau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%E2"
+        },
+        {
+          "character": "舞",
+          "reading": "mou5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BBR"
+        },
+        {
+          "character": "足",
+          "reading": "zuk1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%AC"
+        },
+        {
+          "character": "蹈",
+          "reading": "dou6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1%D0"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%E2",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BBR",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%AC",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1%D0"
+      ]
+    },
+    {
+      "id": "train-5-first",
+      "text": "收到禮物",
+      "jp": "sau dou lai mat",
+      "jpWithTones": "sau1 dou3 lai5 mat6",
+      "voiceLabel": "收到禮物",
+      "characters": [
+        {
+          "character": "收",
+          "reading": "sau1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%AC"
+        },
+        {
+          "character": "到",
+          "reading": "dou3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%EC"
+        },
+        {
+          "character": "禮",
+          "reading": "lai5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%A7"
+        },
+        {
+          "character": "物",
+          "reading": "mat6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%AB"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%AC",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%EC",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%A7",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%AB"
+      ]
+    },
+    {
+      "id": "train-5-result",
+      "text": "說謝謝",
+      "jp": "syut ze ze",
+      "jpWithTones": "syut3 ze6 ze6",
+      "voiceLabel": "說謝謝",
+      "characters": [
+        {
+          "character": "說",
+          "reading": "syut3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BB%A1"
+        },
+        {
+          "character": "謝",
+          "reading": "ze6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1%C2"
+        },
+        {
+          "character": "謝",
+          "reading": "ze6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1%C2"
+        }
+      ],
+      "sources": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BB%A1",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1%C2"
+      ]
+    }
+  ]
+}

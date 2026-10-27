@@ -1,0 +1,28 @@
+{
+  "version": "train-phrases-v3",
+  "date": "2026-10-27",
+  "mode": "built-in image_gen",
+  "image": "dist/assets/train-words-v3.png",
+  "source": "exec-3ab24cfa-a89f-4b9b-ab52-5c75284adeeb.png",
+  "prompt": "Use case: precise-object-edit. Edit target: the attached 1448x1086 painted vocabulary atlas. Keep the exact 4-column by 3-row square-cell arrangement, same boy identity, schoolbook watercolor style, framing, and all other ten cells unchanged. Change only two cells: (1) Cell 4, top row rightmost: the boy is tidying away BOTH a rice bowl AND a small plate after his meal, carefully holding one empty bowl on top of one empty plate with both hands, carrying them toward the kitchen counter. Keep natural hands and safe proportions, make bowl and plate separately recognizable at small thumbnail size. This illustrates 收拾碗碟. (2) Cell 6, middle row second: the boy uses his white rectangular eraser on the homework paper; the incorrect pencil character has now been erased, leaving a visibly CLEAN empty writing square with only faint traces and eraser shavings beside it. Clearly show the eraser touching that empty square. There must be NO remaining dark wrong character, no red X in this result cell. It illustrates 用橡皮擦擦走錯字. Preserve cell 5's before-image pencil mistake and red X so the before and after are clearly different. No new text, no labels, no logos, no grid borders, no watermark. Preserve all other images and the original aspect ratio.",
+  "updatedSentences": [
+    "我一吃完飯，就收拾碗碟。",
+    "我一寫錯字，就用橡皮擦擦走錯字。"
+  ],
+  "resultCards": [
+    [
+      "收拾碗碟"
+    ],
+    [
+      "用橡皮擦",
+      "擦走錯字"
+    ]
+  ],
+  "note": "第三題按詞組分成八張詞卡及八節車廂；不縮小長句至難以閱讀，保留全形標點、字卡拼音和完整句子讀音。圖片顯示碗與碟，以及錯字已擦走的紙面。",
+  "sha256": "ecba5870b683e4fb0e5866a8304992eeb1033a0cae0b996e4ead95839aa80d7c",
+  "difficultyDisplay": {
+    "simple": "藍色單星大標籤，第1至3關",
+    "advanced": "金色雙星大標籤，第4至5關",
+    "navigation": "題號按同一階段顏色顯示"
+  }
+}

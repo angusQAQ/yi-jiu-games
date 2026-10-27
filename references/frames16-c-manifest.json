@@ -1,0 +1,426 @@
+{
+  "task": "frames16-c",
+  "createdAt": "2026-10-27",
+  "tool": "built-in image_gen only",
+  "ownedOutputs": [
+    "work/ocean-classroom/dist/assets/island-tap-16-v4.png",
+    "work/ocean-classroom/dist/assets/island-door-16-v4.png",
+    "work/ocean-classroom/dist/assets/island-boat-16-v4.png",
+    "work/frames16-c-manifest.json"
+  ],
+  "geometry": {
+    "requested": "4×4, 16 equal 4:3 frames in a 4:3 atlas",
+    "nativeOutput": "1448×1086",
+    "preferredSizeNote": "Prompt requested 3072×2304 or 2048×1536; built-in tool selected 1448×1086. Parent accepted native 4:3 dimensions.",
+    "padding": 0,
+    "gutters": 0,
+    "text": false
+  },
+  "files": [
+    {
+      "id": "tap",
+      "path": "work/ocean-classroom/dist/assets/island-tap-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "f87916180213dddcf5ed94b440c77efa2e0a0a1dd9defc492e9ff95c5bcb4a3e",
+      "bytes": 2571332,
+      "columns": 4,
+      "rows": 4,
+      "frames": 16,
+      "order": "row-major",
+      "cellWidth": 362,
+      "cellHeight": 271.5,
+      "cellAspectRatio": "4:3",
+      "nativePixelGridNote": "Native image height is not divisible by four; use equal normalized 25% cells (height 271.5px) for CSS rendering. Source was not resized.",
+      "generationMode": "built-in image_gen",
+      "reference": "work/ocean-classroom/dist/assets/island-tap-v2.png",
+      "prompt": "Use case: illustration-story.\nAsset type: production 16-frame painted animation sprite atlas for a primary-school educational webgame.\nOUTPUT GEOMETRY IS CRITICAL: one single image, EXACTLY FOUR COLUMNS and FOUR ROWS of equal rectangular animation frames, sixteen frames total. Overall image aspect ratio 4:3, preferably 3072x2304, otherwise 2048x1536. Each of the 16 cell frames is itself exactly 4:3. Every scene extends to its cell edges. Zero gutters, zero dividing lines, zero borders. No text, lettering, numbers, arrows, labels, panels, insets, title or watermark anywhere.\nRead animation in row-major order: top row frames 1,2,3,4; second row 5,6,7,8; third row 9,10,11,12; bottom row 13,14,15,16. Numbers below are instructions only and must never appear in the image.\nInput image role: supplied image is a visual STYLE, CHARACTER, ENVIRONMENT and BEFORE/AFTER reference; it contains TWO source views. Do NOT copy its two-column layout. Expand the action into sixteen equal frames.\nStyle: warm, polished primary textbook gouache illustration, soft paper pigment, sunny colors, charming East Asian boy age seven with black hair, normal stable anatomy, exactly two arms and two legs and natural five-fingered hands, same clothes as respective reference. Match supplied environment.\nTEMPORAL INVARIANTS: same fixed camera and identical background registration, perspective, character head size, body size, clothing, face and object dimensions in every cell. No pan, zoom, reframing or mirroring. All sixteen frames depict sixteen DISTINCT successive moments of ONE continuous forward action, fourteen unique intermediate poses between source before and source after outcome. No duplicated endpoints or tiles. Motion readable without text.\nScene: bathroom reference. Boy stands LEFT of white sink, blue T-shirt, navy shorts, white socks and pale blue slippers. Chrome single-lever tap fixed on sink center-right, wood cabinet below, cream bathroom, mirror above, aqua soap right of tap, aqua towel far right, window and potted plant left. Sink, chrome tap BASE and SPOUT rigid and registered.\nAction: right hand operates tap LEVER, then releases and gradually returns toward his body. Water responds immediately. Lever rotates upwards around actual valve pivot; spout NEVER moves. Water falls DOWN into basin by gravity.\nSixteen DISTINCT timeline instants:\n1 source BEFORE: fingertips touching low closed lever, dry basin, no water.\n2 fingers visibly lift lever; earliest tiny bead under outlet.\n3 lever open; short first water jet begins from outlet; hand starts releasing.\n4 first jet grows DOWNWARD; hand separates a little.\n5 jet reaches basin, first small splash; hand retreats.\n6 falling droplets advance, splash changes; elbow bends more.\n7 continuous narrow stream, new droplet positions; hand comes back.\n8 sustained stream, hand halfway back, arm angle visibly changed.\n9 hand farther toward torso, droplets fall and splash moves.\n10 relaxed forearm lower and closer to body; flow continues.\n11 elbow bends differently, hand further back, new splash.\n12 hand lowers near waist, new falling droplets.\n13 arm relaxes toward side; water flows down.\n14 hand lower again; distinct stream and splash detail.\n15 hand almost resting near side; water falling.\n16 source AFTER OUTCOME: tap open, healthy downward water stream splashes into basin, boy smiling and arm relaxed after withdrawing.\nFourteen genuinely progressive arm poses, lever moves first, advancing downward droplets make each cell distinct. Do not switch water off late or freeze hand on lever.",
+      "qaStatus": "pass",
+      "qaGrid4x4": [
+        [
+          {
+            "frame": 1,
+            "row": 1,
+            "column": 1,
+            "observation": "Dry basin; fingertip rests on closed lever."
+          },
+          {
+            "frame": 2,
+            "row": 1,
+            "column": 2,
+            "observation": "Fingertips lift lever; first outlet bead."
+          },
+          {
+            "frame": 3,
+            "row": 1,
+            "column": 3,
+            "observation": "Short downward jet appears; cause and response visible."
+          },
+          {
+            "frame": 4,
+            "row": 1,
+            "column": 4,
+            "observation": "Jet lengthens downward; raised lever and releasing hand."
+          }
+        ],
+        [
+          {
+            "frame": 5,
+            "row": 2,
+            "column": 1,
+            "observation": "Water reaches basin; initial small splash."
+          },
+          {
+            "frame": 6,
+            "row": 2,
+            "column": 2,
+            "observation": "Hand separates from lever; falling stream continues."
+          },
+          {
+            "frame": 7,
+            "row": 2,
+            "column": 3,
+            "observation": "Bent forearm retreats; stream and splash active."
+          },
+          {
+            "frame": 8,
+            "row": 2,
+            "column": 4,
+            "observation": "Hand moves further toward torso; new splash shape."
+          }
+        ],
+        [
+          {
+            "frame": 9,
+            "row": 3,
+            "column": 1,
+            "observation": "Forearm lower and closer; downward water."
+          },
+          {
+            "frame": 10,
+            "row": 3,
+            "column": 2,
+            "observation": "Hand lowers toward waist; stream/splash changes."
+          },
+          {
+            "frame": 11,
+            "row": 3,
+            "column": 3,
+            "observation": "Arm relaxes farther; splash continues."
+          },
+          {
+            "frame": 12,
+            "row": 3,
+            "column": 4,
+            "observation": "Hand near side; water falls into basin."
+          }
+        ],
+        [
+          {
+            "frame": 13,
+            "row": 4,
+            "column": 1,
+            "observation": "Arm settles; open tap and distinct splash."
+          },
+          {
+            "frame": 14,
+            "row": 4,
+            "column": 2,
+            "observation": "Stable resting pose; stream/droplet detail changes."
+          },
+          {
+            "frame": 15,
+            "row": 4,
+            "column": 3,
+            "observation": "Stable resting pose; stream/splash detail changes."
+          },
+          {
+            "frame": 16,
+            "row": 4,
+            "column": 4,
+            "observation": "After outcome: arm relaxed and water flowing."
+          }
+        ]
+      ],
+      "limitations": [
+        "Arm settles to almost identical final resting poses; stream/splash details continue changing across the late frames."
+      ]
+    },
+    {
+      "id": "door",
+      "path": "work/ocean-classroom/dist/assets/island-door-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "cbae12351c777005957451c7dc77e61c4a4ec9152a92fa40fd11bc9af1ba0a9e",
+      "bytes": 2357001,
+      "columns": 4,
+      "rows": 4,
+      "frames": 16,
+      "order": "row-major",
+      "cellWidth": 362,
+      "cellHeight": 271.5,
+      "cellAspectRatio": "4:3",
+      "nativePixelGridNote": "Native image height is not divisible by four; use equal normalized 25% cells (height 271.5px) for CSS rendering. Source was not resized.",
+      "generationMode": "built-in image_gen",
+      "reference": "work/ocean-classroom/dist/assets/island-door-v2.png",
+      "prompt": "Create ONE new animation sprite sheet, using the provided two-view schoolboy picture ONLY as a style/character reference.\nAbsolute layout: 4 EQUAL COLUMNS × 4 EQUAL ROWS = 16 frames. Entire sheet aspect 4:3, each equal frame 4:3. All frames fit fully inside the sheet, no cropped last column. Prefer 2048×1536. NO GUTTERS, BORDERS, frame lines, numbers, labels or text.\nWarm sunny primary textbook gouache; same black-haired seven-year-old East Asian schoolboy as reference, white short-sleeve shirt, navy shorts, white socks, dark shoes, blue backpack.\nEach frame repeats exactly the SAME fixed corridor, same fixed camera, same boy size and foot placement, same right-hand-hinged teal door. Three hinges and RIGHT jamb stay FIXED at 86% of each cell width. Single door leaf swings away into classroom; its LEFT free edge moves progressively RIGHT, revealing more classroom at left. The boy is at left of door. His right palm continuously presses ONE silver pushplate on the moving left door edge. He has exactly TWO ARMS in all frames: ONE left arm hanging down, ONE right arm pushing. ONE right hand touching the door. No extra limbs or hands. His right elbow smoothly extends as door opens. No detached forearms.\n16 different moments, in row-major order, never repeat an endpoint:\nrow 1: closed door; open 4°; open 8°; open 12°.\nrow 2: open 16°; open 20°; open 24°; open 28°.\nrow 3: open 32°; open 36°; open 40°; open 44°.\nrow 4: open 48°; open 52°; open 56°; open 60°.\nThus all 14 middle poses must be visibly distinct, increasing door opening throughout the final row too. Door rotates on its actual FIXED RIGHT hinges, not sliding. Single door, single boy per cell. Camera, boy face and body SCALE, left plant/window, right bulletin board and doorframe positions are identical in every frame. Only door angle, pushing right-arm pose and opening gap change. At frame1 door is completely closed; at frame16 door is clearly open into classroom, with desks visible. Correct biomechanics and believable perspective. No double doors, phantom hands, moving hinge, mirroring or zoom.",
+      "qaStatus": "qualified-pass-with-registration-limitation",
+      "qaGrid4x4": [
+        [
+          {
+            "frame": 1,
+            "row": 1,
+            "column": 1,
+            "observation": "Closed door, one pushing right palm and resting left arm; initial right-jamb registration is ~18 px right of later frames."
+          },
+          {
+            "frame": 2,
+            "row": 1,
+            "column": 2,
+            "observation": "Small initial opening; pushing palm remains on plate; hinge settles at later-frame position."
+          },
+          {
+            "frame": 3,
+            "row": 1,
+            "column": 3,
+            "observation": "Slightly increased opening, same boy scale and two natural arms."
+          },
+          {
+            "frame": 4,
+            "row": 1,
+            "column": 4,
+            "observation": "Door face narrows a little further; pushing hand follows plate."
+          }
+        ],
+        [
+          {
+            "frame": 5,
+            "row": 2,
+            "column": 1,
+            "observation": "Door continues opening; no phantom hand or doubled door."
+          },
+          {
+            "frame": 6,
+            "row": 2,
+            "column": 2,
+            "observation": "Subtle additional opening with continuous palm contact."
+          },
+          {
+            "frame": 7,
+            "row": 2,
+            "column": 3,
+            "observation": "First clearer slit into classroom; right hinge on same jamb."
+          },
+          {
+            "frame": 8,
+            "row": 2,
+            "column": 4,
+            "observation": "Classroom opening widens; right arm extends."
+          }
+        ],
+        [
+          {
+            "frame": 9,
+            "row": 3,
+            "column": 1,
+            "observation": "Visible classroom gap; single leaf rotates on right edge."
+          },
+          {
+            "frame": 10,
+            "row": 3,
+            "column": 2,
+            "observation": "Larger gap and more extended pushing forearm."
+          },
+          {
+            "frame": 11,
+            "row": 3,
+            "column": 3,
+            "observation": "Door narrows in perspective; desks increasingly visible."
+          },
+          {
+            "frame": 12,
+            "row": 3,
+            "column": 4,
+            "observation": "Door opens farther and hand moves with pushplate."
+          }
+        ],
+        [
+          {
+            "frame": 13,
+            "row": 4,
+            "column": 1,
+            "observation": "Classroom gap wider; boy stays same scale."
+          },
+          {
+            "frame": 14,
+            "row": 4,
+            "column": 2,
+            "observation": "More extended arm; single open door and desks behind."
+          },
+          {
+            "frame": 15,
+            "row": 4,
+            "column": 3,
+            "observation": "Door continues opening; palm remains attached to plate."
+          },
+          {
+            "frame": 16,
+            "row": 4,
+            "column": 4,
+            "observation": "Open-door outcome; most classroom visible and fully extended pushing arm."
+          }
+        ]
+      ],
+      "limitations": [
+        "Right jamb/hinge registration shifts approximately 18px between the closed first frame and the second frame; subsequent right hinge positions are stable. Early angle progression is subtle."
+      ]
+    },
+    {
+      "id": "boat",
+      "path": "work/ocean-classroom/dist/assets/island-boat-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "1220f304e5e7257a6c3803f31affdbc2875e9b99829dc9eaae28964b34633de4",
+      "bytes": 3345991,
+      "columns": 4,
+      "rows": 4,
+      "frames": 16,
+      "order": "row-major",
+      "cellWidth": 362,
+      "cellHeight": 271.5,
+      "cellAspectRatio": "4:3",
+      "nativePixelGridNote": "Native image height is not divisible by four; use equal normalized 25% cells (height 271.5px) for CSS rendering. Source was not resized.",
+      "generationMode": "built-in image_gen",
+      "reference": "work/ocean-classroom/dist/assets/island-boat-v2.png",
+      "prompt": "Use case: illustration-story.\nAsset type: production 16-frame painted animation sprite atlas for a primary-school educational webgame.\nOUTPUT GEOMETRY IS CRITICAL: one single image, EXACTLY FOUR COLUMNS and FOUR ROWS of equal rectangular animation frames, sixteen frames total. Overall image aspect ratio 4:3, preferably 3072x2304, otherwise 2048x1536. Each of the 16 cell frames is itself exactly 4:3. Every scene extends to its cell edges. Zero gutters, zero dividing lines, zero borders. No text, lettering, numbers, arrows, labels, panels, insets, title or watermark anywhere.\nRead animation in row-major order: top row frames 1,2,3,4; second row 5,6,7,8; third row 9,10,11,12; bottom row 13,14,15,16. Numbers below are instructions only and must never appear in the image.\nInput image role: supplied image is a visual STYLE, CHARACTER, ENVIRONMENT and BEFORE/AFTER reference; it contains TWO source views. Do NOT copy its two-column layout. Expand the action into sixteen equal frames.\nStyle: warm, polished primary textbook gouache illustration, soft paper pigment, sunny colors, charming East Asian boy age seven with black hair, normal stable anatomy, exactly two arms and two legs and natural five-fingered hands, same clothes as respective reference. Match supplied environment.\nTEMPORAL INVARIANTS: same fixed camera and identical background registration, perspective, character head size, body size, clothing, face and object dimensions in every cell. No pan, zoom, reframing or mirroring. All sixteen frames depict sixteen DISTINCT successive moments of ONE continuous forward action, fourteen unique intermediate poses between source before and source after outcome. No duplicated endpoints or tiles. Motion readable without text.\nScene: sunny pond reference. Boy on grassy LEFT bank, trees top-left, horizontal wooden fence behind, stones and grass along far bank, blue-green water right, few lily pads lower-right. Boy wears blue T-shirt, navy shorts, white socks and blue sneakers, stable head and body size. Small red-and-white toy cabin boat in RIGHT water; its BOW points LEFT toward boy. Same boat dimensions, red hull, white cabin, blue windows, red chimney, red flag. Far end/STERN at right. Never mirror or reverse boat.\nAction and mechanics: boy pulls a golden rope with BOTH hands, making boat come toward him and toward LEFT shore. The taut straight loaded rope is visibly connected continuously from BOTH gripping hands to metal bow eye on LEFT boat tip. No broken rope, detached end, slack loaded span or passing through hull. Loose rope tail may hang below hands, separate from taut span.\nFIXED CAMERA; fixed bank and boy foot positions. Boat translates monotonically LEFT in screen coordinates, toward boy, by small equal steps. It does NOT move right, get larger or farther offshore. Wake stays BEHIND stern to RIGHT, changing each cell as boat approaches. Hands pull progressively closer to torso while boy progressively bends knees and leans back slightly for effort. Natural hands, no extra limbs.\n16 distinct timeline positions for boat bow, as percentage of EACH CELL width:\nframe1 72% (source BEFORE; arms extended and rope taut);\nframe2 70.5% (hands pull, boat immediately responds left);\nframe3 69%; frame4 67.5%; frame5 66%; frame6 64.5%;\nframe7 63%; frame8 61.5%; frame9 60%; frame10 58.5%;\nframe11 57%; frame12 55.5%; frame13 54%; frame14 52.5%;\nframe15 51%; frame16 49.5% (source AFTER, boat close to left shore).\nBoy hands x position smoothly decreases from about 29% to 26% while feet stay planted, knees flex and torso leans progressively back; rope shortens loaded span but ALWAYS connects hand grips and bow eye. 14 unique progressive natural pull poses and 14 distinct intermediate boat positions. Wake behind at right, ripple sequence distinct. No repeated endpoints.",
+      "qaStatus": "pass",
+      "qaGrid4x4": [
+        [
+          {
+            "frame": 1,
+            "row": 1,
+            "column": 1,
+            "observation": "Arms extended; taut rope reaches left-facing bow, boat offshore."
+          },
+          {
+            "frame": 2,
+            "row": 1,
+            "column": 2,
+            "observation": "Hands begin pull; boat advances left and wake begins right."
+          },
+          {
+            "frame": 3,
+            "row": 1,
+            "column": 3,
+            "observation": "Knees flex; boat moves left, taut rope connected."
+          },
+          {
+            "frame": 4,
+            "row": 1,
+            "column": 4,
+            "observation": "Boy leans back; boat progresses left; wake behind stern."
+          }
+        ],
+        [
+          {
+            "frame": 5,
+            "row": 2,
+            "column": 1,
+            "observation": "Pull pose deepens; shorter loaded rope and nearer boat."
+          },
+          {
+            "frame": 6,
+            "row": 2,
+            "column": 2,
+            "observation": "Hands draw closer; bow moves left; wake behind right."
+          },
+          {
+            "frame": 7,
+            "row": 2,
+            "column": 3,
+            "observation": "Pull continues; boat and ripples advance."
+          },
+          {
+            "frame": 8,
+            "row": 2,
+            "column": 4,
+            "observation": "Taut hand-to-bow rope; boat continues toward left bank."
+          }
+        ],
+        [
+          {
+            "frame": 9,
+            "row": 3,
+            "column": 1,
+            "observation": "Knees bent; boat approaches bank leftwards."
+          },
+          {
+            "frame": 10,
+            "row": 3,
+            "column": 2,
+            "observation": "Rope span shortens; boat approaches steadily."
+          },
+          {
+            "frame": 11,
+            "row": 3,
+            "column": 3,
+            "observation": "Bow nearer hands; consistent left-facing hull."
+          },
+          {
+            "frame": 12,
+            "row": 3,
+            "column": 4,
+            "observation": "Continued leftward travel and rear wake."
+          }
+        ],
+        [
+          {
+            "frame": 13,
+            "row": 4,
+            "column": 1,
+            "observation": "Boat near grassy shore; boy remains on bank."
+          },
+          {
+            "frame": 14,
+            "row": 4,
+            "column": 2,
+            "observation": "Short taut rope; boat advances further left."
+          },
+          {
+            "frame": 15,
+            "row": 4,
+            "column": 3,
+            "observation": "Boy leans back with secure grip; near-shore bow."
+          },
+          {
+            "frame": 16,
+            "row": 4,
+            "column": 4,
+            "observation": "After outcome: boat closest to shore, taut rope and rightward trailing wake."
+          }
+        ]
+      ],
+      "limitations": [
+        "Motion increments are painterly rather than mathematically equal; no reversed travel was observed."
+      ]
+    }
+  ],
+  "discardedDoorAttempts": [
+    {
+      "reason": "Extra detached forearm in row2/col2 and uneven panel boundaries.",
+      "prompt": "Use case: illustration-story.\nAsset type: production 16-frame painted animation sprite atlas for a primary-school educational webgame.\nOUTPUT GEOMETRY IS CRITICAL: one single image, EXACTLY FOUR COLUMNS and FOUR ROWS of equal rectangular animation frames, sixteen frames total. Overall image aspect ratio 4:3, preferably 3072x2304, otherwise 2048x1536. Each of the 16 cell frames is itself exactly 4:3. Every scene extends to its cell edges. Zero gutters, zero dividing lines, zero borders. No text, lettering, numbers, arrows, labels, panels, insets, title or watermark anywhere.\nRead animation in row-major order: top row frames 1,2,3,4; second row 5,6,7,8; third row 9,10,11,12; bottom row 13,14,15,16. Numbers below are instructions only and must never appear in the image.\nInput image role: supplied image is a visual STYLE, CHARACTER, ENVIRONMENT and BEFORE/AFTER reference; it contains TWO source views. Do NOT copy its two-column layout. Expand the action into sixteen equal frames.\nStyle: warm, polished primary textbook gouache illustration, soft paper pigment, sunny colors, charming East Asian boy age seven with black hair, normal stable anatomy, exactly two arms and two legs and natural five-fingered hands, same clothes as respective reference. Match supplied environment.\nTEMPORAL INVARIANTS: same fixed camera and identical background registration, perspective, character head size, body size, clothing, face and object dimensions in every cell. No pan, zoom, reframing or mirroring. All sixteen frames depict sixteen DISTINCT successive moments of ONE continuous forward action, fourteen unique intermediate poses between source before and source after outcome. No duplicated endpoints or tiles. Motion readable without text.\nScene: school corridor reference, cream upper wall and mint lower wall, potted plant left, window behind boy left, bulletin board far right. Teal classroom door at right, large glass window in upper door, silver vertical push plate near LEFT/free edge, exactly THREE visible hinges on the RIGHT jamb. Boy stands to LEFT of door in white short-sleeved school shirt, navy shorts, white socks, dark shoes, royal blue backpack. Same seven-year-old boy body scale in every frame.\nCRITICAL MECHANICS: only ONE door leaf. Its RIGHT vertical edge is connected to the SAME fixed RIGHT hinge axis in every cell, at same pixel position. It opens AWAY from camera into classroom. Left free edge progressively swings rightward/deeper toward hinge; top and bottom perspective rotate naturally. Door must rotate about right hinge, not translate, stretch, duplicate or change hinge sides. Push plate stays attached near free edge and moves with leaf. As leaf opens, more of the warm classroom with desks appears through the widening LEFT-side doorway. Glass remains part of single rotating door. No duplicate phantom door.\nAction: boy applies right PALM flat to metal push plate on door. Palm remains contacting plate throughout. Arm extends naturally as leaf rotates; shoulder and head stay same fixed scale. Foot stance changes only slightly to support push.\n16 angles of one continuous right-hinged opening: frame1=closed 0 degrees (source BEFORE), 2=3 degrees, 3=6 degrees, 4=9 degrees, 5=12 degrees, 6=15 degrees, 7=18 degrees, 8=21 degrees, 9=24 degrees, 10=27 degrees, 11=30 degrees, 12=33 degrees, 13=36 degrees, 14=39 degrees, 15=42 degrees, 16=45 degrees (source AFTER outcome). Each of fourteen intermediate cells has a DIFFERENT opening angle, distinct visible classroom gap and progressively extended arm. Reference after establishes destination, but preserve hinge geometry rigorously. Start response immediately at frame2."
+    },
+    {
+      "reason": "Targeted edit preserved previous anatomy/grid defects.",
+      "prompt": "Use case: precise-object-edit. Correct the supplied 16-frame painted classroom-door animation atlas, using the second input only as the original STYLE/CHARACTER reference.\nREQUIRED OUTPUT: exact 4 columns × 4 rows, 16 equally sized 4:3 cells; entire image 4:3. Prefer 2048×1536. No gutters, separator lines, borders, labels, numbers, writing or watermark. Keep same warm primary textbook gouache style.\nThe first input has serious animation defects: repeated nearly closed first cells, repeated late angles, uneven grid, and a duplicated extra forearm in row2 column2. Fix ALL of these.\nONE SINGLE seven-year-old East Asian schoolboy in each cell, white short sleeve shirt/navy shorts/blue backpack, exactly TWO arms total: LEFT arm hangs by side; RIGHT arm extends from his actual right shoulder to a palm flat against the door pushplate. NO detached limb, ghost hand, double arm, extra hand. Exactly five fingers per hand. Same fixed boy head/body scale in all 16 cells. Camera and static background identical in every cell.\nDoor geometry: ONE teal rectangular door leaf, silver pushplate near LEFT free edge, glass upper window. Hinged on RIGHT edge to the FIXED RIGHT jamb at x=86% of each cell width. RIGHT hinge x/y never moves, and single leaf opens AWAY into classroom. LEFT free edge sweeps toward right jamb and back into room. The free edge moves monotonically right and the classroom gap widens monotonically on LEFT side of door leaf. Only ONE door. Do not move the right doorframe, do not change hinge sides, do not slide door, do not put duplicate door slab behind it.\nAll sixteen unique opening states, row major:\nrow1 closed0°, open4°, open8°, open12°;\nrow2 open16°, open20°, open24°, open28°;\nrow3 open32°, open36°, open40°, open44°;\nrow4 open48°, open52°, open56°, open60°.\nStart opening immediately at frame2. Every neighboring cell MUST show a measurably different door angle and free-edge location. Last row must continue the opening, never settle into duplicate final pictures. Boy hand remains on the SINGLE push plate and arm follows its trajectory naturally, no large scale changes.\nKeep boy foot stance and face registered. Fixed corridor: sunny left window, potted plant at far left, cream upper walls and mint lower walls, bulletin board at far right. Reveal warm classroom desks only in the widening gap as door swings. Preserve source before closed-door and source after open-door outcome."
+    }
+  ],
+  "qaMethod": "Inspected original references and generated atlases via view_image. Checked saved PNG metadata with Pillow. Tap/boat vertical seams detected at x=362,724,1086. All selected sheets visually inspected as 4×4. No synthetic tweening or frame duplication was performed; all artwork came from image_gen. No other project files changed."
+}
+

@@ -1,0 +1,691 @@
+[
+  {
+    "character": "我",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA",
+    "readings": [
+      "ngo5"
+    ],
+    "selectedReading": "ngo5",
+    "selectedNoTone": "ngo",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "ng o 5 黃 (p.35) 周 (p.59) 李 (p.145) 何 (p.255) 猗 --選擇-- 同聲同韻 同韻同調 同聲同調 我們, 我國, 我方 [9..] 我行我素, 我等, 我倆, 自我, 無我, 真我, 依然故我, 爾詐我虞, 我醉欲眠",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>ng</font><font color=green size=+1>o</font><font color=blue size=+1>5</font></td>\n    <td align=center><a href=\"sound.php?s=ngo5\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.35)</font><br><font size=-1>周</font><font color=gray size=-1>(p.59)</font><br><font size=-1>李</font><font color=gray size=-1>(p.145)</font><br><font size=-1>何</font><font color=gray size=-1>(p.255)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%D6a\">猗</a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=ng&s2=o\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=o&s3=5\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=ng&s3=5\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>我們, 我國, 我方<a href=\"#1\" onClick=\"xid_down('ngo5_detial')\"><font size=\"-1\">[9..]</font></a></div><div id=\"ngo5_detial\" style=\"display: none\">我行我素, 我等, 我倆, 自我, 無我, 真我, 依然故我, 爾詐我虞, 我醉欲眠</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "ngo5",
+        "text": "ng o 5 黃 (p.35) 周 (p.59) 李 (p.145) 何 (p.255) 猗 --選擇-- 同聲同韻 同韻同調 同聲同調 我們, 我國, 我方 [9..] 我行我素, 我等, 我倆, 自我, 無我, 真我, 依然故我, 爾詐我虞, 我醉欲眠"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "一",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40",
+    "readings": [
+      "jat1"
+    ],
+    "selectedReading": "jat1",
+    "selectedNoTone": "jat",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "j at 1 黃 (p.18) 周 (p.1) 李 (p.2) 何 (p.128) 壹 --選擇-- 同聲同韻 同韻同調 同聲同調 一致, 統一, 一枝獨秀 [9..] 一般, 一切, 一樣, 專一, 劃一, 一視同仁, 一觸即發, 一落千丈, 長短不一",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>j</font><font color=green size=+1>at</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=jat1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.18)</font><br><font size=-1>周</font><font color=gray size=-1>(p.1)</font><br><font size=-1>李</font><font color=gray size=-1>(p.2)</font><br><font size=-1>何</font><font color=gray size=-1>(p.128)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%B3%FC\">壹</a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=j&s2=at\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=at&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=j&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>一致, 統一, 一枝獨秀<a href=\"#1\" onClick=\"xid_down('jat1_detial')\"><font size=\"-1\">[9..]</font></a></div><div id=\"jat1_detial\" style=\"display: none\">一般, 一切, 一樣, 專一, 劃一, 一視同仁, 一觸即發, 一落千丈, 長短不一</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "jat1",
+        "text": "j at 1 黃 (p.18) 周 (p.1) 李 (p.2) 何 (p.128) 壹 --選擇-- 同聲同韻 同韻同調 同聲同調 一致, 統一, 一枝獨秀 [9..] 一般, 一切, 一樣, 專一, 劃一, 一視同仁, 一觸即發, 一落千丈, 長短不一"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "就",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N",
+    "readings": [
+      "zau6"
+    ],
+    "selectedReading": "zau6",
+    "selectedNoTone": "zau",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "z au 6 黃 (p.11) 周 (p.42) 李 (p.306) 何 (p.74) 宙 , 袖 , 紂 [18..] --選擇-- 同聲同韻 同韻同調 同聲同調 就業, 就職, 就近 [8..] 就寢, 就事論事, 就範, 就地取材, 成就, 就教, 避重就輕, 半推半就",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>z</font><font color=green size=+1>au</font><font color=blue size=+1>6</font></td>\n    <td align=center><a href=\"sound.php?s=zau6\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.11)</font><br><font size=-1>周</font><font color=gray size=-1>(p.42)</font><br><font size=-1>李</font><font color=gray size=-1>(p.306)</font><br><font size=-1>何</font><font color=gray size=-1>(p.74)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%A9z\">宙</a>, <a href=\"search.php?q=%B3S\">袖</a>, <a href=\"search.php?q=%AC%F4\">紂</a> <a href=\"pho-rel.php?s1=z&s2=au&s3=6\"><font size=-1>[18..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=z&s2=au\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=au&s3=6\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=z&s3=6\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>就業, 就職, 就近<a href=\"#1\" onClick=\"xid_down('zau6_detial')\"><font size=\"-1\">[8..]</font></a></div><div id=\"zau6_detial\" style=\"display: none\">就寢, 就事論事, 就範, 就地取材, 成就, 就教, 避重就輕, 半推半就</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "zau6",
+        "text": "z au 6 黃 (p.11) 周 (p.42) 李 (p.306) 何 (p.74) 宙 , 袖 , 紂 [18..] --選擇-- 同聲同韻 同韻同調 同聲同調 就業, 就職, 就近 [8..] 就寢, 就事論事, 就範, 就地取材, 成就, 就教, 避重就輕, 半推半就"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "怕",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%C8",
+    "readings": [
+      "paa3"
+    ],
+    "selectedReading": "paa3",
+    "selectedNoTone": "paa",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "p aa 3 黃 (p.2) 周 (p.54) 李 (p.65) 何 (p.8) 帊 , 帕 --選擇-- 同聲同韻 同韻同調 同聲同調 害怕, 怕人, 怕死 [4..] 怕事, 怕熱, 怕冷, 怕羞",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>p</font><font color=green size=+1>aa</font><font color=blue size=+1>3</font></td>\n    <td align=center><a href=\"sound.php?s=paa3\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.2)</font><br><font size=-1>周</font><font color=gray size=-1>(p.54)</font><br><font size=-1>李</font><font color=gray size=-1>(p.65)</font><br><font size=-1>何</font><font color=gray size=-1>(p.8)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%CA%CB\">帊</a>, <a href=\"search.php?q=%A9%AC\">帕</a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=p&s2=aa\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=aa&s3=3\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=p&s3=3\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>害怕, 怕人, 怕死<a href=\"#1\" onClick=\"xid_down('paa3_detial')\"><font size=\"-1\">[4..]</font></a></div><div id=\"paa3_detial\" style=\"display: none\">怕事, 怕熱, 怕冷, 怕羞</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "paa3",
+        "text": "p aa 3 黃 (p.2) 周 (p.54) 李 (p.65) 何 (p.8) 帊 , 帕 --選擇-- 同聲同韻 同韻同調 同聲同調 害怕, 怕人, 怕死 [4..] 怕事, 怕熱, 怕冷, 怕羞"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "黑",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%C2",
+    "readings": [
+      "haak1",
+      "hak1"
+    ],
+    "selectedReading": "hak1",
+    "selectedNoTone": "hak",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "h ak 1 黃 (p.18) 周 (p.212) 李 (p.313) 何 (p.132) 氪 , 潶 , 勀 [8..] --選擇-- 同聲同韻 同韻同調 同聲同調 黑人, 黑子, 黑手 [13..] 黑店, 黑祲, 黑貨, 黑道, 黑暗, 黑幕, 黑幫, 黑心腸, 黑匣子, 黑不溜秋, 黑白分明, 黑色幽默, 漆黑",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>h</font><font color=green size=+1>ak</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=hak1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.18)</font><br><font size=-1>周</font><font color=gray size=-1>(p.212)</font><br><font size=-1>李</font><font color=gray size=-1>(p.313)</font><br><font size=-1>何</font><font color=gray size=-1>(p.132)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%D5%DF\">氪</a>, <a href=\"search.php?q=%E6H\">潶</a>, <a href=\"search.php?q=%CD%F2\">勀</a> <a href=\"pho-rel.php?s1=h&s2=ak&s3=1\"><font size=-1>[8..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=h&s2=ak\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ak&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=h&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>黑人, 黑子, 黑手<a href=\"#1\" onClick=\"xid_down('hak1_detial')\"><font size=\"-1\">[13..]</font></a></div><div id=\"hak1_detial\" style=\"display: none\">黑店, 黑祲, 黑貨, 黑道, 黑暗, 黑幕, 黑幫, 黑心腸, 黑匣子, 黑不溜秋, 黑白分明, 黑色幽默, 漆黑</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "haak1",
+        "text": "h aak 1 張群顯 煂 , 嚇 , 赫 [4..] --選擇-- 同聲同韻 同韻同調 同聲同調 「黑hak1」的異讀字"
+      },
+      {
+        "reading": "hak1",
+        "text": "h ak 1 黃 (p.18) 周 (p.212) 李 (p.313) 何 (p.132) 氪 , 潶 , 勀 [8..] --選擇-- 同聲同韻 同韻同調 同聲同調 黑人, 黑子, 黑手 [13..] 黑店, 黑祲, 黑貨, 黑道, 黑暗, 黑幕, 黑幫, 黑心腸, 黑匣子, 黑不溜秋, 黑白分明, 黑色幽默, 漆黑"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "開",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D",
+    "readings": [
+      "hoi1"
+    ],
+    "selectedReading": "hoi1",
+    "selectedNoTone": "hoi",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "h oi 1 黃 (p.36) 周 (p.187) 李 (p.326) 何 (p.262) 烗 , 咍 , 闓 [1..] --選擇-- 同聲同韻 同韻同調 同聲同調 開始, 開心, 避開 [3..] 開設, 開朗, 開會",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>h</font><font color=green size=+1>oi</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=hoi1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.36)</font><br><font size=-1>周</font><font color=gray size=-1>(p.187)</font><br><font size=-1>李</font><font color=gray size=-1>(p.326)</font><br><font size=-1>何</font><font color=gray size=-1>(p.262)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%D2q\">烗</a>, <a href=\"search.php?q=%CB%E8\">咍</a>, <a href=\"search.php?q=%F1m\">闓</a> <a href=\"pho-rel.php?s1=h&s2=oi&s3=1\"><font size=-1>[1..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=h&s2=oi\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=oi&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=h&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>開始, 開心, 避開<a href=\"#1\" onClick=\"xid_down('hoi1_detial')\"><font size=\"-1\">[3..]</font></a></div><div id=\"hoi1_detial\" style=\"display: none\">開設, 開朗, 開會</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "hoi1",
+        "text": "h oi 1 黃 (p.36) 周 (p.187) 李 (p.326) 何 (p.262) 烗 , 咍 , 闓 [1..] --選擇-- 同聲同韻 同韻同調 同聲同調 開始, 開心, 避開 [3..] 開設, 開朗, 開會"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "小",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4p",
+    "readings": [
+      "siu2"
+    ],
+    "selectedReading": "siu2",
+    "selectedNoTone": "siu",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "s iu 2 黃 (p.25) 周 (p.42) 李 (p.17) 何 (p.178) 篠 , 少 , 筱 [1..] --選擇-- 同聲同韻 同韻同調 同聲同調 小孩, 小姐, 小心 [5..] 小說, 小孩子, 小麥, 小偷, 小販",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>s</font><font color=green size=+1>iu</font><font color=blue size=+1>2</font></td>\n    <td align=center><a href=\"sound.php?s=siu2\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.25)</font><br><font size=-1>周</font><font color=gray size=-1>(p.42)</font><br><font size=-1>李</font><font color=gray size=-1>(p.17)</font><br><font size=-1>何</font><font color=gray size=-1>(p.178)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%C1Q\">篠</a>, <a href=\"search.php?q=%A4%D6\">少</a>, <a href=\"search.php?q=%DFN\">筱</a> <a href=\"pho-rel.php?s1=s&s2=iu&s3=2\"><font size=-1>[1..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=s&s2=iu\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=iu&s3=2\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=s&s3=2\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>小孩, 小姐, 小心<a href=\"#1\" onClick=\"xid_down('siu2_detial')\"><font size=\"-1\">[5..]</font></a></div><div id=\"siu2_detial\" style=\"display: none\">小說, 小孩子, 小麥, 小偷, 小販</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "siu2",
+        "text": "s iu 2 黃 (p.25) 周 (p.42) 李 (p.17) 何 (p.178) 篠 , 少 , 筱 [1..] --選擇-- 同聲同韻 同韻同調 同聲同調 小孩, 小姐, 小心 [5..] 小說, 小孩子, 小麥, 小偷, 小販"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "燈",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BFO",
+    "readings": [
+      "dang1"
+    ],
+    "selectedReading": "dang1",
+    "selectedNoTone": "dang",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "d ang 1 黃 (p.16) 周 (p.98) 李 (p.323) 何 (p.115) 登 , 豋 , 簦 [5..] --選擇-- 同聲同韻 同韻同調 同聲同調 燈光, 燈塔, 燈籠 [3..] 燈火, 燈謎, 燈芯",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>d</font><font color=green size=+1>ang</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=dang1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.16)</font><br><font size=-1>周</font><font color=gray size=-1>(p.98)</font><br><font size=-1>李</font><font color=gray size=-1>(p.323)</font><br><font size=-1>何</font><font color=gray size=-1>(p.115)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%B5n\">登</a>, <a href=\"search.php?q=%E0S\">豋</a>, <a href=\"search.php?q=%F0h\">簦</a> <a href=\"pho-rel.php?s1=d&s2=ang&s3=1\"><font size=-1>[5..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=d&s2=ang\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ang&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=d&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>燈光, 燈塔, 燈籠<a href=\"#1\" onClick=\"xid_down('dang1_detial')\"><font size=\"-1\">[3..]</font></a></div><div id=\"dang1_detial\" style=\"display: none\">燈火, 燈謎, 燈芯</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "dang1",
+        "text": "d ang 1 黃 (p.16) 周 (p.98) 李 (p.323) 何 (p.115) 登 , 豋 , 簦 [5..] --選擇-- 同聲同韻 同韻同調 同聲同調 燈光, 燈塔, 燈籠 [3..] 燈火, 燈謎, 燈芯"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "跌",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%5E",
+    "readings": [
+      "daat3",
+      "dit3"
+    ],
+    "selectedReading": "dit3",
+    "selectedNoTone": "dit",
+    "selectionReason": "跌倒之跌；dit3 條明列「跌倒」，daat3 為異讀。",
+    "selectedEvidenceText": "d it 3 黃 (p.30) 周 (p.170) 李 (p.69) 何 (p.219) 螲 , 跕 --選擇-- 同聲同韻 同韻同調 同聲同調 跌落, 跌倒, 跌宕 [1..] 跌足",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>d</font><font color=green size=+1>it</font><font color=blue size=+1>3</font></td>\n    <td align=center><a href=\"sound.php?s=dit3\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.30)</font><br><font size=-1>周</font><font color=gray size=-1>(p.170)</font><br><font size=-1>李</font><font color=gray size=-1>(p.69)</font><br><font size=-1>何</font><font color=gray size=-1>(p.219)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%EEp\">螲</a>, <a href=\"search.php?q=%DB%F7\">跕</a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=d&s2=it\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=it&s3=3\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=d&s3=3\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>跌落, 跌倒, 跌宕<a href=\"#1\" onClick=\"xid_down('dit3_detial')\"><font size=\"-1\">[1..]</font></a></div><div id=\"dit3_detial\" style=\"display: none\">跌足</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "daat3",
+        "text": "d aat 3 李 (p.69) 靼 , 怛 , 笪 [5..] --選擇-- 同聲同韻 同韻同調 同聲同調 「跌dit3」的異讀字"
+      },
+      {
+        "reading": "dit3",
+        "text": "d it 3 黃 (p.30) 周 (p.170) 李 (p.69) 何 (p.219) 螲 , 跕 --選擇-- 同聲同韻 同韻同調 同聲同調 跌落, 跌倒, 跌宕 [1..] 跌足"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "倒",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%CB",
+    "readings": [
+      "dou2",
+      "dou3"
+    ],
+    "selectedReading": "dou2",
+    "selectedNoTone": "dou",
+    "selectionReason": "跌倒、倒下之倒，dou2；不用倒茶的 dou3。",
+    "selectedEvidenceText": "d ou 2 黃 (p.33) 周 (p.6) 李 (p.194) 何 (p.235) 島 , 賭 , 搗 [8..] --選擇-- 同聲同韻 同韻同調 同聲同調 倒戈, 倒閉, 倒臺 [3..] 倒胃口, 跌倒, 顛倒",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>d</font><font color=green size=+1>ou</font><font color=blue size=+1>2</font></td>\n    <td align=center><a href=\"sound.php?s=dou2\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.33)</font><br><font size=-1>周</font><font color=gray size=-1>(p.6)</font><br><font size=-1>李</font><font color=gray size=-1>(p.194)</font><br><font size=-1>何</font><font color=gray size=-1>(p.235)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%AEq\">島</a>, <a href=\"search.php?q=%BD%E4\">賭</a>, <a href=\"search.php?q=%B7o\">搗</a> <a href=\"pho-rel.php?s1=d&s2=ou&s3=2\"><font size=-1>[8..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=d&s2=ou\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ou&s3=2\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=d&s3=2\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>倒戈, 倒閉, 倒臺<a href=\"#1\" onClick=\"xid_down('dou2_detial')\"><font size=\"-1\">[3..]</font></a></div><div id=\"dou2_detial\" style=\"display: none\">倒胃口, 跌倒, 顛倒</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "dou2",
+        "text": "d ou 2 黃 (p.33) 周 (p.6) 李 (p.194) 何 (p.235) 島 , 賭 , 搗 [8..] --選擇-- 同聲同韻 同韻同調 同聲同調 倒戈, 倒閉, 倒臺 [3..] 倒胃口, 跌倒, 顛倒"
+      },
+      {
+        "reading": "dou3",
+        "text": "d ou 3 黃 (p.33) 周 (p.6) 何 (p.236) 到 , 妒 , 蠹 [7..] --選擇-- 同聲同韻 同韻同調 同聲同調 倒敘, 倒退, 倒掛 [6..] 倒貼, 倒置, 倒懸, 倒行逆施, 倒果為因, 倒持泰阿"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "哭",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%FA",
+    "readings": [
+      "huk1"
+    ],
+    "selectedReading": "huk1",
+    "selectedNoTone": "huk",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "h uk 1 黃 (p.49) 周 (p.23) 李 (p.48) 何 (p.361) 豰 , 鍙 , 慉 [1..] --選擇-- 同聲同韻 同韻同調 同聲同調 哭泣, 哭訴, 哭聲 [1..] 哭號",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>h</font><font color=green size=+1>uk</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=huk1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.49)</font><br><font size=-1>周</font><font color=gray size=-1>(p.23)</font><br><font size=-1>李</font><font color=gray size=-1>(p.48)</font><br><font size=-1>何</font><font color=gray size=-1>(p.361)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%EE%B2\">豰</a>, <a href=\"search.php?q=%EE%ED\">鍙</a>, <a href=\"search.php?q=%DDf\">慉</a> <a href=\"pho-rel.php?s1=h&s2=uk&s3=1\"><font size=-1>[1..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=h&s2=uk\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=uk&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=h&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>哭泣, 哭訴, 哭聲<a href=\"#1\" onClick=\"xid_down('huk1_detial')\"><font size=\"-1\">[1..]</font></a></div><div id=\"huk1_detial\" style=\"display: none\">哭號</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "huk1",
+        "text": "h uk 1 黃 (p.49) 周 (p.23) 李 (p.48) 何 (p.361) 豰 , 鍙 , 慉 [1..] --選擇-- 同聲同韻 同韻同調 同聲同調 哭泣, 哭訴, 哭聲 [1..] 哭號"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "起",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_",
+    "readings": [
+      "hei2"
+    ],
+    "selectedReading": "hei2",
+    "selectedNoTone": "hei",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "h ei 2 黃 (p.19) 周 (p.169) 李 (p.24) 何 (p.138) 屺 , 芑 , 蟢 [12..] --選擇-- 同聲同韻 同韻同調 同聲同調 起伏, 突起, 起死回生 [22..] 起點, 起因, 起源, 起步, 起訴, 起碼, 起床, 起色, 起義, 起眼, 勃起, 發起, 了不起, 對不起, 翩翩起舞, 平起平坐, 奮起直追, 風起雲湧, 烽煙四起, 兔起鶻落, 連根拔起, 另起爐灶",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>h</font><font color=green size=+1>ei</font><font color=blue size=+1>2</font></td>\n    <td align=center><a href=\"sound.php?s=hei2\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.19)</font><br><font size=-1>周</font><font color=gray size=-1>(p.169)</font><br><font size=-1>李</font><font color=gray size=-1>(p.24)</font><br><font size=-1>何</font><font color=gray size=-1>(p.138)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%C9%D7\">屺</a>, <a href=\"search.php?q=%CB%7D\">芑</a>, <a href=\"search.php?q=%F0%BD\">蟢</a> <a href=\"pho-rel.php?s1=h&s2=ei&s3=2\"><font size=-1>[12..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=h&s2=ei\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ei&s3=2\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=h&s3=2\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>起伏, 突起, 起死回生<a href=\"#1\" onClick=\"xid_down('hei2_detial')\"><font size=\"-1\">[22..]</font></a></div><div id=\"hei2_detial\" style=\"display: none\">起點, 起因, 起源, 起步, 起訴, 起碼, 起床, 起色, 起義, 起眼, 勃起, 發起, 了不起, 對不起, 翩翩起舞, 平起平坐, 奮起直追, 風起雲湧, 烽煙四起, 兔起鶻落, 連根拔起, 另起爐灶</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "hei2",
+        "text": "h ei 2 黃 (p.19) 周 (p.169) 李 (p.24) 何 (p.138) 屺 , 芑 , 蟢 [12..] --選擇-- 同聲同韻 同韻同調 同聲同調 起伏, 突起, 起死回生 [22..] 起點, 起因, 起源, 起步, 起訴, 起碼, 起床, 起色, 起義, 起眼, 勃起, 發起, 了不起, 對不起, 翩翩起舞, 平起平坐, 奮起直追, 風起雲湧, 烽煙四起, 兔起鶻落, 連根拔起, 另起爐灶"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "來",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3",
+    "readings": [
+      "lai4",
+      "loi4",
+      "loi6"
+    ],
+    "selectedReading": "loi4",
+    "selectedNoTone": "loi",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "l oi 4 黃 (p.36) 周 (p.5) 李 (p.196) 何 (p.263) 萊 , 崍 , 淶 [9..] --選擇-- 同聲同韻 同韻同調 同聲同調 來往, 來世, 來歷 [2..] 來龍去脈, 未來",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>l</font><font color=green size=+1>oi</font><font color=blue size=+1>4</font></td>\n    <td align=center><a href=\"sound.php?s=loi4\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.36)</font><br><font size=-1>周</font><font color=gray size=-1>(p.5)</font><br><font size=-1>李</font><font color=gray size=-1>(p.196)</font><br><font size=-1>何</font><font color=gray size=-1>(p.263)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%B5%DC\">萊</a>, <a href=\"search.php?q=%D4%FB\">崍</a>, <a href=\"search.php?q=%D5%E9\">淶</a> <a href=\"pho-rel.php?s1=l&s2=oi&s3=4\"><font size=-1>[9..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=l&s2=oi\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=oi&s3=4\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=l&s3=4\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>來往, 來世, 來歷<a href=\"#1\" onClick=\"xid_down('loi4_detial')\"><font size=\"-1\">[2..]</font></a></div><div id=\"loi4_detial\" style=\"display: none\">來龍去脈, 未來</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "lai4",
+        "text": "l ai 4 黃 (p.10) 何 (p.64) 黎 , 犁 , 蔾 [6..] --選擇-- 同聲同韻 同韻同調 同聲同調 「來loi4」的異讀字"
+      },
+      {
+        "reading": "loi4",
+        "text": "l oi 4 黃 (p.36) 周 (p.5) 李 (p.196) 何 (p.263) 萊 , 崍 , 淶 [9..] --選擇-- 同聲同韻 同韻同調 同聲同調 來往, 來世, 來歷 [2..] 來龍去脈, 未來"
+      },
+      {
+        "reading": "loi6",
+        "text": "l oi 6 黃 (p.36) 周 (p.5) 李 (p.196) 何 (p.264) 睞 , 賚 , 唻 [5..] --選擇-- 同聲同韻 同韻同調 同聲同調 勞來"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "跑",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%5D",
+    "readings": [
+      "paau2",
+      "paau4"
+    ],
+    "selectedReading": "paau2",
+    "selectedNoTone": "paau",
+    "selectionReason": "跑步之跑，paau2。",
+    "selectedEvidenceText": "p aau 2 黃 (p.4) 周 (p.170) 李 (p.73) 何 (p.24) --選擇-- 同聲同韻 同韻同調 同聲同調 跑步, 跑道, 跑堂 [4..] 跑腿, 奔跑, 賽跑, 東奔西跑",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>p</font><font color=green size=+1>aau</font><font color=blue size=+1>2</font></td>\n    <td align=center><a href=\"sound.php?s=paau2\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.4)</font><br><font size=-1>周</font><font color=gray size=-1>(p.170)</font><br><font size=-1>李</font><font color=gray size=-1>(p.73)</font><br><font size=-1>何</font><font color=gray size=-1>(p.24)</font></td>\n    <td nowrap>\n\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=p&s2=aau\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=aau&s3=2\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=p&s3=2\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>跑步, 跑道, 跑堂<a href=\"#1\" onClick=\"xid_down('paau2_detial')\"><font size=\"-1\">[4..]</font></a></div><div id=\"paau2_detial\" style=\"display: none\">跑腿, 奔跑, 賽跑, 東奔西跑</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "paau2",
+        "text": "p aau 2 黃 (p.4) 周 (p.170) 李 (p.73) 何 (p.24) --選擇-- 同聲同韻 同韻同調 同聲同調 跑步, 跑道, 跑堂 [4..] 跑腿, 奔跑, 賽跑, 東奔西跑"
+      },
+      {
+        "reading": "paau4",
+        "text": "p aau 4 何 (p.24) 刨 , 鉋 , 鑤 [12..] --選擇-- 同聲同韻 同韻同調 同聲同調 走獸用腳刨地，亦泛指刨地"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "完",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%B9",
+    "readings": [
+      "jyun4"
+    ],
+    "selectedReading": "jyun4",
+    "selectedNoTone": "jyun",
+    "selectionReason": "跑完步之完，完成義，jyun4。",
+    "selectedEvidenceText": "j yun 4 黃 (p.51) 周 (p.40) 李 (p.54,136) 何 (p.379) 伭 , 紈 , 壖 [75..] --選擇-- 同聲同韻 同韻同調 同聲同調 完成, 完全, 完整 [5..] 完畢, 完善, 完美, 完滿, 完結",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>j</font><font color=green size=+1>yun</font><font color=blue size=+1>4</font></td>\n    <td align=center><a href=\"sound.php?s=jyun4\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.51)</font><br><font size=-1>周</font><font color=gray size=-1>(p.40)</font><br><font size=-1>李</font><font color=gray size=-1>(p.54,136)</font><br><font size=-1>何</font><font color=gray size=-1>(p.379)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%CAf\">伭</a>, <a href=\"search.php?q=%D0K\">紈</a>, <a href=\"search.php?q=%EC%CA\">壖</a> <a href=\"pho-rel.php?s1=j&s2=yun&s3=4\"><font size=-1>[75..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=j&s2=yun\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=yun&s3=4\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=j&s3=4\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>完成, 完全, 完整<a href=\"#1\" onClick=\"xid_down('jyun4_detial')\"><font size=\"-1\">[5..]</font></a></div><div id=\"jyun4_detial\" style=\"display: none\">完畢, 完善, 完美, 完滿, 完結</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "jyun4",
+        "text": "j yun 4 黃 (p.51) 周 (p.40) 李 (p.54,136) 何 (p.379) 伭 , 紈 , 壖 [75..] --選擇-- 同聲同韻 同韻同調 同聲同調 完成, 完全, 完整 [5..] 完畢, 完善, 完美, 完滿, 完結"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "步",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8B",
+    "readings": [
+      "fau6",
+      "bou6"
+    ],
+    "selectedReading": "bou6",
+    "selectedNoTone": "bou",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "b ou 6 黃 (p.33) 周 (p.83) 李 (p.149) 何 (p.235) 部 , 捕 , 簿 [15..] --選擇-- 同聲同韻 同韻同調 同聲同調 步驟, 步行, 步槍 [2..] 步軍, 步光",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>b</font><font color=green size=+1>ou</font><font color=blue size=+1>6</font></td>\n    <td align=center><a href=\"sound.php?s=bou6\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.33)</font><br><font size=-1>周</font><font color=gray size=-1>(p.83)</font><br><font size=-1>李</font><font color=gray size=-1>(p.149)</font><br><font size=-1>何</font><font color=gray size=-1>(p.235)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%B3%A1\">部</a>, <a href=\"search.php?q=%AE%B7\">捕</a>, <a href=\"search.php?q=%C3%AF\">簿</a> <a href=\"pho-rel.php?s1=b&s2=ou&s3=6\"><font size=-1>[15..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=b&s2=ou\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ou&s3=6\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=b&s3=6\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>步驟, 步行, 步槍<a href=\"#1\" onClick=\"xid_down('bou6_detial')\"><font size=\"-1\">[2..]</font></a></div><div id=\"bou6_detial\" style=\"display: none\">步軍, 步光</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "fau6",
+        "text": "f au 6 李 (p.149) 阜 , 峊 , 緮 [5..] --選擇-- 同聲同韻 同韻同調 同聲同調 同「埠」字"
+      },
+      {
+        "reading": "bou6",
+        "text": "b ou 6 黃 (p.33) 周 (p.83) 李 (p.149) 何 (p.235) 部 , 捕 , 簿 [15..] --選擇-- 同聲同韻 同韻同調 同聲同調 步驟, 步行, 步槍 [2..] 步軍, 步光"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "休",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%F0",
+    "readings": [
+      "jau1",
+      "nau2",
+      "heoi2",
+      "jyu3"
+    ],
+    "selectedReading": "jau1",
+    "selectedNoTone": "jau",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "j au 1 黃 (p.12) 周 (p.4) 李 (p.110) 何 (p.78) 憂 , 銝 , 脙 [26..] --選擇-- 同聲同韻 同韻同調 同聲同調 休閒, 休息, 休假 [6..] 休會, 休憩, 休克, 休養, 休止, 休想",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>j</font><font color=green size=+1>au</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=jau1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.12)</font><br><font size=-1>周</font><font color=gray size=-1>(p.4)</font><br><font size=-1>李</font><font color=gray size=-1>(p.110)</font><br><font size=-1>何</font><font color=gray size=-1>(p.78)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%BC%7E\">憂</a>, <a href=\"search.php?q=%E4%B8\">銝</a>, <a href=\"search.php?q=%D7G\">脙</a> <a href=\"pho-rel.php?s1=j&s2=au&s3=1\"><font size=-1>[26..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=j&s2=au\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=au&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=j&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>休閒, 休息, 休假<a href=\"#1\" onClick=\"xid_down('jau1_detial')\"><font size=\"-1\">[6..]</font></a></div><div id=\"jau1_detial\" style=\"display: none\">休會, 休憩, 休克, 休養, 休止, 休想</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "jau1",
+        "text": "j au 1 黃 (p.12) 周 (p.4) 李 (p.110) 何 (p.78) 憂 , 銝 , 脙 [26..] --選擇-- 同聲同韻 同韻同調 同聲同調 休閒, 休息, 休假 [6..] 休會, 休憩, 休克, 休養, 休止, 休想"
+      },
+      {
+        "reading": "nau2",
+        "text": "n au 2 李 (p.110) 紐 , 扭 , 妞 [5..] --選擇-- 同聲同韻 同韻同調 同聲同調 休屠 (匈奴王號)"
+      },
+      {
+        "reading": "heoi2",
+        "text": "h eoi 2 李 (p.110) 栩 , 詡 , 欨 [13..] --選擇-- 同聲同韻 同韻同調 同聲同調 「休jyu3」的異讀字"
+      },
+      {
+        "reading": "jyu3",
+        "text": "j yu 3 李 (p.110) 棜 , 飫 , 醧 [8..] --選擇-- 同聲同韻 同韻同調 同聲同調 同「煦」字"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "息",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%A7",
+    "readings": [
+      "sak1",
+      "sik1"
+    ],
+    "selectedReading": "sik1",
+    "selectedNoTone": "sik",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "s ik 1 黃 (p.32) 周 (p.55) 李 (p.258) 何 (p.231) 蒠 , 窸 , 軾 [54..] --選擇-- 同聲同韻 同韻同調 同聲同調 休息, 安息, 氣息 [3..] 利息, 平息, 消息",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>s</font><font color=green size=+1>ik</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=sik1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.32)</font><br><font size=-1>周</font><font color=gray size=-1>(p.55)</font><br><font size=-1>李</font><font color=gray size=-1>(p.258)</font><br><font size=-1>何</font><font color=gray size=-1>(p.231)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%E3%CD\">蒠</a>, <a href=\"search.php?q=%EA%B3\">窸</a>, <a href=\"search.php?q=%B8%FD\">軾</a> <a href=\"pho-rel.php?s1=s&s2=ik&s3=1\"><font size=-1>[54..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=s&s2=ik\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ik&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=s&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>休息, 安息, 氣息<a href=\"#1\" onClick=\"xid_down('sik1_detial')\"><font size=\"-1\">[3..]</font></a></div><div id=\"sik1_detial\" style=\"display: none\">利息, 平息, 消息</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "sak1",
+        "text": "s ak 1 李 (p.258) 揌 , 塞 --選擇-- 同聲同韻 同韻同調 同聲同調 粵語用字，意指孫兒的子女"
+      },
+      {
+        "reading": "sik1",
+        "text": "s ik 1 黃 (p.32) 周 (p.55) 李 (p.258) 何 (p.231) 蒠 , 窸 , 軾 [54..] --選擇-- 同聲同韻 同韻同調 同聲同調 休息, 安息, 氣息 [3..] 利息, 平息, 消息"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "心",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%DF",
+    "readings": [
+      "sam1"
+    ],
+    "selectedReading": "sam1",
+    "selectedNoTone": "sam",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "s am 1 黃 (p.14) 周 (p.53) 李 (p.42) 何 (p.95) 堔 , 森 , 杺 [15..] --選擇-- 同聲同韻 同韻同調 同聲同調 心理, 心態, 心情 [14..] 心靈, 心聲, 心臟, 心得, 心願, 心血, 心意, 心境, 心虛, 心機, 機心, 心存僥倖, 心有餘悸, 心灰意冷",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>s</font><font color=green size=+1>am</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=sam1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.14)</font><br><font size=-1>周</font><font color=gray size=-1>(p.53)</font><br><font size=-1>李</font><font color=gray size=-1>(p.42)</font><br><font size=-1>何</font><font color=gray size=-1>(p.95)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%D4%AE\">堔</a>, <a href=\"search.php?q=%B4%CB\">森</a>, <a href=\"search.php?q=%CC%DF\">杺</a> <a href=\"pho-rel.php?s1=s&s2=am&s3=1\"><font size=-1>[15..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=s&s2=am\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=am&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=s&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>心理, 心態, 心情<a href=\"#1\" onClick=\"xid_down('sam1_detial')\"><font size=\"-1\">[14..]</font></a></div><div id=\"sam1_detial\" style=\"display: none\">心靈, 心聲, 心臟, 心得, 心願, 心血, 心意, 心境, 心虛, 心機, 機心, 心存僥倖, 心有餘悸, 心灰意冷</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "sam1",
+        "text": "s am 1 黃 (p.14) 周 (p.53) 李 (p.42) 何 (p.95) 堔 , 森 , 杺 [15..] --選擇-- 同聲同韻 同韻同調 同聲同調 心理, 心態, 心情 [14..] 心靈, 心聲, 心臟, 心得, 心願, 心血, 心意, 心境, 心虛, 心機, 機心, 心存僥倖, 心有餘悸, 心灰意冷"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "手",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%E2",
+    "readings": [
+      "sau2"
+    ],
+    "selectedReading": "sau2",
+    "selectedNoTone": "sau",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "s au 2 黃 (p.13) 周 (p.60) 李 (p.38) 何 (p.86) 藪 , 叟 , 潃 [18..] --選擇-- 同聲同韻 同韻同調 同聲同調 手槍, 手續, 手段 [4..] 手法, 手術, 手指, 手掌",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>s</font><font color=green size=+1>au</font><font color=blue size=+1>2</font></td>\n    <td align=center><a href=\"sound.php?s=sau2\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.13)</font><br><font size=-1>周</font><font color=gray size=-1>(p.60)</font><br><font size=-1>李</font><font color=gray size=-1>(p.38)</font><br><font size=-1>何</font><font color=gray size=-1>(p.86)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%C3%C1\">藪</a>, <a href=\"search.php?q=%AD%EE\">叟</a>, <a href=\"search.php?q=%E2%AD\">潃</a> <a href=\"pho-rel.php?s1=s&s2=au&s3=2\"><font size=-1>[18..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=s&s2=au\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=au&s3=2\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=s&s3=2\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>手槍, 手續, 手段<a href=\"#1\" onClick=\"xid_down('sau2_detial')\"><font size=\"-1\">[4..]</font></a></div><div id=\"sau2_detial\" style=\"display: none\">手法, 手術, 手指, 手掌</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "sau2",
+        "text": "s au 2 黃 (p.13) 周 (p.60) 李 (p.38) 何 (p.86) 藪 , 叟 , 潃 [18..] --選擇-- 同聲同韻 同韻同調 同聲同調 手槍, 手續, 手段 [4..] 手法, 手術, 手指, 手掌"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "舞",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BBR",
+    "readings": [
+      "mou5"
+    ],
+    "selectedReading": "mou5",
+    "selectedNoTone": "mou",
+    "selectionReason": "手舞足蹈之舞，mou5。",
+    "selectedEvidenceText": "m ou 5 黃 (p.34) 周 (p.142) 李 (p.117,310) 何 (p.242) 碔 , 躌 , 峔 [22..] --選擇-- 同聲同韻 同韻同調 同聲同調 舞蹈, 歌舞, 舞文弄墨 [3..] 舞弊, 舞獅, 舞劍",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>m</font><font color=green size=+1>ou</font><font color=blue size=+1>5</font></td>\n    <td align=center><a href=\"sound.php?s=mou5\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.34)</font><br><font size=-1>周</font><font color=gray size=-1>(p.142)</font><br><font size=-1>李</font><font color=gray size=-1>(p.117,310)</font><br><font size=-1>何</font><font color=gray size=-1>(p.242)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%DE%E6\">碔</a>, <a href=\"search.php?q=%F6V\">躌</a>, <a href=\"search.php?q=%CE%A8\">峔</a> <a href=\"pho-rel.php?s1=m&s2=ou&s3=5\"><font size=-1>[22..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=m&s2=ou\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ou&s3=5\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=m&s3=5\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>舞蹈, 歌舞, 舞文弄墨<a href=\"#1\" onClick=\"xid_down('mou5_detial')\"><font size=\"-1\">[3..]</font></a></div><div id=\"mou5_detial\" style=\"display: none\">舞弊, 舞獅, 舞劍</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "mou5",
+        "text": "m ou 5 黃 (p.34) 周 (p.142) 李 (p.117,310) 何 (p.242) 碔 , 躌 , 峔 [22..] --選擇-- 同聲同韻 同韻同調 同聲同調 舞蹈, 歌舞, 舞文弄墨 [3..] 舞弊, 舞獅, 舞劍"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "足",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%AC",
+    "readings": [
+      "zeoi3",
+      "zuk1",
+      "zyu3"
+    ],
+    "selectedReading": "zuk1",
+    "selectedNoTone": "zuk",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "z uk 1 黃 (p.49) 周 (p.170) 李 (p.150) 何 (p.359) 燭 , 斸 , 欘 [44..] --選擇-- 同聲同韻 同韻同調 同聲同調 足下, 足本, 足音 [6..] 足球, 足歲, 足音跫然, 足智多謀, 手足, 充足",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>z</font><font color=green size=+1>uk</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=zuk1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.49)</font><br><font size=-1>周</font><font color=gray size=-1>(p.170)</font><br><font size=-1>李</font><font color=gray size=-1>(p.150)</font><br><font size=-1>何</font><font color=gray size=-1>(p.359)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%C0%EB\">燭</a>, <a href=\"search.php?q=%F8%F0\">斸</a>, <a href=\"search.php?q=%F8%F1\">欘</a> <a href=\"pho-rel.php?s1=z&s2=uk&s3=1\"><font size=-1>[44..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=z&s2=uk\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=uk&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=z&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>足下, 足本, 足音<a href=\"#1\" onClick=\"xid_down('zuk1_detial')\"><font size=\"-1\">[6..]</font></a></div><div id=\"zuk1_detial\" style=\"display: none\">足球, 足歲, 足音跫然, 足智多謀, 手足, 充足</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "zeoi3",
+        "text": "z eoi 3 黃 (p.40) 周 (p.170) 李 (p.150) 醉 , 最 , 鋷 [18..] --選擇-- 同聲同韻 同韻同調 同聲同調 足恭 (過於謙恭。語出《論語˙公冶長》)"
+      },
+      {
+        "reading": "zuk1",
+        "text": "z uk 1 黃 (p.49) 周 (p.170) 李 (p.150) 何 (p.359) 燭 , 斸 , 欘 [44..] --選擇-- 同聲同韻 同韻同調 同聲同調 足下, 足本, 足音 [6..] 足球, 足歲, 足音跫然, 足智多謀, 手足, 充足"
+      },
+      {
+        "reading": "zyu3",
+        "text": "z yu 3 何 (p.368) 罜 , 軴 , 祩 [15..] --選擇-- 同聲同韻 同韻同調 同聲同調 「足zeoi3」的異讀字"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "蹈",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1%D0",
+    "readings": [
+      "dou6",
+      "tou1"
+    ],
+    "selectedReading": "dou6",
+    "selectedNoTone": "dou",
+    "selectionReason": "手舞足蹈之蹈，dou6。",
+    "selectedEvidenceText": "d ou 6 黃 (p.33) 周 (p.172) 李 (p.254) 何 (p.236) 檤 , 導 , 渡 [16..] --選擇-- 同聲同韻 同韻同調 同聲同調 蹈海, 蹈常習故, 舞蹈 [3..] 重蹈覆轍, 手舞足蹈, 赴湯蹈火",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>d</font><font color=green size=+1>ou</font><font color=blue size=+1>6</font></td>\n    <td align=center><a href=\"sound.php?s=dou6\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.33)</font><br><font size=-1>周</font><font color=gray size=-1>(p.172)</font><br><font size=-1>李</font><font color=gray size=-1>(p.254)</font><br><font size=-1>何</font><font color=gray size=-1>(p.236)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%EDC\">檤</a>, <a href=\"search.php?q=%BE%C9\">導</a>, <a href=\"search.php?q=%B4%E7\">渡</a> <a href=\"pho-rel.php?s1=d&s2=ou&s3=6\"><font size=-1>[16..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=d&s2=ou\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ou&s3=6\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=d&s3=6\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>蹈海, 蹈常習故, 舞蹈<a href=\"#1\" onClick=\"xid_down('dou6_detial')\"><font size=\"-1\">[3..]</font></a></div><div id=\"dou6_detial\" style=\"display: none\">重蹈覆轍, 手舞足蹈, 赴湯蹈火</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "dou6",
+        "text": "d ou 6 黃 (p.33) 周 (p.172) 李 (p.254) 何 (p.236) 檤 , 導 , 渡 [16..] --選擇-- 同聲同韻 同韻同調 同聲同調 蹈海, 蹈常習故, 舞蹈 [3..] 重蹈覆轍, 手舞足蹈, 赴湯蹈火"
+      },
+      {
+        "reading": "tou1",
+        "text": "t ou 1 張群顯 縚 , 嶀 , 唋 [17..] --選擇-- 同聲同韻 同韻同調 同聲同調 「蹈dou6」的異讀字"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "收",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%AC",
+    "readings": [
+      "sau1"
+    ],
+    "selectedReading": "sau1",
+    "selectedNoTone": "sau",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "s au 1 黃 (p.13) 周 (p.68) 李 (p.6) 何 (p.85) 獀 , 鎀 , 臹 [22..] --選擇-- 同聲同韻 同韻同調 同聲同調 收入, 收費, 收購 [3..] 收獲, 沒收, 美不勝收",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>s</font><font color=green size=+1>au</font><font color=blue size=+1>1</font></td>\n    <td align=center><a href=\"sound.php?s=sau1\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.13)</font><br><font size=-1>周</font><font color=gray size=-1>(p.68)</font><br><font size=-1>李</font><font color=gray size=-1>(p.6)</font><br><font size=-1>何</font><font color=gray size=-1>(p.85)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%DE%AE\">獀</a>, <a href=\"search.php?q=%EE%EB\">鎀</a>, <a href=\"search.php?q=%DBV\">臹</a> <a href=\"pho-rel.php?s1=s&s2=au&s3=1\"><font size=-1>[22..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=s&s2=au\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=au&s3=1\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=s&s3=1\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>收入, 收費, 收購<a href=\"#1\" onClick=\"xid_down('sau1_detial')\"><font size=\"-1\">[3..]</font></a></div><div id=\"sau1_detial\" style=\"display: none\">收獲, 沒收, 美不勝收</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "sau1",
+        "text": "s au 1 黃 (p.13) 周 (p.68) 李 (p.6) 何 (p.85) 獀 , 鎀 , 臹 [22..] --選擇-- 同聲同韻 同韻同調 同聲同調 收入, 收費, 收購 [3..] 收獲, 沒收, 美不勝收"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "到",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%EC",
+    "readings": [
+      "dou3"
+    ],
+    "selectedReading": "dou3",
+    "selectedNoTone": "dou",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "d ou 3 黃 (p.33) 周 (p.13) 李 (p.194) 何 (p.236) 妒 , 蠹 , 倒 [7..] --選擇-- 同聲同韻 同韻同調 同聲同調 到底, 到場, 到處 [9..] 到達, 到期, 到來, 到任, 碰到, 到家, 料到, 報到, 獨到之見",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>d</font><font color=green size=+1>ou</font><font color=blue size=+1>3</font></td>\n    <td align=center><a href=\"sound.php?s=dou3\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.33)</font><br><font size=-1>周</font><font color=gray size=-1>(p.13)</font><br><font size=-1>李</font><font color=gray size=-1>(p.194)</font><br><font size=-1>何</font><font color=gray size=-1>(p.236)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%A7%AA\">妒</a>, <a href=\"search.php?q=%C5%FB\">蠹</a>, <a href=\"search.php?q=%AD%CB\">倒</a> <a href=\"pho-rel.php?s1=d&s2=ou&s3=3\"><font size=-1>[7..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=d&s2=ou\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ou&s3=3\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=d&s3=3\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>到底, 到場, 到處<a href=\"#1\" onClick=\"xid_down('dou3_detial')\"><font size=\"-1\">[9..]</font></a></div><div id=\"dou3_detial\" style=\"display: none\">到達, 到期, 到來, 到任, 碰到, 到家, 料到, 報到, 獨到之見</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "dou3",
+        "text": "d ou 3 黃 (p.33) 周 (p.13) 李 (p.194) 何 (p.236) 妒 , 蠹 , 倒 [7..] --選擇-- 同聲同韻 同韻同調 同聲同調 到底, 到場, 到處 [9..] 到達, 到期, 到來, 到任, 碰到, 到家, 料到, 報到, 獨到之見"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "禮",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%A7",
+    "readings": [
+      "lai5"
+    ],
+    "selectedReading": "lai5",
+    "selectedNoTone": "lai",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "l ai 5 黃 (p.10) 周 (p.120) 李 (p.338) 何 (p.65) 醴 , 澧 , 豊 [6..] --選擇-- 同聲同韻 同韻同調 同聲同調 禮貌, 典禮, 分庭抗禮 [9..] 禮讓, 禮拜, 禮儀, 禮遇, 禮數, 禮尚往來, 禮賢下士, 聘禮, 禮義廉恥",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>l</font><font color=green size=+1>ai</font><font color=blue size=+1>5</font></td>\n    <td align=center><a href=\"sound.php?s=lai5\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.10)</font><br><font size=-1>周</font><font color=gray size=-1>(p.120)</font><br><font size=-1>李</font><font color=gray size=-1>(p.338)</font><br><font size=-1>何</font><font color=gray size=-1>(p.65)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%C4%BF\">醴</a>, <a href=\"search.php?q=%BFC\">澧</a>, <a href=\"search.php?q=%E0T\">豊</a> <a href=\"pho-rel.php?s1=l&s2=ai&s3=5\"><font size=-1>[6..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=l&s2=ai\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=ai&s3=5\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=l&s3=5\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>禮貌, 典禮, 分庭抗禮<a href=\"#1\" onClick=\"xid_down('lai5_detial')\"><font size=\"-1\">[9..]</font></a></div><div id=\"lai5_detial\" style=\"display: none\">禮讓, 禮拜, 禮儀, 禮遇, 禮數, 禮尚往來, 禮賢下士, 聘禮, 禮義廉恥</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "lai5",
+        "text": "l ai 5 黃 (p.10) 周 (p.120) 李 (p.338) 何 (p.65) 醴 , 澧 , 豊 [6..] --選擇-- 同聲同韻 同韻同調 同聲同調 禮貌, 典禮, 分庭抗禮 [9..] 禮讓, 禮拜, 禮儀, 禮遇, 禮數, 禮尚往來, 禮賢下士, 聘禮, 禮義廉恥"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "物",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%AB",
+    "readings": [
+      "mat6"
+    ],
+    "selectedReading": "mat6",
+    "selectedNoTone": "mat",
+    "selectionReason": "按本句字義選用字庫所列讀音。",
+    "selectedEvidenceText": "m at 6 黃 (p.18) 周 (p.100) 李 (p.40) 何 (p.129) 蜜 , 礣 , 粅 [17..] --選擇-- 同聲同韻 同韻同調 同聲同調 物價, 物品, 物質 [7..] 物資, 物美價廉, 物盡其用, 物競天擇, 物極必反, 物換星移, 物以類聚",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>m</font><font color=green size=+1>at</font><font color=blue size=+1>6</font></td>\n    <td align=center><a href=\"sound.php?s=mat6\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.18)</font><br><font size=-1>周</font><font color=gray size=-1>(p.100)</font><br><font size=-1>李</font><font color=gray size=-1>(p.40)</font><br><font size=-1>何</font><font color=gray size=-1>(p.129)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%BBe\">蜜</a>, <a href=\"search.php?q=%F4z\">礣</a>, <a href=\"search.php?q=%D3O\">粅</a> <a href=\"pho-rel.php?s1=m&s2=at&s3=6\"><font size=-1>[17..]</font></a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=m&s2=at\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=at&s3=6\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=m&s3=6\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>物價, 物品, 物質<a href=\"#1\" onClick=\"xid_down('mat6_detial')\"><font size=\"-1\">[7..]</font></a></div><div id=\"mat6_detial\" style=\"display: none\">物資, 物美價廉, 物盡其用, 物競天擇, 物極必反, 物換星移, 物以類聚</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "mat6",
+        "text": "m at 6 黃 (p.18) 周 (p.100) 李 (p.40) 何 (p.129) 蜜 , 礣 , 粅 [17..] --選擇-- 同聲同韻 同韻同調 同聲同調 物價, 物品, 物質 [7..] 物資, 物美價廉, 物盡其用, 物競天擇, 物極必反, 物換星移, 物以類聚"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "說",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BB%A1",
+    "readings": [
+      "seoi3",
+      "jyut6",
+      "syut3"
+    ],
+    "selectedReading": "syut3",
+    "selectedNoTone": "syut",
+    "selectionReason": "表示說話，選用 syut3。",
+    "selectedEvidenceText": "s yut 3 黃 (p.53) 周 (p.163) 李 (p.136) 何 (p.389) 雪 , 鱈 , 唰 --選擇-- 同聲同韻 同韻同調 同聲同調 說明, 說笑, 說話 [4..] 說教, 說謊, 小說, 傳說",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>s</font><font color=green size=+1>yut</font><font color=blue size=+1>3</font></td>\n    <td align=center><a href=\"sound.php?s=syut3\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.53)</font><br><font size=-1>周</font><font color=gray size=-1>(p.163)</font><br><font size=-1>李</font><font color=gray size=-1>(p.136)</font><br><font size=-1>何</font><font color=gray size=-1>(p.389)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%B3%B7\">雪</a>, <a href=\"search.php?q=%F7%AB\">鱈</a>, <a href=\"search.php?q=%D4%7C\">唰</a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=s&s2=yut\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=yut&s3=3\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=s&s3=3\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>說明, 說笑, 說話<a href=\"#1\" onClick=\"xid_down('syut3_detial')\"><font size=\"-1\">[4..]</font></a></div><div id=\"syut3_detial\" style=\"display: none\">說教, 說謊, 小說, 傳說</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "seoi3",
+        "text": "s eoi 3 黃 (p.41) 周 (p.163) 李 (p.136) 何 (p.301) 歲 , 碎 , 涗 [14..] --選擇-- 同聲同韻 同韻同調 同聲同調 說服, 遊說, 說客"
+      },
+      {
+        "reading": "jyut6",
+        "text": "j yut 6 黃 (p.53) 周 (p.163) 李 (p.136) 何 (p.388) 蚎 , 樾 , 鉞 [35..] --選擇-- 同聲同韻 同韻同調 同聲同調 同「悅」字"
+      },
+      {
+        "reading": "syut3",
+        "text": "s yut 3 黃 (p.53) 周 (p.163) 李 (p.136) 何 (p.389) 雪 , 鱈 , 唰 --選擇-- 同聲同韻 同韻同調 同聲同調 說明, 說笑, 說話 [4..] 說教, 說謊, 小說, 傳說"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  },
+  {
+    "character": "謝",
+    "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1%C2",
+    "readings": [
+      "ze6"
+    ],
+    "selectedReading": "ze6",
+    "selectedNoTone": "ze",
+    "selectionReason": "說謝謝之謝，選用字庫正讀 ze6；不加入口語變調。",
+    "selectedEvidenceText": "z e 6 黃 (p.21) 周 (p.164) 李 (p.259) 何 (p.146) 榭 , 藉 --選擇-- 同聲同韻 同韻同調 同聲同調 謝忱, 凋謝, 敬謝不敏 [14..] 謝恩, 謝意, 謝禮, 謝罪, 謝絕, 謝幕, 謝師宴, 答謝, 道謝, 鳴謝, 感謝, 酬謝, 辭謝, 新陳代謝",
+    "selectedEvidenceHtml": "<tr>\n    <td nowrap align=center><font color=red size=+1>z</font><font color=green size=+1>e</font><font color=blue size=+1>6</font></td>\n    <td align=center><a href=\"sound.php?s=ze6\" target=sound><img src=\"img/sounder.gif\" border=0></a></td>\n\t<td nowrap><font size=-1>黃</font><font color=gray size=-1>(p.21)</font><br><font size=-1>周</font><font color=gray size=-1>(p.164)</font><br><font size=-1>李</font><font color=gray size=-1>(p.259)</font><br><font size=-1>何</font><font color=gray size=-1>(p.146)</font></td>\n    <td nowrap>\n<a href=\"search.php?q=%BAk\">榭</a>, <a href=\"search.php?q=%C2%C7\">藉</a>\t</td>\n    <td><select onChange=\"MM_jumpMenu('self',this,0)\">\n    <option selected value=\"#\">--選擇--</option>\n    <option value=\"pho-rel.php?s1=z&s2=e\">同聲同韻</option>\n    <option value=\"pho-rel.php?s2=e&s3=6\">同韻同調</option>\n    <option value=\"pho-rel.php?s1=z&s3=6\">同聲同調</option>\n  </select></td>\n    <td><div nowrap>謝忱, 凋謝, 敬謝不敏<a href=\"#1\" onClick=\"xid_down('ze6_detial')\"><font size=\"-1\">[14..]</font></a></div><div id=\"ze6_detial\" style=\"display: none\">謝恩, 謝意, 謝禮, 謝罪, 謝絕, 謝幕, 謝師宴, 答謝, 道謝, 鳴謝, 感謝, 酬謝, 辭謝, 新陳代謝</div></td>\n  </tr>",
+    "allReadingEvidence": [
+      {
+        "reading": "ze6",
+        "text": "z e 6 黃 (p.21) 周 (p.164) 李 (p.259) 何 (p.146) 榭 , 藉 --選擇-- 同聲同韻 同韻同調 同聲同調 謝忱, 凋謝, 敬謝不敏 [14..] 謝恩, 謝意, 謝禮, 謝罪, 謝絕, 謝幕, 謝師宴, 答謝, 道謝, 鳴謝, 感謝, 酬謝, 辭謝, 新陳代謝"
+      }
+    ],
+    "retrievedOn": "2026-10-27",
+    "sourceEncoding": "Big5",
+    "tlsVerification": "ssl.create_default_context(cafile=certifi.where())"
+  }
+]

@@ -1,0 +1,2411 @@
+{
+  "version": 2,
+  "date": "2026-10-26",
+  "title": "小島生活任務",
+  "firsts": [
+    {
+      "id": "arriveHome",
+      "text": "回到家",
+      "kind": "first",
+      "jyutping": "wui dou gaa",
+      "jyutping_with_tones": "wui4 dou3 gaa1",
+      "characters": [
+        {
+          "character": "回",
+          "reading": "wui4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%5E"
+        },
+        {
+          "character": "到",
+          "reading": "dou3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%EC"
+        },
+        {
+          "character": "家",
+          "reading": "gaa1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AEa"
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "text": "放學",
+      "kind": "first",
+      "jyutping": "fong hok",
+      "jyutping_with_tones": "fong3 hok6",
+      "characters": [
+        {
+          "character": "放",
+          "reading": "fong3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%F1"
+        },
+        {
+          "character": "學",
+          "reading": "hok6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BE%C7"
+        }
+      ]
+    },
+    {
+      "id": "hungry",
+      "text": "肚餓",
+      "kind": "first",
+      "jyutping": "tou ngo",
+      "jyutping_with_tones": "tou5 ngo6",
+      "characters": [
+        {
+          "character": "肚",
+          "reading": "tou5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%7B"
+        },
+        {
+          "character": "餓",
+          "reading": "ngo6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BEj"
+        }
+      ]
+    },
+    {
+      "id": "thirsty",
+      "text": "口渴",
+      "kind": "first",
+      "jyutping": "hau hot",
+      "jyutping_with_tones": "hau2 hot3",
+      "characters": [
+        {
+          "character": "口",
+          "reading": "hau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4f"
+        },
+        {
+          "character": "渴",
+          "reading": "hot3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4%F7"
+        }
+      ]
+    },
+    {
+      "id": "wake",
+      "text": "起床",
+      "kind": "first",
+      "jyutping": "hei cong",
+      "jyutping_with_tones": "hei2 cong4",
+      "characters": [
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "床",
+          "reading": "cong4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%C9"
+        }
+      ]
+    },
+    {
+      "id": "bell",
+      "text": "聽見上課鈴",
+      "kind": "first",
+      "jyutping": "ting gin soeng fo ling",
+      "jyutping_with_tones": "ting1 gin3 soeng5 fo3 ling4",
+      "characters": [
+        {
+          "character": "聽",
+          "reading": "ting1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C5%A5"
+        },
+        {
+          "character": "見",
+          "reading": "gin3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%A3"
+        },
+        {
+          "character": "上",
+          "reading": "soeng5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4W"
+        },
+        {
+          "character": "課",
+          "reading": "fo3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BD%D2"
+        },
+        {
+          "character": "鈴",
+          "reading": "ling4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9a"
+        }
+      ]
+    },
+    {
+      "id": "park",
+      "text": "去公園",
+      "kind": "first",
+      "jyutping": "heoi gung jyun",
+      "jyutping_with_tones": "heoi3 gung1 jyun4",
+      "characters": [
+        {
+          "character": "去",
+          "reading": "heoi3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5h"
+        },
+        {
+          "character": "公",
+          "reading": "gung1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%BD"
+        },
+        {
+          "character": "園",
+          "reading": "jyun4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%E9"
+        }
+      ]
+    },
+    {
+      "id": "dirty",
+      "text": "弄髒手",
+      "kind": "first",
+      "jyutping": "lung zong sau",
+      "jyutping_with_tones": "lung6 zong1 sau2",
+      "characters": [
+        {
+          "character": "弄",
+          "reading": "lung6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%CB"
+        },
+        {
+          "character": "髒",
+          "reading": "zong1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C5%BC"
+        },
+        {
+          "character": "手",
+          "reading": "sau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%E2"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "hands",
+      "text": "洗手",
+      "kind": "result",
+      "jyutping": "sai sau",
+      "jyutping_with_tones": "sai2 sau2",
+      "characters": [
+        {
+          "character": "洗",
+          "reading": "sai2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AC~"
+        },
+        {
+          "character": "手",
+          "reading": "sau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%E2"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "text": "回家去",
+      "kind": "result",
+      "jyutping": "wui gaa heoi",
+      "jyutping_with_tones": "wui4 gaa1 heoi3",
+      "characters": [
+        {
+          "character": "回",
+          "reading": "wui4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%5E"
+        },
+        {
+          "character": "家",
+          "reading": "gaa1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AEa"
+        },
+        {
+          "character": "去",
+          "reading": "heoi3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5h"
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "text": "吃飯",
+      "kind": "result",
+      "jyutping": "hek faan",
+      "jyutping_with_tones": "hek3 faan6",
+      "characters": [
+        {
+          "character": "吃",
+          "reading": "hek3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6Y"
+        },
+        {
+          "character": "飯",
+          "reading": "faan6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%BA"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "text": "喝水",
+      "kind": "result",
+      "jyutping": "hot seoi",
+      "jyutping_with_tones": "hot3 seoi2",
+      "characters": [
+        {
+          "character": "喝",
+          "reading": "hot3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B3%DC"
+        },
+        {
+          "character": "水",
+          "reading": "seoi2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%F4"
+        }
+      ]
+    },
+    {
+      "id": "teeth",
+      "text": "刷牙",
+      "kind": "result",
+      "jyutping": "caat ngaa",
+      "jyutping_with_tones": "caat3 ngaa4",
+      "characters": [
+        {
+          "character": "刷",
+          "reading": "caat3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%EA"
+        },
+        {
+          "character": "牙",
+          "reading": "ngaa4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%FA"
+        }
+      ]
+    },
+    {
+      "id": "classroom",
+      "text": "走進課室",
+      "kind": "result",
+      "jyutping": "zau zeon fo sat",
+      "jyutping_with_tones": "zau2 zeon3 fo3 sat1",
+      "characters": [
+        {
+          "character": "走",
+          "reading": "zau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%AB"
+        },
+        {
+          "character": "進",
+          "reading": "zeon3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6i"
+        },
+        {
+          "character": "課",
+          "reading": "fo3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BD%D2"
+        },
+        {
+          "character": "室",
+          "reading": "sat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%C7"
+        }
+      ]
+    },
+    {
+      "id": "play",
+      "text": "玩耍",
+      "kind": "result",
+      "jyutping": "waan saa",
+      "jyutping_with_tones": "waan4 saa2",
+      "characters": [
+        {
+          "character": "玩",
+          "reading": "waan4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%B1"
+        },
+        {
+          "character": "耍",
+          "reading": "saa2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%ADA"
+        }
+      ]
+    },
+    {
+      "id": "skip",
+      "text": "跳繩",
+      "kind": "result",
+      "jyutping": "tiu sing",
+      "jyutping_with_tones": "tiu3 sing4",
+      "characters": [
+        {
+          "character": "跳",
+          "reading": "tiu3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B8%F5"
+        },
+        {
+          "character": "繩",
+          "reading": "sing4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%B7"
+        }
+      ]
+    },
+    {
+      "id": "homework",
+      "text": "做功課",
+      "kind": "result",
+      "jyutping": "zou gung fo",
+      "jyutping_with_tones": "zou6 gung1 fo3",
+      "characters": [
+        {
+          "character": "做",
+          "reading": "zou6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0%B5"
+        },
+        {
+          "character": "功",
+          "reading": "gung1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%5C"
+        },
+        {
+          "character": "課",
+          "reading": "fo3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BD%D2"
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "text": "穿衣服",
+      "kind": "result",
+      "jyutping": "cyun ji fuk",
+      "jyutping_with_tones": "cyun1 ji1 fuk6",
+      "characters": [
+        {
+          "character": "穿",
+          "reading": "cyun1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AC%EF"
+        },
+        {
+          "character": "衣",
+          "reading": "ji1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%E7"
+        },
+        {
+          "character": "服",
+          "reading": "fuk6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AAA"
+        }
+      ]
+    }
+  ],
+  "matrix": [
+    {
+      "first": "arriveHome",
+      "result": "hands",
+      "sentence": "我一回到家，就洗手。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "回到家後，立即洗手保持衞生。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "home",
+      "sentence": "我一回到家，就回家去。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "已經回到家，不用再回家去。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "rice",
+      "sentence": "我一回到家，就吃飯。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「回到家」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "water",
+      "sentence": "我一回到家，就喝水。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「回到家」後可以「喝水」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "teeth",
+      "sentence": "我一回到家，就刷牙。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「回到家」後可以「刷牙」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "classroom",
+      "sentence": "我一回到家，就走進課室。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "現在回到家，這裏不是課室。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "play",
+      "sentence": "我一回到家，就玩耍。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「回到家」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "skip",
+      "sentence": "我一回到家，就跳繩。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "回家後可以跳繩，但這幅圖要學的是回家後立即洗手的衞生習慣。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "homework",
+      "sentence": "我一回到家，就做功課。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "回到家後，可以接着做功課。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "arriveHome",
+      "result": "clothes",
+      "sentence": "我一回到家，就穿衣服。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「回到家」後可以「穿衣服」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "hands",
+      "sentence": "我一放學，就洗手。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "home",
+      "sentence": "我一放學，就回家去。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "放學後，立即回家去。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "rice",
+      "sentence": "我一放學，就吃飯。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "water",
+      "sentence": "我一放學，就喝水。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「喝水」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "teeth",
+      "sentence": "我一放學，就刷牙。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「刷牙」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "classroom",
+      "sentence": "我一放學，就走進課室。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "這幅圖是放學離校，應該回家去。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "play",
+      "sentence": "我一放學，就玩耍。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "skip",
+      "sentence": "我一放學，就跳繩。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「跳繩」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "homework",
+      "sentence": "我一放學，就做功課。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "school",
+      "result": "clothes",
+      "sentence": "我一放學，就穿衣服。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「放學」後可以「穿衣服」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "hands",
+      "sentence": "我一肚餓，就洗手。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "home",
+      "sentence": "我一肚餓，就回家去。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「回家去」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "rice",
+      "sentence": "我一肚餓，就吃飯。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "肚餓了，立即吃飯。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "water",
+      "sentence": "我一肚餓，就喝水。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「喝水」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "teeth",
+      "sentence": "我一肚餓，就刷牙。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「刷牙」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "classroom",
+      "sentence": "我一肚餓，就走進課室。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "圖中的小朋友需要吃飯；走進課室沒有回應肚餓的需要。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "play",
+      "sentence": "我一肚餓，就玩耍。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "skip",
+      "sentence": "我一肚餓，就跳繩。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「跳繩」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "homework",
+      "sentence": "我一肚餓，就做功課。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "hungry",
+      "result": "clothes",
+      "sentence": "我一肚餓，就穿衣服。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「肚餓」後可以「穿衣服」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "hands",
+      "sentence": "我一口渴，就洗手。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "home",
+      "sentence": "我一口渴，就回家去。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「回家去」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "rice",
+      "sentence": "我一口渴，就吃飯。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "water",
+      "sentence": "我一口渴，就喝水。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "口渴了，立即喝水。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "teeth",
+      "sentence": "我一口渴，就刷牙。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「刷牙」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "classroom",
+      "sentence": "我一口渴，就走進課室。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "圖中的小朋友需要喝水；走進課室沒有回應口渴的需要。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "play",
+      "sentence": "我一口渴，就玩耍。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "skip",
+      "sentence": "我一口渴，就跳繩。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「跳繩」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "homework",
+      "sentence": "我一口渴，就做功課。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "thirsty",
+      "result": "clothes",
+      "sentence": "我一口渴，就穿衣服。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「口渴」後可以「穿衣服」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "hands",
+      "sentence": "我一起床，就洗手。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「起床」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "home",
+      "sentence": "我一起床，就回家去。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「起床」後可以「回家去」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "rice",
+      "sentence": "我一起床，就吃飯。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「起床」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "water",
+      "sentence": "我一起床，就喝水。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "起床後，可以立即喝水。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "teeth",
+      "sentence": "我一起床，就刷牙。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "起床後，立即刷牙。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "classroom",
+      "sentence": "我一起床，就走進課室。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「起床」後可以「走進課室」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "play",
+      "sentence": "我一起床，就玩耍。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「起床」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "skip",
+      "sentence": "我一起床，就跳繩。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「起床」後可以「跳繩」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "homework",
+      "sentence": "我一起床，就做功課。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「起床」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "wake",
+      "result": "clothes",
+      "sentence": "我一起床，就穿衣服。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "起床後，立即穿衣服。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "hands",
+      "sentence": "我一聽見上課鈴，就洗手。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「聽見上課鈴」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "home",
+      "sentence": "我一聽見上課鈴，就回家去。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "現在是上課時間，應先走進課室。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "rice",
+      "sentence": "我一聽見上課鈴，就吃飯。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「聽見上課鈴」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "water",
+      "sentence": "我一聽見上課鈴，就喝水。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「聽見上課鈴」後可以「喝水」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "teeth",
+      "sentence": "我一聽見上課鈴，就刷牙。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「聽見上課鈴」後可以「刷牙」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "classroom",
+      "sentence": "我一聽見上課鈴，就走進課室。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "聽見上課鈴，立即走進課室。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "play",
+      "sentence": "我一聽見上課鈴，就玩耍。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "上課鈴響了，應先走進課室。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "skip",
+      "sentence": "我一聽見上課鈴，就跳繩。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "上課鈴響了，應先走進課室。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "homework",
+      "sentence": "我一聽見上課鈴，就做功課。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「聽見上課鈴」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "bell",
+      "result": "clothes",
+      "sentence": "我一聽見上課鈴，就穿衣服。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "小朋友已穿好校服，現在應走進課室。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "hands",
+      "sentence": "我一去公園，就洗手。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「去公園」後可以「洗手」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "home",
+      "sentence": "我一去公園，就回家去。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「去公園」後可以「回家去」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "rice",
+      "sentence": "我一去公園，就吃飯。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「去公園」後可以「吃飯」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "water",
+      "sentence": "我一去公園，就喝水。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「去公園」後可以「喝水」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "teeth",
+      "sentence": "我一去公園，就刷牙。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "這幅圖是在公園遊玩，沒有刷牙的用品。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "classroom",
+      "sentence": "我一去公園，就走進課室。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "這裏是公園，不是課室。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "play",
+      "sentence": "我一去公園，就玩耍。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "到了公園，立即開始玩耍。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "skip",
+      "sentence": "我一去公園，就跳繩。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "到了公園，可以立即開始跳繩。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "homework",
+      "sentence": "我一去公園，就做功課。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "這幅圖是到公園遊玩的情境，做功課不貼切。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "park",
+      "result": "clothes",
+      "sentence": "我一去公園，就穿衣服。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "小朋友已穿好衣服來到公園，現在應開始活動。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "hands",
+      "sentence": "我一弄髒手，就洗手。",
+      "grade": "correct",
+      "award_fish": true,
+      "student_feedback": "弄髒手後，立即洗手。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "home",
+      "sentence": "我一弄髒手，就回家去。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「弄髒手」後可以「回家去」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "rice",
+      "sentence": "我一弄髒手，就吃飯。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "雙手還有泥污，應先洗手再吃飯。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "water",
+      "sentence": "我一弄髒手，就喝水。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「弄髒手」後可以「喝水」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "teeth",
+      "sentence": "我一弄髒手，就刷牙。",
+      "grade": "unsuitable",
+      "award_fish": false,
+      "student_feedback": "雙手還有泥污，應先洗手再刷牙。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "classroom",
+      "sentence": "我一弄髒手，就走進課室。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「弄髒手」後可以「走進課室」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "play",
+      "sentence": "我一弄髒手，就玩耍。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「弄髒手」後可以「玩耍」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "skip",
+      "sentence": "我一弄髒手，就跳繩。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「弄髒手」後可以「跳繩」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "homework",
+      "sentence": "我一弄髒手，就做功課。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「弄髒手」後可以「做功課」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    },
+    {
+      "first": "dirty",
+      "result": "clothes",
+      "sentence": "我一弄髒手，就穿衣服。",
+      "grade": "weak",
+      "award_fish": false,
+      "student_feedback": "「弄髒手」後可以「穿衣服」，但這幅圖沒有清楚顯示兩件事緊接的聯繫。",
+      "scope": "本課具體生活情境的貼切程度；不是一般語法的絕對對錯"
+    }
+  ],
+  "third_game_levels": [
+    {
+      "id": "light",
+      "category": "家庭",
+      "sentence": "我一按開關，燈就亮起來了。",
+      "prompt": "我一按開關，燈就「？」。",
+      "action": "按開關",
+      "result": "亮起來了",
+      "animation": "初始燈熄滅；按下開關後，電線亮點傳至燈，燈立即亮起。",
+      "action_vocabulary": {
+        "id": "lightAction",
+        "text": "按開關",
+        "kind": "action",
+        "jyutping": "on hoi gwaan",
+        "jyutping_with_tones": "on3 hoi1 gwaan1",
+        "characters": [
+          {
+            "character": "按",
+            "reading": "on3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%F6"
+          },
+          {
+            "character": "開",
+            "reading": "hoi1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+          },
+          {
+            "character": "關",
+            "reading": "gwaan1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%F6"
+          }
+        ]
+      },
+      "result_vocabulary": {
+        "id": "lightResult",
+        "text": "亮起來了",
+        "kind": "result",
+        "jyutping": "loeng hei loi liu",
+        "jyutping_with_tones": "loeng6 hei2 loi4 liu5",
+        "characters": [
+          {
+            "character": "亮",
+            "reading": "loeng6",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%ABG"
+          },
+          {
+            "character": "起",
+            "reading": "hei2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ]
+      },
+      "sentence_jyutping": "ngo jat on hoi gwaan ， dang zau loeng hei loi liu 。",
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "按",
+          "reading": "on3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%F6"
+        },
+        {
+          "character": "開",
+          "reading": "hoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+        },
+        {
+          "character": "關",
+          "reading": "gwaan1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%F6"
+        },
+        {
+          "character": "燈",
+          "reading": "dang1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BFO"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "亮",
+          "reading": "loeng6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%ABG"
+        },
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "replaceIndex": 1,
+      "id": "zip",
+      "kind": "zip",
+      "category": "家庭",
+      "sentence": "我一拉上拉鏈，書包就合上了。",
+      "prompt": "我一拉上拉鏈，書包就「？」。",
+      "action": "拉上拉鏈",
+      "result": "合上了",
+      "result_fragment": "合上了",
+      "preconditions": "書包初始拉鏈敞開、兩邊已咬合；手把拉頭沿正確方向拉到底，開口立即合上。",
+      "animation": "拉頭沿拉鏈移動，兩側齒鏈在其後即刻咬合；保持書包比例和尺寸不變。",
+      "action_vocabulary": {
+        "id": "zipAction",
+        "text": "拉上拉鏈",
+        "jyutping": "laai soeng laai lin",
+        "jyutping_with_tones": "laai1 soeng5 laai1 lin4",
+        "characters": [
+          {
+            "character": "拉",
+            "reading": "laai1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%D4"
+          },
+          {
+            "character": "上",
+            "reading": "soeng5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4W"
+          },
+          {
+            "character": "拉",
+            "reading": "laai1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%D4"
+          },
+          {
+            "character": "鏈",
+            "reading": "lin4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%EC"
+          }
+        ],
+        "kind": "action"
+      },
+      "result_vocabulary": {
+        "id": "zipResultFragment",
+        "text": "合上了",
+        "jyutping": "hap soeng liu",
+        "jyutping_with_tones": "hap6 soeng5 liu5",
+        "characters": [
+          {
+            "character": "合",
+            "reading": "hap6",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6X"
+          },
+          {
+            "character": "上",
+            "reading": "soeng5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4W"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ],
+        "kind": "result"
+      },
+      "result_fragment_vocabulary": {
+        "id": "zipResultFragment",
+        "text": "合上了",
+        "jyutping": "hap soeng liu",
+        "jyutping_with_tones": "hap6 soeng5 liu5",
+        "characters": [
+          {
+            "character": "合",
+            "reading": "hap6",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6X"
+          },
+          {
+            "character": "上",
+            "reading": "soeng5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4W"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ],
+        "kind": "result"
+      },
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "拉",
+          "reading": "laai1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%D4"
+        },
+        {
+          "character": "上",
+          "reading": "soeng5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4W"
+        },
+        {
+          "character": "鏈",
+          "reading": "lin4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%EC"
+        },
+        {
+          "character": "書",
+          "reading": "syu1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%D1"
+        },
+        {
+          "character": "包",
+          "reading": "baau1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%5D"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "合",
+          "reading": "hap6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6X"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "replaceIndex": 2,
+      "id": "fan",
+      "kind": "fan",
+      "category": "家庭",
+      "sentence": "我一按風扇按鈕，風扇就轉起來了。",
+      "prompt": "我一按風扇按鈕，風扇就「？」。",
+      "action": "按風扇按鈕",
+      "result": "轉起來了",
+      "result_fragment": "轉起來了",
+      "preconditions": "風扇初始關機，插頭已接電；按的是啟動按鈕。",
+      "animation": "按下按鈕後，扇葉立即從靜止轉動；機身和防護罩保持靜止，氣流線出現在風扇前方。",
+      "action_vocabulary": {
+        "id": "fanAction",
+        "text": "按風扇按鈕",
+        "jyutping": "on fung sin on nau",
+        "jyutping_with_tones": "on3 fung1 sin3 on3 nau2",
+        "characters": [
+          {
+            "character": "按",
+            "reading": "on3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%F6"
+          },
+          {
+            "character": "風",
+            "reading": "fung1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%B7"
+          },
+          {
+            "character": "扇",
+            "reading": "sin3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%B0"
+          },
+          {
+            "character": "按",
+            "reading": "on3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%F6"
+          },
+          {
+            "character": "鈕",
+            "reading": "nau2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6s"
+          }
+        ],
+        "kind": "action"
+      },
+      "result_vocabulary": {
+        "id": "fanResultFragment",
+        "text": "轉起來了",
+        "jyutping": "zyun hei loi liu",
+        "jyutping_with_tones": "zyun3 hei2 loi4 liu5",
+        "characters": [
+          {
+            "character": "轉",
+            "reading": "zyun3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%E0"
+          },
+          {
+            "character": "起",
+            "reading": "hei2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ],
+        "kind": "result"
+      },
+      "result_fragment_vocabulary": {
+        "id": "fanResultFragment",
+        "text": "轉起來了",
+        "jyutping": "zyun hei loi liu",
+        "jyutping_with_tones": "zyun3 hei2 loi4 liu5",
+        "characters": [
+          {
+            "character": "轉",
+            "reading": "zyun3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%E0"
+          },
+          {
+            "character": "起",
+            "reading": "hei2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ],
+        "kind": "result"
+      },
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "按",
+          "reading": "on3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%F6"
+        },
+        {
+          "character": "風",
+          "reading": "fung1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%B7"
+        },
+        {
+          "character": "扇",
+          "reading": "sin3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%B0"
+        },
+        {
+          "character": "鈕",
+          "reading": "nau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6s"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "轉",
+          "reading": "zyun3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%E0"
+        },
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "replaceIndex": 3,
+      "id": "stamp",
+      "kind": "stamp",
+      "category": "校園",
+      "sentence": "我一蓋印章，紙上就出現圖案。",
+      "prompt": "我一蓋印章，紙上就「？」。",
+      "action": "蓋印章",
+      "result": "出現圖案",
+      "result_fragment": "出現圖案",
+      "preconditions": "紙初始空白，印章已沾印泥；印面確實接觸紙張。",
+      "animation": "印章壓到紙上後抬起，接觸位置立即留下與印章一致的清楚圖案；圖案不提前出現。",
+      "action_vocabulary": {
+        "id": "stampAction",
+        "text": "蓋印章",
+        "jyutping": "goi jan zoeng",
+        "jyutping_with_tones": "goi3 jan3 zoeng1",
+        "characters": [
+          {
+            "character": "蓋",
+            "reading": "goi3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BB%5C"
+          },
+          {
+            "character": "印",
+            "reading": "jan3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6L"
+          },
+          {
+            "character": "章",
+            "reading": "zoeng1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B3%B9"
+          }
+        ],
+        "kind": "action"
+      },
+      "result_vocabulary": {
+        "id": "stampResultFragment",
+        "text": "出現圖案",
+        "jyutping": "ceot jin tou on",
+        "jyutping_with_tones": "ceot1 jin6 tou4 on3",
+        "characters": [
+          {
+            "character": "出",
+            "reading": "ceot1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5X"
+          },
+          {
+            "character": "現",
+            "reading": "jin6",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B2%7B"
+          },
+          {
+            "character": "圖",
+            "reading": "tou4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9%CF"
+          },
+          {
+            "character": "案",
+            "reading": "on3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%D7"
+          }
+        ],
+        "kind": "result"
+      },
+      "result_fragment_vocabulary": {
+        "id": "stampResultFragment",
+        "text": "出現圖案",
+        "jyutping": "ceot jin tou on",
+        "jyutping_with_tones": "ceot1 jin6 tou4 on3",
+        "characters": [
+          {
+            "character": "出",
+            "reading": "ceot1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5X"
+          },
+          {
+            "character": "現",
+            "reading": "jin6",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B2%7B"
+          },
+          {
+            "character": "圖",
+            "reading": "tou4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9%CF"
+          },
+          {
+            "character": "案",
+            "reading": "on3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%D7"
+          }
+        ],
+        "kind": "result"
+      },
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "蓋",
+          "reading": "goi3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BB%5C"
+        },
+        {
+          "character": "印",
+          "reading": "jan3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6L"
+        },
+        {
+          "character": "章",
+          "reading": "zoeng1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B3%B9"
+        },
+        {
+          "character": "紙",
+          "reading": "zi2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AF%C8"
+        },
+        {
+          "character": "上",
+          "reading": "soeng5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4W"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "出",
+          "reading": "ceot1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5X"
+        },
+        {
+          "character": "現",
+          "reading": "jin6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B2%7B"
+        },
+        {
+          "character": "圖",
+          "reading": "tou4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9%CF"
+        },
+        {
+          "character": "案",
+          "reading": "on3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%D7"
+        }
+      ]
+    },
+    {
+      "id": "ball",
+      "category": "活動",
+      "sentence": "我一拍球，球就彈起來了。",
+      "prompt": "我一拍球，球就「？」。",
+      "action": "拍球",
+      "result": "彈起來了",
+      "animation": "手掌把球拍向地面，球碰地後立即反彈向上。",
+      "action_vocabulary": {
+        "id": "ballAction",
+        "text": "拍球",
+        "kind": "action",
+        "jyutping": "paak kau",
+        "jyutping_with_tones": "paak3 kau4",
+        "characters": [
+          {
+            "character": "拍",
+            "reading": "paak3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%E7"
+          },
+          {
+            "character": "球",
+            "reading": "kau4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B2y"
+          }
+        ]
+      },
+      "result_vocabulary": {
+        "id": "ballResult",
+        "text": "彈起來了",
+        "kind": "result",
+        "jyutping": "daan hei loi liu",
+        "jyutping_with_tones": "daan6 hei2 loi4 liu5",
+        "characters": [
+          {
+            "character": "彈",
+            "reading": "daan6",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BCu"
+          },
+          {
+            "character": "起",
+            "reading": "hei2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ]
+      },
+      "sentence_jyutping": "ngo jat paak kau ， kau zau daan hei loi liu 。",
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "拍",
+          "reading": "paak3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%E7"
+        },
+        {
+          "character": "球",
+          "reading": "kau4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B2y"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "彈",
+          "reading": "daan6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BCu"
+        },
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "id": "windmill",
+      "category": "活動",
+      "sentence": "我一吹氣，風車就轉起來了。",
+      "prompt": "我一吹氣，風車就「？」。",
+      "action": "吹氣",
+      "result": "轉起來了",
+      "animation": "角色吹出可見氣流，固定在棒上的風車立即旋轉。",
+      "action_vocabulary": {
+        "id": "windmillAction",
+        "text": "吹氣",
+        "kind": "action",
+        "jyutping": "ceoi hei",
+        "jyutping_with_tones": "ceoi1 hei3",
+        "characters": [
+          {
+            "character": "吹",
+            "reading": "ceoi1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7j"
+          },
+          {
+            "character": "氣",
+            "reading": "hei3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%F0"
+          }
+        ]
+      },
+      "result_vocabulary": {
+        "id": "windmillResult",
+        "text": "轉起來了",
+        "kind": "result",
+        "jyutping": "zyun hei loi liu",
+        "jyutping_with_tones": "zyun3 hei2 loi4 liu5",
+        "characters": [
+          {
+            "character": "轉",
+            "reading": "zyun3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%E0"
+          },
+          {
+            "character": "起",
+            "reading": "hei2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ]
+      },
+      "sentence_jyutping": "ngo jat ceoi hei ， fung ce zau zyun hei loi liu 。",
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "吹",
+          "reading": "ceoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7j"
+        },
+        {
+          "character": "氣",
+          "reading": "hei3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%F0"
+        },
+        {
+          "character": "風",
+          "reading": "fung1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%B7"
+        },
+        {
+          "character": "車",
+          "reading": "ce1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%AE"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "轉",
+          "reading": "zyun3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C2%E0"
+        },
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "id": "doorbell",
+      "kind": "doorbell",
+      "level": 7,
+      "category": "家庭",
+      "sentence": "我一按門鈴，門鈴就響起來了。",
+      "prompt": "我一按門鈴，門鈴就「？」。",
+      "action": "按門鈴",
+      "result": "響起來了",
+      "animation": "初始門鈴靜止；按下門鈴後，鈴立即搖動並出現震動線，配合叮咚聲。",
+      "illustration_constraint": "手指接觸按鈕之後才開始響鈴；關閉聲音仍能靠震動線看懂結果。",
+      "action_vocabulary": {
+        "id": "doorbellAction",
+        "text": "按門鈴",
+        "kind": "action",
+        "jyutping": "on mun ling",
+        "jyutping_with_tones": "on3 mun4 ling4",
+        "characters": [
+          {
+            "character": "按",
+            "reading": "on3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%F6"
+          },
+          {
+            "character": "門",
+            "reading": "mun4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%F9"
+          },
+          {
+            "character": "鈴",
+            "reading": "ling4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9a"
+          }
+        ]
+      },
+      "result_vocabulary": {
+        "id": "doorbellResult",
+        "text": "響起來了",
+        "kind": "result",
+        "jyutping": "hoeng hei loi liu",
+        "jyutping_with_tones": "hoeng2 hei2 loi4 liu5",
+        "characters": [
+          {
+            "character": "響",
+            "reading": "hoeng2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C5T"
+          },
+          {
+            "character": "起",
+            "reading": "hei2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ]
+      },
+      "sentence_jyutping": "ngo jat on mun ling ， mun ling zau hoeng hei loi liu 。",
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "按",
+          "reading": "on3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%F6"
+        },
+        {
+          "character": "門",
+          "reading": "mun4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%F9"
+        },
+        {
+          "character": "鈴",
+          "reading": "ling4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9a"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "響",
+          "reading": "hoeng2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C5T"
+        },
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "id": "tap",
+      "kind": "tap",
+      "level": 8,
+      "category": "家庭",
+      "sentence": "我一開水龍頭，水就流出來了。",
+      "prompt": "我一開水龍頭，水就「？」。",
+      "action": "開水龍頭",
+      "result": "流出來了",
+      "animation": "初始水龍頭關閉且無水流；轉開把手後，水立即流進洗手盆。",
+      "illustration_constraint": "保留水龍頭把手、水嘴和盆的空間連接，水流從水嘴向下，不能從盆中反向噴出。",
+      "action_vocabulary": {
+        "id": "tapAction",
+        "text": "開水龍頭",
+        "kind": "action",
+        "jyutping": "hoi seoi lung tau",
+        "jyutping_with_tones": "hoi1 seoi2 lung4 tau4",
+        "characters": [
+          {
+            "character": "開",
+            "reading": "hoi1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+          },
+          {
+            "character": "水",
+            "reading": "seoi2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%F4"
+          },
+          {
+            "character": "龍",
+            "reading": "lung4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C0s"
+          },
+          {
+            "character": "頭",
+            "reading": "tau4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C0Y"
+          }
+        ]
+      },
+      "result_vocabulary": {
+        "id": "tapResult",
+        "text": "流出來了",
+        "kind": "result",
+        "jyutping": "lau ceot loi liu",
+        "jyutping_with_tones": "lau4 ceot1 loi4 liu5",
+        "characters": [
+          {
+            "character": "流",
+            "reading": "lau4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%ACy"
+          },
+          {
+            "character": "出",
+            "reading": "ceot1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5X"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ]
+      },
+      "sentence_jyutping": "ngo jat hoi seoi lung tau ， seoi zau lau ceot loi liu 。",
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "開",
+          "reading": "hoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+        },
+        {
+          "character": "水",
+          "reading": "seoi2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%F4"
+        },
+        {
+          "character": "龍",
+          "reading": "lung4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C0s"
+        },
+        {
+          "character": "頭",
+          "reading": "tau4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C0Y"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "流",
+          "reading": "lau4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%ACy"
+        },
+        {
+          "character": "出",
+          "reading": "ceot1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5X"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "id": "door",
+      "kind": "door",
+      "level": 9,
+      "category": "校園",
+      "sentence": "我一推門，門就打開了。",
+      "prompt": "我一推門，門就「？」。",
+      "action": "推門",
+      "result": "打開了",
+      "animation": "角色把手掌貼在沒有上鎖的課室門上，向內推，門立即繞門鉸打開。",
+      "illustration_constraint": "門必須未鎖；手掌朝推的方向移動，門板繞固定門鉸旋轉，角色與門的比例保持不變。",
+      "action_vocabulary": {
+        "id": "doorAction",
+        "text": "推門",
+        "kind": "action",
+        "jyutping": "teoi mun",
+        "jyutping_with_tones": "teoi1 mun4",
+        "characters": [
+          {
+            "character": "推",
+            "reading": "teoi1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B1%C0"
+          },
+          {
+            "character": "門",
+            "reading": "mun4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%F9"
+          }
+        ]
+      },
+      "result_vocabulary": {
+        "id": "doorResult",
+        "text": "打開了",
+        "kind": "result",
+        "jyutping": "daa hoi liu",
+        "jyutping_with_tones": "daa2 hoi1 liu5",
+        "characters": [
+          {
+            "character": "打",
+            "reading": "daa2",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%B4"
+          },
+          {
+            "character": "開",
+            "reading": "hoi1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ]
+      },
+      "sentence_jyutping": "ngo jat teoi mun ， mun zau daa hoi liu 。",
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "推",
+          "reading": "teoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B1%C0"
+        },
+        {
+          "character": "門",
+          "reading": "mun4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AA%F9"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "打",
+          "reading": "daa2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%B4"
+        },
+        {
+          "character": "開",
+          "reading": "hoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    },
+    {
+      "id": "boat",
+      "kind": "boat",
+      "level": 10,
+      "category": "活動",
+      "sentence": "我一拉繩，小船就過來了。",
+      "prompt": "我一拉繩，小船就「？」。",
+      "action": "拉繩",
+      "result": "過來了",
+      "animation": "角色站在岸邊用雙手拉繩，繩子拉緊，小船立即沿繩子朝角色靠近，尾後出現水波。",
+      "illustration_constraint": "繩子一端連着雙手，另一端連着船頭；小船移動方向必須朝岸邊角色，不可反方向；句式一→就的閱讀箭頭與場景移動方向分開處理。",
+      "action_vocabulary": {
+        "id": "boatAction",
+        "text": "拉繩",
+        "kind": "action",
+        "jyutping": "laai sing",
+        "jyutping_with_tones": "laai1 sing4",
+        "characters": [
+          {
+            "character": "拉",
+            "reading": "laai1",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%D4"
+          },
+          {
+            "character": "繩",
+            "reading": "sing4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%B7"
+          }
+        ]
+      },
+      "result_vocabulary": {
+        "id": "boatResult",
+        "text": "過來了",
+        "kind": "result",
+        "jyutping": "gwo loi liu",
+        "jyutping_with_tones": "gwo3 loi4 liu5",
+        "characters": [
+          {
+            "character": "過",
+            "reading": "gwo3",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9L"
+          },
+          {
+            "character": "來",
+            "reading": "loi4",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+          },
+          {
+            "character": "了",
+            "reading": "liu5",
+            "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+          }
+        ]
+      },
+      "sentence_jyutping": "ngo jat laai sing ， siu syun zau gwo loi liu 。",
+      "character_sources": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        },
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        },
+        {
+          "character": "拉",
+          "reading": "laai1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%D4"
+        },
+        {
+          "character": "繩",
+          "reading": "sing4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%B7"
+        },
+        {
+          "character": "小",
+          "reading": "siu2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4p"
+        },
+        {
+          "character": "船",
+          "reading": "syun4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B2%EE"
+        },
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        },
+        {
+          "character": "過",
+          "reading": "gwo3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9L"
+        },
+        {
+          "character": "來",
+          "reading": "loi4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%D3"
+        },
+        {
+          "character": "了",
+          "reading": "liu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4F"
+        }
+      ]
+    }
+  ],
+  "grading_contract": {
+    "criterion": "兩件事緊接着發生，並符合本課具體校園、家庭或活動情境；不是僅看前後兩件事在世界上能否發生。",
+    "correct": "圖像和生活情境支持緊接的承接關係，可計分及釣魚。",
+    "weak": "語法未必錯，兩件事也可能先後發生，但此題缺少貼切、緊接的聯繫；不獎勵魚，提示再選較貼切的動作。",
+    "unsuitable": "不符合本課給定場景的時間、地點、需要或衞生要求；提示原因並重選。",
+    "ui": "建議「很貼切！」／「再想一想」／「這題不貼切」，避免把弱關係統一標成語法錯誤。",
+    "scope_note": "使用固定圖像場景，才能客觀判斷本課要求；若是真正沒有情境的自由造句，不能排除個人習慣或特殊情況。"
+  },
+  "pronunciation_notes": [
+    "玩耍用 waan4 saa2，玩弄才用 wun6。",
+    "聽用中大主要字音 ting1；teng1 是該字庫所列異讀，若語音採口語 teng，應保持教學呈現一致。",
+    "球的反彈用 daan6（無聲調 daan），不是彈琴的 taan4；中大字庫列有 daan6，詞義由粵典原站的球反彈例句補證。",
+    "轉起來用旋轉義 zyun3，與轉向 zyun2 區分；無聲調皆為 zyun。",
+    "來選中大主要讀音 loi4；口語 lai4 為該字庫所列異讀。",
+    "了選主要字音 liu5；音檔須讀書面句子，不可顯示了卻任意替換成口語咗。",
+    "吃飯用 hek faan；喝水用 hot seoi，不能顯示此字卻默讀成食飯／飲水。",
+    "「我一按開關，就燈亮起來了」不自然；應使用「我一按開關，燈就亮起來了。」讓第二分句主語在就之前。"
+  ],
+  "sources": {
+    "cuhk": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/",
+    "cuhk_bounce": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BCu",
+    "bounce_sense_supplement": "https://words.hk/zidin/%E5%BD%88",
+    "character_audit": "work/cuhk-v2-audit.json"
+  },
+  "source_scope": "中大來源支持字音；生活情境與貼切程度是本課教學設計判斷，並非中大字庫對句子的判語。"
+}

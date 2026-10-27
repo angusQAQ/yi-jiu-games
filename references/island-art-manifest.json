@@ -1,0 +1,895 @@
+[
+  {
+    "kind": "lamp",
+    "filename": "island-lamp-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Use case: illustration-story / scientific-educational. Make ONE wide illustrated BEFORE/AFTER game asset, not a UI mockup. Exact composition: 2 columns × 1 row, two equal 4:3 panels side-by-side; full image 8:3 ratio, approximately 2560×960. The left half is BEFORE, right half is AFTER. No border, frame, gutters or gaps, with split at exactly 50% width. Each half must be a complete 4:3 scene with generous margins. The provided reference is ONLY for its warm, hand-painted Hong Kong primary-school textbook illustration style, NOT its grid layout. Do not copy the reference's multi-cell grid. Delicate gouache paper texture, clean warm outlines, soft cream/mint/sky-blue/honey-amber/coral colors, welcoming recognizable everyday environment. One fully clothed East Asian primary-school boy with neat black hair, rosy cheeks, normal five-finger hands, normal anatomy and child proportions. The exact SAME boy, clothes, scale, background geometry, objects and fixed camera in both halves. The only changes are the action and its immediate result. All persons and meaningful objects fully inside their own half with no cropped feet, head, hands or task objects. Use 4:3 medium-wide composition, no dramatic perspective. No text, letters, captions, labels, numerals, signatures, logos or watermarks anywhere. This is a high-quality production educational web-game illustration atlas.\nSCENE: A tidy family living room. Boy in plain blue T-shirt and navy shorts stands on the left next to a large accessible wall switch. A thick easy-to-follow gray cord runs directly from that switch to a table lamp on a low table at the right, clearly showing one connection. LEFT PANEL: Boy's finger is hovering just before pressing the switch, switch OFF, table lamp OFF, shade cream-gray, no glow. RIGHT PANEL: Same boy's fingertip clearly depresses the same switch, same positions; the cord has an obvious warm gold light pulse traveling along it, and the table lamp is now brightly illuminated with a yellow shade and gentle radiating lines. Boy smiles. Fixed scene, fixed boy scale, cord never disconnected or crossing body. Light result must be immediately obvious even without reading.",
+    "qa": "Reviewed: lamp visibly off before/on after, direct illuminated cord, full boy and intact proportions.",
+    "generator": "built-in image_gen",
+    "afterROI": {
+      "x": 775,
+      "y": 200,
+      "w": 245,
+      "h": 225,
+      "type": "glow",
+      "clip": {
+        "shape": "ellipse",
+        "cx": 897.5,
+        "cy": 312.5,
+        "rx": 122.5,
+        "ry": 112.5
+      },
+      "motion": {
+        "kind": "brightness-pulse",
+        "amplitude": 0.12,
+        "duration": 1000
+      },
+      "backgroundPatch": null
+    }
+  },
+  {
+    "kind": "bell",
+    "filename": "island-bell-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Use case: illustration-story / scientific-educational. Make ONE wide illustrated BEFORE/AFTER game asset, not a UI mockup. Exact composition: 2 columns × 1 row, two equal 4:3 panels side-by-side; full image 8:3 ratio, approximately 2560×960. The left half is BEFORE, right half is AFTER. No border, frame, gutters or gaps, with split at exactly 50% width. Each half must be a complete 4:3 scene with generous margins. The provided reference is ONLY for its warm, hand-painted Hong Kong primary-school textbook illustration style, NOT its grid layout. Do not copy the reference's multi-cell grid. Delicate gouache paper texture, clean warm outlines, soft cream/mint/sky-blue/honey-amber/coral colors, welcoming recognizable everyday environment. One fully clothed East Asian primary-school boy with neat black hair, rosy cheeks, normal five-finger hands, normal anatomy and child proportions. The exact SAME boy, clothes, scale, background geometry, objects and fixed camera in both halves. The only changes are the action and its immediate result. All persons and meaningful objects fully inside their own half with no cropped feet, head, hands or task objects. Use 4:3 medium-wide composition, no dramatic perspective. No text, letters, captions, labels, numerals, signatures, logos or watermarks anywhere. This is a high-quality production educational web-game illustration atlas.\nSCENE: A calm school hallway with an open classroom door on the right and a large brass school bell visible above the doorway. Through the doorway are a few small desks and a green chalkboard WITHOUT any writing. Boy wears white school shirt, navy shorts, white socks, dark shoes and a small blue schoolbag. LEFT PANEL: Boy stands outside the classroom to the left of its doorway, looks up attentively at the school bell; bell still, no motion marks. RIGHT PANEL: Same bell is ringing with distinct small vibration arcs, boy has heard it and is visibly walking through that same open classroom doorway, one foot lifted, facing into classroom, happy and purposeful. Same boy size and fixed corridor geometry. No other children, no duplicate boy, no letters on door or board. This illustrates hearing school bell and immediately entering classroom.",
+    "qa": "Reviewed: same school hallway, bell motion marks, child visibly enters classroom, full figure.",
+    "generator": "built-in image_gen",
+    "afterROI": {
+      "x": 536,
+      "y": 210,
+      "w": 265,
+      "h": 485,
+      "type": "walk",
+      "clip": {
+        "shape": "polygon",
+        "points": [
+          [
+            600,
+            213
+          ],
+          [
+            702,
+            215
+          ],
+          [
+            752,
+            252
+          ],
+          [
+            772,
+            317
+          ],
+          [
+            759,
+            353
+          ],
+          [
+            782,
+            403
+          ],
+          [
+            786,
+            471
+          ],
+          [
+            744,
+            498
+          ],
+          [
+            755,
+            554
+          ],
+          [
+            783,
+            610
+          ],
+          [
+            771,
+            651
+          ],
+          [
+            731,
+            665
+          ],
+          [
+            702,
+            631
+          ],
+          [
+            667,
+            580
+          ],
+          [
+            628,
+            628
+          ],
+          [
+            617,
+            680
+          ],
+          [
+            573,
+            690
+          ],
+          [
+            544,
+            672
+          ],
+          [
+            547,
+            640
+          ],
+          [
+            583,
+            571
+          ],
+          [
+            587,
+            520
+          ],
+          [
+            542,
+            501
+          ],
+          [
+            536,
+            455
+          ],
+          [
+            547,
+            395
+          ],
+          [
+            578,
+            365
+          ],
+          [
+            581,
+            322
+          ],
+          [
+            574,
+            274
+          ]
+        ]
+      },
+      "motion": {
+        "kind": "translate",
+        "x": 8,
+        "y": -2,
+        "duration": 900
+      },
+      "backgroundPatch": {
+        "panel": "before",
+        "x": 536,
+        "y": 210,
+        "w": 265,
+        "h": 485,
+        "destX": 536,
+        "destY": 210,
+        "note": "Same-position earlier scene has no child here; use same polygon to cover original AFTER child before moving overlay."
+      }
+    }
+  },
+  {
+    "kind": "wash",
+    "filename": "island-wash-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Use case: illustration-story / scientific-educational. Make ONE wide illustrated BEFORE/AFTER game asset, not a UI mockup. Exact composition: 2 columns × 1 row, two equal 4:3 panels side-by-side; full image 8:3 ratio, approximately 2560×960. The left half is BEFORE, right half is AFTER. No border, frame, gutters or gaps, with split at exactly 50% width. Each half must be a complete 4:3 scene with generous margins. The provided reference is ONLY for its warm, hand-painted Hong Kong primary-school textbook illustration style, NOT its grid layout. Do not copy the reference's multi-cell grid. Delicate gouache paper texture, clean warm outlines, soft cream/mint/sky-blue/honey-amber/coral colors, welcoming recognizable everyday environment. One fully clothed East Asian primary-school boy with neat black hair, rosy cheeks, normal five-finger hands, normal anatomy and child proportions. The exact SAME boy, clothes, scale, background geometry, objects and fixed camera in both halves. The only changes are the action and its immediate result. All persons and meaningful objects fully inside their own half with no cropped feet, head, hands or task objects. Use 4:3 medium-wide composition, no dramatic perspective. No text, letters, captions, labels, numerals, signatures, logos or watermarks anywhere. This is a high-quality production educational web-game illustration atlas.\nSCENE: A simple family-home entry room with front door fully visible on left and a child-height washing sink directly adjacent on right, with a running-water tap, soap dispenser and towel. Same fixed wide camera shows the entire door and sink in BOTH panels. Boy wears white school shirt, navy shorts, white socks, dark shoes and blue schoolbag. LEFT PANEL: Boy has just arrived home through the open front door, still beside the door on left with one foot stepping inside and normal schoolbag on back; sink on right is unused, tap OFF, no bubbles. RIGHT PANEL: The SAME boy has moved to the adjacent sink, same body scale, both hands held together under clean running tap water with a modest clear cluster of soap bubbles, pleasantly concentrating on washing hands. Same bag can remain on his back to show immediacy. Five normal fingers and two hands only; feet remain on floor. Keep faucet, sink, towel, room arrangement unchanged. This is arriving home then washing hands.\n\nTargeted consistency correction:\nMake ONE precise consistency correction to this two-panel before/after illustration atlas. Keep the entire LEFT panel absolutely unchanged. In the RIGHT panel only, change the faucet design to match the faucet design seen in the LEFT panel: same low squared gray chrome spout and short flat lever handle, same relative sink placement, rather than the taller round arched gooseneck tap currently drawn. Keep clear clean water running from this corrected spout onto the boy's soapy hands. Preserve the right boy, face, normal anatomy, school clothes, bag, posture, hands, bubbles, closed door, room, sink basin, soap bottle and camera. Preserve full 2048x768 image, exactly two equal 1024x768 panels, no cropping, text, borders, extra people or other changes. This is a visual consistency repair only; before still has faucet off, after still has faucet running while child washes hands. Keep warm gouache schoolbook style unchanged.",
+    "qa": "Reviewed and repaired: right faucet now matches left faucet; before home arrival, after soapy handwashing, same actor scale.",
+    "generator": "built-in image_gen",
+    "afterROI": {
+      "x": 680,
+      "y": 335,
+      "w": 190,
+      "h": 110,
+      "type": "wash",
+      "clip": {
+        "shape": "roundRect",
+        "x": 680,
+        "y": 335,
+        "w": 190,
+        "h": 110,
+        "rx": 26
+      },
+      "motion": {
+        "kind": "translate",
+        "x": 0,
+        "y": 2,
+        "duration": 450
+      },
+      "backgroundPatch": {
+        "panel": "before",
+        "x": 680,
+        "y": 335,
+        "w": 190,
+        "h": 110,
+        "destX": 680,
+        "destY": 335,
+        "note": "Same-position sink before washing has no hands/flow in this area."
+      }
+    }
+  },
+  {
+    "kind": "school",
+    "filename": "island-school-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Use case: illustration-story / scientific-educational. Make ONE wide illustrated BEFORE/AFTER game asset, not a UI mockup. Exact composition: 2 columns × 1 row, two equal 4:3 panels side-by-side; full image 8:3 ratio, approximately 2560×960. The left half is BEFORE, right half is AFTER. No border, frame, gutters or gaps, with split at exactly 50% width. Each half must be a complete 4:3 scene with generous margins. The provided reference is ONLY for its warm, hand-painted Hong Kong primary-school textbook illustration style, NOT its grid layout. Do not copy the reference's multi-cell grid. Delicate gouache paper texture, clean warm outlines, soft cream/mint/sky-blue/honey-amber/coral colors, welcoming recognizable everyday environment. One fully clothed East Asian primary-school boy with neat black hair, rosy cheeks, normal five-finger hands, normal anatomy and child proportions. The exact SAME boy, clothes, scale, background geometry, objects and fixed camera in both halves. The only changes are the action and its immediate result. All persons and meaningful objects fully inside their own half with no cropped feet, head, hands or task objects. Use 4:3 medium-wide composition, no dramatic perspective. No text, letters, captions, labels, numerals, signatures, logos or watermarks anywhere. This is a high-quality production educational web-game illustration atlas.\nSCENE: A small coastal village school gate on left, a short clear pedestrian path across the foreground, and a modest family house on the right, all clearly visible in BOTH panels. Warm green trees in background, a distant hint of blue sea, no vehicles, no traffic, no signs with writing. Boy wears white school shirt, navy shorts, white socks, dark shoes and blue schoolbag. LEFT PANEL: Boy is just leaving the open school gate on left, walking to the RIGHT toward home; home is visible across the simple short path. RIGHT PANEL: The SAME boy has walked further RIGHT and is approaching the family house, facing right, one foot lifted; subtle small movement traces behind his feet make forward direction obvious. Boy's body size stays identical, same fixed background. Exactly one boy in each half. House and school gate remain in the identical positions and scale. The scene conveys school finishes then immediately going home.",
+    "qa": "Reviewed: child leaves school then moves right toward the home; path, school and house remain consistent.",
+    "generator": "built-in image_gen",
+    "afterROI": {
+      "x": 540,
+      "y": 310,
+      "w": 230,
+      "h": 345,
+      "type": "walk",
+      "clip": {
+        "shape": "polygon",
+        "points": [
+          [
+            594,
+            313
+          ],
+          [
+            666,
+            313
+          ],
+          [
+            714,
+            339
+          ],
+          [
+            719,
+            384
+          ],
+          [
+            708,
+            412
+          ],
+          [
+            722,
+            440
+          ],
+          [
+            717,
+            502
+          ],
+          [
+            741,
+            549
+          ],
+          [
+            745,
+            584
+          ],
+          [
+            762,
+            612
+          ],
+          [
+            733,
+            649
+          ],
+          [
+            706,
+            647
+          ],
+          [
+            681,
+            620
+          ],
+          [
+            650,
+            565
+          ],
+          [
+            623,
+            601
+          ],
+          [
+            600,
+            635
+          ],
+          [
+            564,
+            637
+          ],
+          [
+            548,
+            615
+          ],
+          [
+            551,
+            593
+          ],
+          [
+            584,
+            548
+          ],
+          [
+            581,
+            495
+          ],
+          [
+            545,
+            484
+          ],
+          [
+            540,
+            447
+          ],
+          [
+            555,
+            411
+          ],
+          [
+            588,
+            396
+          ],
+          [
+            583,
+            361
+          ]
+        ]
+      },
+      "motion": {
+        "kind": "translate",
+        "x": 8,
+        "y": -2,
+        "duration": 900
+      },
+      "backgroundPatch": {
+        "panel": "before",
+        "x": 540,
+        "y": 310,
+        "w": 230,
+        "h": 345,
+        "destX": 540,
+        "destY": 310,
+        "note": "Earlier child is near left gate, so this same-position path/house area is clear."
+      }
+    }
+  },
+  {
+    "kind": "ball",
+    "filename": "island-ball-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Use case: illustration-story / scientific-educational. Make ONE wide illustrated BEFORE/AFTER game asset, not a UI mockup. Exact composition: 2 columns × 1 row, two equal 4:3 panels side-by-side; full image 8:3 ratio, approximately 2560×960. The left half is BEFORE, right half is AFTER. No border, frame, gutters or gaps, with split at exactly 50% width. Each half must be a complete 4:3 scene with generous margins. The provided reference is ONLY for its warm, hand-painted Hong Kong primary-school textbook illustration style, NOT its grid layout. Do not copy the reference's multi-cell grid. Delicate gouache paper texture, clean warm outlines, soft cream/mint/sky-blue/honey-amber/coral colors, welcoming recognizable everyday environment. One fully clothed East Asian primary-school boy with neat black hair, rosy cheeks, normal five-finger hands, normal anatomy and child proportions. The exact SAME boy, clothes, scale, background geometry, objects and fixed camera in both halves. The only changes are the action and its immediate result. All persons and meaningful objects fully inside their own half with no cropped feet, head, hands or task objects. Use 4:3 medium-wide composition, no dramatic perspective. No text, letters, captions, labels, numerals, signatures, logos or watermarks anywhere. This is a high-quality production educational web-game illustration atlas.\nSCENE: A simple sunny school playground / activity court with clean pale ground and a distant low fence. Fully clothed boy in plain blue T-shirt, navy shorts and sneakers is playing with ONE orange basketball. Boy remains at same location and scale in both panels. LEFT PANEL: He stands naturally with one hand just above the basketball at about waist height, ready to push it down; ball still, no motion arcs. RIGHT PANEL: The same hand has pushed the ball down and the basketball is now BOUNCING UP from the ground below his hand; show one solid basketball low in the scene, close to the ground, with a clear upward curving motion trace and small ground-contact bounce marks below it, indicating it hit ground and rebounds. One basketball per panel, no duplicate solid balls, no extra arms or fingers, no distorted legs. Normal natural anatomy; hand/palm faces downward. This illustrates 'I bounce the ball, the ball rebounds immediately'. Make the bounce unmistakable through motion marks without any written words.",
+    "qa": "Reviewed: one basketball per panel, full child, clear low bounce and ground impact marks, normal arms/hands/legs.",
+    "generator": "built-in image_gen",
+    "afterROI": {
+      "x": 580,
+      "y": 512,
+      "w": 148,
+      "h": 143,
+      "type": "ball",
+      "clip": {
+        "shape": "ellipse",
+        "cx": 654,
+        "cy": 583.5,
+        "rx": 74,
+        "ry": 71.5
+      },
+      "motion": {
+        "kind": "bounce",
+        "y": -90,
+        "duration": 900
+      },
+      "backgroundPatch": {
+        "panel": "before",
+        "x": 580,
+        "y": 532,
+        "w": 148,
+        "h": 143,
+        "destX": 580,
+        "destY": 512,
+        "note": "Nearby clean court below the old held ball; covers AFTER ball before overlay animation, avoid leaving source ball visible."
+      }
+    }
+  },
+  {
+    "kind": "wind",
+    "filename": "island-wind-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Use case: illustration-story / scientific-educational. Make ONE wide illustrated BEFORE/AFTER game asset, not a UI mockup. Exact composition: 2 columns × 1 row, two equal 4:3 panels side-by-side; full image 8:3 ratio, approximately 2560×960. The left half is BEFORE, right half is AFTER. No border, frame, gutters or gaps, with split at exactly 50% width. Each half must be a complete 4:3 scene with generous margins. The provided reference is ONLY for its warm, hand-painted Hong Kong primary-school textbook illustration style, NOT its grid layout. Do not copy the reference's multi-cell grid. Delicate gouache paper texture, clean warm outlines, soft cream/mint/sky-blue/honey-amber/coral colors, welcoming recognizable everyday environment. One fully clothed East Asian primary-school boy with neat black hair, rosy cheeks, normal five-finger hands, normal anatomy and child proportions. The exact SAME boy, clothes, scale, background geometry, objects and fixed camera in both halves. The only changes are the action and its immediate result. All persons and meaningful objects fully inside their own half with no cropped feet, head, hands or task objects. Use 4:3 medium-wide composition, no dramatic perspective. No text, letters, captions, labels, numerals, signatures, logos or watermarks anywhere. This is a high-quality production educational web-game illustration atlas.\nSCENE: A peaceful neighborhood park / outdoor activity corner with a low fence and soft green shrubs. Boy in plain blue T-shirt and navy shorts holds a colorful four-bladed toy PINWHEEL on one thin straight stick in front of his mouth, safely away from face. LEFT PANEL: Boy is ready to blow, mouth relaxed, pinwheel still, the blades crisp with no motion marks. RIGHT PANEL: EXACT SAME pose, clothing, boy size, park background and stick position; boy's lips are visibly pursed, blowing a few soft clear curved air lines directly from mouth toward the pinwheel. The SAME pinwheel spins with distinct rotation arcs around its blades, blades tilted compared with left but still recognizably same four colors. Normal hands, one pinwheel, one stick per panel. Clear empty space between mouth and pinwheel allows airflow to be understood. This illustrates blowing air then pinwheel immediately spinning.",
+    "qa": "Reviewed: child purses lips and blows towards same pinwheel; air and rotation arcs are clear, full figure.",
+    "generator": "built-in image_gen",
+    "afterROI": {
+      "x": 560,
+      "y": 125,
+      "w": 195,
+      "h": 185,
+      "type": "blades",
+      "clip": {
+        "shape": "polygon",
+        "points": [
+          [
+            652,
+            205
+          ],
+          [
+            645,
+            175
+          ],
+          [
+            625,
+            151
+          ],
+          [
+            598,
+            147
+          ],
+          [
+            578,
+            160
+          ],
+          [
+            599,
+            160
+          ],
+          [
+            616,
+            178
+          ],
+          [
+            631,
+            207
+          ],
+          [
+            645,
+            217
+          ],
+          [
+            622,
+            213
+          ],
+          [
+            595,
+            224
+          ],
+          [
+            578,
+            249
+          ],
+          [
+            577,
+            269
+          ],
+          [
+            597,
+            263
+          ],
+          [
+            620,
+            245
+          ],
+          [
+            645,
+            228
+          ],
+          [
+            655,
+            224
+          ],
+          [
+            654,
+            250
+          ],
+          [
+            665,
+            279
+          ],
+          [
+            687,
+            293
+          ],
+          [
+            712,
+            287
+          ],
+          [
+            718,
+            273
+          ],
+          [
+            693,
+            271
+          ],
+          [
+            675,
+            252
+          ],
+          [
+            665,
+            227
+          ],
+          [
+            665,
+            217
+          ],
+          [
+            690,
+            215
+          ],
+          [
+            719,
+            200
+          ],
+          [
+            735,
+            177
+          ],
+          [
+            730,
+            157
+          ],
+          [
+            716,
+            144
+          ],
+          [
+            713,
+            168
+          ],
+          [
+            698,
+            187
+          ],
+          [
+            673,
+            204
+          ]
+        ]
+      },
+      "motion": {
+        "kind": "rotate",
+        "degrees": 360,
+        "pivotX": 656,
+        "pivotY": 215,
+        "duration": 1400
+      },
+      "backgroundPatch": {
+        "panel": "before",
+        "x": 765,
+        "y": 125,
+        "w": 195,
+        "h": 185,
+        "destX": 560,
+        "destY": 125,
+        "note": "Foreground-free park patch to right of original blades; feather or use a small soft ellipse because background texture differs."
+      }
+    }
+  },
+  {
+    "kind": "doorbell",
+    "filename": "island-doorbell-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Create one warm hand-painted gouache primary-school textbook scene atlas, production game artwork. Use reference image 1 only for illustration style and East Asian child design, and reference image 2 for the TWO-PANEL before/after format. Exactly 2048x768 landscape total, TWO equal 1024x768 (4:3) panels side-by-side with division precisely at the midpoint. No panel borders, gutters, captions, letters, numbers, arrows, UI or watermarks. LEFT half before, RIGHT half immediately after. Camera, room/park, object placement, child scale and clothing identical across the two halves. Fully clothed smiling East Asian boy with normal child proportions, exactly two arms and hands, normal anatomy, all head/feet/hands and key objects inside the panel with generous margins. Soft cream, mint, sky blue, wood brown, coral and amber colors, gentle texture, crisp visual storytelling. No extra people or duplicate solid objects. The only visual changes are the action and its immediate outcome.\nScene: family home's front porch. A clearly recognizable accessible doorbell unit on the wall next to a CLOSED wooden front door: one red push button on small cream plate, and a small brass chime bell directly above it on the same wall so cause and sound are clear. Boy wears plain blue T-shirt, navy shorts, socks and shoes. LEFT: finger hovering just in front of button, not pressed; brass bell still and no sound lines. RIGHT: exact same boy visibly pressing red button with index finger; brass bell above is swinging slightly with clear curved vibration lines on both sides; boy smiles. Door remains CLOSED in both panels, no person appears at door. Same camera and front-door geometry. Bell must be fully in frame. Distinguish pressing the small doorbell button from hearing a school bell.",
+    "generator": "built-in image_gen",
+    "qa": "Reviewed: clear before/after, complete normal child and task objects, same scene/scale.",
+    "afterROI": {
+      "x": 448,
+      "y": 25,
+      "w": 110,
+      "h": 140,
+      "type": "bell",
+      "clip": {
+        "shape": "polygon",
+        "points": [
+          [
+            495,
+            41
+          ],
+          [
+            510,
+            48
+          ],
+          [
+            510,
+            66
+          ],
+          [
+            523,
+            81
+          ],
+          [
+            526,
+            109
+          ],
+          [
+            541,
+            134
+          ],
+          [
+            526,
+            145
+          ],
+          [
+            500,
+            149
+          ],
+          [
+            476,
+            145
+          ],
+          [
+            453,
+            136
+          ],
+          [
+            463,
+            116
+          ],
+          [
+            468,
+            85
+          ],
+          [
+            480,
+            67
+          ],
+          [
+            481,
+            52
+          ]
+        ]
+      },
+      "motion": {
+        "kind": "rotate",
+        "degrees": 4,
+        "pivotX": 497,
+        "pivotY": 56,
+        "duration": 350
+      },
+      "backgroundPatch": {
+        "panel": "after",
+        "x": 555,
+        "y": 25,
+        "w": 110,
+        "h": 140,
+        "destX": 448,
+        "destY": 25,
+        "note": "Nearby cream wall, no bell or child; use the bell polygon, not rectangular crop."
+      }
+    }
+  },
+  {
+    "kind": "tap",
+    "filename": "island-tap-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Create one warm hand-painted gouache primary-school textbook scene atlas, production game artwork. Use reference image 1 only for illustration style and East Asian child design, and reference image 2 for the TWO-PANEL before/after format. Exactly 2048x768 landscape total, TWO equal 1024x768 (4:3) panels side-by-side with division precisely at the midpoint. No panel borders, gutters, captions, letters, numbers, arrows, UI or watermarks. LEFT half before, RIGHT half immediately after. Camera, room/park, object placement, child scale and clothing identical across the two halves. Fully clothed smiling East Asian boy with normal child proportions, exactly two arms and hands, normal anatomy, all head/feet/hands and key objects inside the panel with generous margins. Soft cream, mint, sky blue, wood brown, coral and amber colors, gentle texture, crisp visual storytelling. No extra people or duplicate solid objects. The only visual changes are the action and its immediate outcome.\nScene: home washroom with a low child-height white sink, one simple chrome faucet with short flat lever handle, soap bottle and mint towel. Boy wears plain blue T-shirt, navy shorts, socks and shoes. LEFT: boy stands beside sink, hand just above faucet lever, faucet CLOSED and no water. RIGHT: same boy in identical scale and position, one hand has raised the SAME flat faucet lever, clear clean stream flows from the SAME spout into the sink. Boy looks at the stream smiling. Exact same faucet shape and faucet placement, sink and room in both panels. Do not transform faucet into a different design. Water stream, lever and hand need space around them and be easy to see. Before: zero water; after: obvious water. Child full body, feet on floor.",
+    "generator": "built-in image_gen",
+    "qa": "Reviewed: clear before/after, complete normal child and task objects, same scene/scale.",
+    "afterROI": {
+      "x": 568,
+      "y": 322,
+      "w": 112,
+      "h": 97,
+      "type": "water",
+      "clip": {
+        "shape": "roundRect",
+        "x": 568,
+        "y": 322,
+        "w": 112,
+        "h": 97,
+        "rx": 16
+      },
+      "motion": {
+        "kind": "translate",
+        "x": 0,
+        "y": 3,
+        "duration": 350
+      },
+      "backgroundPatch": {
+        "panel": "before",
+        "x": 568,
+        "y": 322,
+        "w": 112,
+        "h": 97,
+        "destX": 568,
+        "destY": 322,
+        "note": "Same tap/sink position has no stream before, retains faucet and basin."
+      }
+    }
+  },
+  {
+    "kind": "door",
+    "filename": "island-door-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Create one warm hand-painted gouache primary-school textbook scene atlas, production game artwork. Use reference image 1 only for illustration style and East Asian child design, and reference image 2 for the TWO-PANEL before/after format. Exactly 2048x768 landscape total, TWO equal 1024x768 (4:3) panels side-by-side with division precisely at the midpoint. No panel borders, gutters, captions, letters, numbers, arrows, UI or watermarks. LEFT half before, RIGHT half immediately after. Camera, room/park, object placement, child scale and clothing identical across the two halves. Fully clothed smiling East Asian boy with normal child proportions, exactly two arms and hands, normal anatomy, all head/feet/hands and key objects inside the panel with generous margins. Soft cream, mint, sky blue, wood brown, coral and amber colors, gentle texture, crisp visual storytelling. No extra people or duplicate solid objects. The only visual changes are the action and its immediate outcome.\nScene: quiet school corridor, large teal classroom door and wall. Boy wears white short-sleeve school shirt, navy shorts, white socks, dark shoes and small blue backpack. LEFT: classroom door is fully CLOSED inside its fixed doorframe; boy stands in front of it with one open hand just beside the push plate, ready to push. RIGHT: SAME boy has pushed the SAME door open INWARDS, palm visibly contacting push plate; door pivots sensibly on the SAME right-hand hinges, making the doorway open to reveal a few desks and a blank green chalkboard. Show a small simple arc of motion near edge of door, but no arrow. The frame and hallway remain fixed; door panel remains one physically coherent rectangle in plausible mild perspective, not floating, broken or detached. Fully visible child and door including hinges and feet. No writing on door or chalkboard. The action is push door, outcome door opens.\n\nGeometry repair:\nRepair ONE observed physical-consistency defect in this two-panel educational scene atlas. The LEFT panel must stay unchanged. Its closed teal classroom door is hinged on its RIGHT edge. The RIGHT panel currently shows an opened door leaf on the wrong side while still displaying hinges on the right frame. Correct the RIGHT panel so the SAME teal door opens inward from its RIGHT-HAND HINGES: the hinge edge remains attached to the existing right doorpost, the rectangular door leaf projects inward into the room and its visible free edge/handle is nearer the center of the open doorway. The door must have one coherent leaf, sensible hinge rotation and no floating/detached sections. Move the SAME boy naturally one step to the right if necessary so his pushing palm genuinely contacts this correctly positioned open door; preserve his exact body scale, identity, white school shirt, navy shorts, blue backpack, normal anatomy and full feet in frame. Keep the fixed wall, window, doorway frame, classroom desks, blank board, camera and floor otherwise unchanged. Keep the total 2048x768 atlas with two equal 1024x768 halves. No words, labels, arrows, added people or other changes. Same warm hand-painted gouache textbook style.",
+    "generator": "built-in image_gen",
+    "qa": "Reviewed and repaired: door hinges and open leaf physically align on right frame.",
+    "afterROI": {
+      "x": 674,
+      "y": 0,
+      "w": 150,
+      "h": 680,
+      "type": "door",
+      "clip": {
+        "shape": "polygon",
+        "points": [
+          [
+            676,
+            30
+          ],
+          [
+            784,
+            0
+          ],
+          [
+            816,
+            0
+          ],
+          [
+            816,
+            676
+          ],
+          [
+            676,
+            623
+          ]
+        ]
+      },
+      "motion": {
+        "kind": "hinge",
+        "degrees": 2,
+        "pivotX": 816,
+        "pivotY": 340,
+        "duration": 900
+      },
+      "backgroundPatch": null,
+      "note": "Hinge repaired. No safe clean patch behind this door leaf; prefer full-frame BEFORE-to-AFTER reveal, then a small emphasis, rather than duplicating a moving opaque leaf."
+    }
+  },
+  {
+    "kind": "boat",
+    "filename": "island-boat-v2.png",
+    "width": 2048,
+    "height": 768,
+    "panelWidth": 1024,
+    "panelHeight": 768,
+    "prompt": "Create one warm hand-painted gouache primary-school textbook scene atlas, production game artwork. Use reference image 1 only for illustration style and East Asian child design, and reference image 2 for the TWO-PANEL before/after format. Exactly 2048x768 landscape total, TWO equal 1024x768 (4:3) panels side-by-side with division precisely at the midpoint. No panel borders, gutters, captions, letters, numbers, arrows, UI or watermarks. LEFT half before, RIGHT half immediately after. Camera, room/park, object placement, child scale and clothing identical across the two halves. Fully clothed smiling East Asian boy with normal child proportions, exactly two arms and hands, normal anatomy, all head/feet/hands and key objects inside the panel with generous margins. Soft cream, mint, sky blue, wood brown, coral and amber colors, gentle texture, crisp visual storytelling. No extra people or duplicate solid objects. The only visual changes are the action and its immediate outcome.\nScene: calm shallow-looking park pond with grass bank on the LEFT and water across the right, low green shrubs and wooden fence behind. Boy in plain blue T-shirt and navy shorts stands firmly on DRY LEFT bank, holding one golden rope that visibly runs uninterrupted from BOTH hands to attachment ring on LEFT-pointing bow of one red-and-white TOY boat floating in water on RIGHT. LEFT PANEL: boat is about halfway across the pond toward right side, boy ready to pull rope. RIGHT PANEL: boy pulls rope back with both hands, leans back slightly, SAME boat has moved LEFT across water closer to the child/bank; boat bow still faces left; trailing wake ripples BEHIND it on its right show its leftward movement. Fixed camera and all background geometry unchanged, same boy and boat scale. One solid boat in each panel, no arrows, no duplicate boats, no child standing in water, rope never disconnected, boat remains afloat and does not climb bank. Both full child and full boat fit with margins.",
+    "generator": "built-in image_gen",
+    "qa": "Reviewed: clear before/after, complete normal child and task objects, same scene/scale.",
+    "afterROI": {
+      "x": 506,
+      "y": 447,
+      "w": 255,
+      "h": 150,
+      "type": "boat",
+      "clip": {
+        "shape": "polygon",
+        "points": [
+          [
+            511,
+            510
+          ],
+          [
+            561,
+            510
+          ],
+          [
+            565,
+            480
+          ],
+          [
+            612,
+            480
+          ],
+          [
+            619,
+            445
+          ],
+          [
+            641,
+            446
+          ],
+          [
+            640,
+            480
+          ],
+          [
+            679,
+            482
+          ],
+          [
+            682,
+            505
+          ],
+          [
+            727,
+            505
+          ],
+          [
+            727,
+            479
+          ],
+          [
+            733,
+            480
+          ],
+          [
+            733,
+            508
+          ],
+          [
+            753,
+            515
+          ],
+          [
+            743,
+            566
+          ],
+          [
+            716,
+            581
+          ],
+          [
+            553,
+            581
+          ],
+          [
+            520,
+            559
+          ]
+        ]
+      },
+      "motion": {
+        "kind": "translate",
+        "x": -10,
+        "y": 2,
+        "duration": 1100
+      },
+      "backgroundPatch": {
+        "panel": "before",
+        "x": 440,
+        "y": 447,
+        "w": 255,
+        "h": 150,
+        "destX": 506,
+        "destY": 447,
+        "note": "Clean pond left of original boat, no duplicate source boat. Keep trailing wake separate."
+      }
+    }
+  },
+  {
+    "kind": "words",
+    "filename": "island-words-v2.png",
+    "width": 1402,
+    "height": 1122,
+    "columns": 5,
+    "rows": 4,
+    "cellWidth": 280.4,
+    "cellHeight": 280.5,
+    "prompt": "Create ONE hand-painted educational game picture-card ATLAS, precisely FIVE COLUMNS and FOUR ROWS, total TWENTY equal SQUARE cells, image aspect ratio 5:4, about 2000x1600 pixels. Reference image is STYLE ONLY; do NOT copy its 6x3 grid. MUST be 5 columns x4 rows. Warm gouache pastel Hong Kong primary-school textbook illustration, same friendly black-haired East Asian schoolboy, normal body/hand proportions, fully clothed, cream backing in every cell. Each cell contains ONE centered vignette that fits entirely inside its square with 12% empty inset; no cropping, no edges touching neighboring cells. No words, letters, numerals, borders, grid lines, labels, watermarks, or caption spaces. Make each depicted action visually obvious to a non-Chinese reader.\nExact row-major order:\nROW 1: [1] boy's fingertip PRESSING a wall light switch, one clear switch; [2] schoolboy LISTENING to brass SCHOOL BELL with one hand at ear, bell visible; [3] schoolboy ARRIVING HOME through wooden front door with backpack; [4] schoolboy leaving SCHOOL GATE after school with backpack, school visible; [5] boy's downward hand pushing orange BASKETBALL, ball close below palm.\nROW 2: [6] pursed lips boy BLOWING AIR at colorful PINWHEEL, visible air lines; [7] boy pressing small RED DOORBELL BUTTON beside home's front door; [8] boy's hand OPENING flat lever on chrome WATER TAP over sink; [9] schoolboy palm PUSHING a teal CLASSROOM DOOR; [10] boy on dry pond BANK PULLING ROPE directly attached to red-white TOY BOAT, boat bow faces him.\nROW 3: [11] table LAMP brightly GLOWING yellow with rays, no switch needed; [12] schoolboy WALKING INTO open CLASSROOM with desks and blank green board visible; [13] child WASHING soapy HANDS under water at sink; [14] schoolboy WALKING HOME toward wooden front door, house visible; [15] orange BASKETBALL REBOUNDING UP off ground, clear bounce marks and upward motion curve, one ball.\nROW 4: [16] colorful PINWHEEL SPINNING with clear curved rotation marks, no boy necessary; [17] small home DOORBELL CHIME bell RINGING with vibration marks, clearly home door frame context; [18] WATER FLOWING clearly from chrome TAP into sink; [19] teal CLASSROOM DOOR fully OPEN, classroom desk behind visible; [20] red-white TOY BOAT close to grassy POND BANK, taut rope leading onto bank and wake behind boat.\nImportant: keep all 20 concepts in this exact order, equal square cells, same illustration language, recognizable objects large enough for child learning cards.",
+    "generator": "built-in image_gen",
+    "qa": "All twenty concepts reviewed in requested row-major order. Fractional cells preserve natural source dimensions; do not force square stretching."
+  }
+]

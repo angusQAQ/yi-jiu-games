@@ -1,0 +1,815 @@
+{
+  "version": 4,
+  "mode": "built-in image_gen",
+  "createdDate": "2026-10-27",
+  "assetDirectory": "work/ocean-classroom/dist/assets",
+  "notes": [
+    "Four real sixteen-frame painted atlases, not before/after composites or runtime clipped-layer animation.",
+    "Only new PNGs and this manifest created; no existing PNG, code or metadata file modified.",
+    "Source scene/style references were inspected before generation and passed through referenced_image_paths.",
+    "Rejected lamp/zip grid drafts were kept out of dist/assets; final regenerated sheets have four equal columns.",
+    "Read frame boxes with fractional pixel coordinates or CSS percentage background positioning to retain exact 4:3 frames."
+  ],
+  "assets": [
+    {
+      "filename": "island-lamp-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "columns": 4,
+      "rows": 4,
+      "frameCount": 16,
+      "frameWidth": 362,
+      "frameHeight": 271.5,
+      "frameAspectRatio": "4:3",
+      "order": "row-major",
+      "reference": "island-lamp-v2.png",
+      "prompt": "Use case: scientific-educational. Create a production FULLY PAINTED ANIMATION SPRITE ATLAS for a Chinese Primary 2 learning game. The supplied two-panel image is a STYLE, CHARACTER and SCENE reference, NOT the requested output format. OUTPUT exact 2048×1536 pixels, overall 4:3 landscape, FOUR COLUMNS and FOUR ROWS, SIXTEEN equal 512×384 (4:3) cells, ordered left-to-right then top-to-bottom. One complete painted scene per cell. Direct abutting tiles: NO gutters, borders, grid lines, margins, numbers, labels or text anywhere. All sixteen scenes are successive real animation frames: each differs perceptibly from the previous through advancing action. No duplicate frames and no copied before/after alternation. LOCK camera, registration, background, object geometry, boy identity, size, clothing and palette across all16. Warm gouache and colored-pencil East Asian primary textbook illustration on creamy paper, same black-haired blue-shirt seven-year-old boy with normal believable child anatomy and exactly two arms/hands. Enough margin for entire head, limbs and shoes: no limbs cropped by image edge; objects may naturally occlude seated legs but do not amputate. Background lines align identically across corresponding cell locations. Do NOT add speech bubbles, arrows, boxes, words, letters or numbers.\nScene: same cozy living room as reference: full-body boy on left at wall rocker switch, green sofa/window behind, table lamp on right, cord visibly runs from switch down wall then right to lamp. Keep composition and sizes close to reference. Frame1 MUST match reference left: finger touching unpressed switch, lamp OFF, neutral face. Frame2 presses switch and lamp is IMMEDIATELY FULLY ON with warm golden shade, no delay. Frames3–16 lamp REMAINS ON, genuine continuous small action after switch: fingertip finishes pressing, wrist subtly settles, head turns incrementally toward lit lamp, eyebrows relax and mouth gradually opens into happy smile, shoulders rise very slightly then settle. A small golden teaching sparkle flows along the EXISTING cord progressively in each successive frame and light rays around shade change smoothly, lamp shape does not move. Exact progression row1 f1 off neutral; f2 switch depressed warm lamp on; f3 fingertip pressure slightly deeper/small smile and pulse high cord; f4 wrist settling/pulse mid vertical cord. Row2 f5 head 1degree towardlamp/pulse lower vertical; f6 smile widening/pulse at bottom cord bend; f7 head 2degrees towardlamp/pulse first horizontal; f8 mouth slightly open/pulse further horizontal. Row3 f9 shoulders gently rise/pulse midhorizontal; f10 eyes pleased/pulse near table; f11 eyebrows soften/pulse at lampstem; f12 lamp glow gently blooms and boy slightly tilts head. Row4 f13 smile larger, wrist relaxes; f14 shoulders settle, fingers remain at switch; f15 boy settles into final pose; f16 MUST match reference right: joyful smiling boy finger at switch and golden lit lamp with warm cord. Every frame has its own smoothly advancing face/hand/light state. Keep lamp fully illuminated since frame2.",
+      "revisionPrompt": "Use case: precise-object-edit. CRITICAL LAYOUT REPAIR of this painted animation atlas. Current cells are too wide and fourth column is clipped. Recompose into EXACT FOUR EQUAL-WIDTH COLUMNS and FOUR EQUAL-HEIGHT ROWS across the WHOLE canvas. Final canvas2048×1536; exact columns0..511,512..1023,1024..1535,1536..2047, exact rows0..383,384..767,768..1151,1152..1535. Each cell 4:3, sixteen COMPLETE scenes, no crop in fourth column. NO gutters, lines, borders, labels, text. Each complete scene MUST contain full-body boy with feet and head clear of edges, wall switch, ENTIRE tablelamp and entire lamp-table including right edge; fit room content within its one cell by zooming camera out identically in all sixteen. Same lamp/sofa/window/cable in identical positions within cells. Preserve scene style, boy, fixed camera and continuous16-frame progression. Frame1 lamp OFF, frame2 switch press and lamp FULLY ON IMMEDIATELY; all frames2–16 lamp remains ON, golden pulse advances down cable and boy smoothly smiles more. Specifically do not crop right-hand lamp in frames4,8,12,16. The output is a neat exact4by4 image atlas with complete 4:3 frames, not a wide strip cut off.",
+      "finalPrompt": "Create ONE 4:3 landscape SPRITE SHEET with EXACTLY 16 animation frames in a neat FOUR by FOUR grid. Each individual frame is also4:3, all widths exactly25% of entire image, all heights exactly25%. Exact2048x1536 canvas. NO visible lines, separators, borders, words or numerals. Four COMPLETE scenes across each row, none truncated. Use reference for warm gouache EastAsian-boy character/style only. In EVERY frame, a SIMPLE COMPACT composition fits completely within its cell: fullboy on LEFT, wall lightswitch beside him in middle, small TABLE LAMP on RIGHT, entire lamp visibly inside right side with15%margin. Palecream classroom wall, softgreen lowsofa behind. All16 same fixedcamera, fullbody boy including complete SHOES withfloor below. Frame1 boy finger just before pressing switch, lampOFF. Frame2 boy presses switch, lampIMMEDIATELY brightyellow ON. Frames3through16 lamp staysON. Sixteen perceptibly different continuously advancing drawings: fingertippress then wristrelaxes, boyhead progressively turns slightly towardlamp, expression evolves neutral→smile→open-mouthdelight. Golden light pulse moves fromswitch down a cord then right toward lamp over frames3through16. Every cell identical scene framing, all furniture/room/lampshape fixed; only character smallmotion and cablepulse change. This must be exactly4columns×4rows of complete4:3paintings with no crop anywhere. No duplicate before/after copies.",
+      "frames": [
+        {
+          "frame": 1,
+          "pixelBox": [
+            0,
+            0,
+            362,
+            271.5
+          ],
+          "description": "off, finger poised"
+        },
+        {
+          "frame": 2,
+          "pixelBox": [
+            362,
+            0,
+            362,
+            271.5
+          ],
+          "description": "switch pressed; lamp immediately fully on"
+        },
+        {
+          "frame": 3,
+          "pixelBox": [
+            724,
+            0,
+            362,
+            271.5
+          ],
+          "description": "finger finishing press, glow advances"
+        },
+        {
+          "frame": 4,
+          "pixelBox": [
+            1086,
+            0,
+            362,
+            271.5
+          ],
+          "description": "wrist settles, glow down cord"
+        },
+        {
+          "frame": 5,
+          "pixelBox": [
+            0,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "hand begins releasing"
+        },
+        {
+          "frame": 6,
+          "pixelBox": [
+            362,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "hand draws back"
+        },
+        {
+          "frame": 7,
+          "pixelBox": [
+            724,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "hand lowers"
+        },
+        {
+          "frame": 8,
+          "pixelBox": [
+            1086,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "boy settles looking at lamp"
+        },
+        {
+          "frame": 9,
+          "pixelBox": [
+            0,
+            543,
+            362,
+            271.5
+          ],
+          "description": "smile grows"
+        },
+        {
+          "frame": 10,
+          "pixelBox": [
+            362,
+            543,
+            362,
+            271.5
+          ],
+          "description": "light pulse advances"
+        },
+        {
+          "frame": 11,
+          "pixelBox": [
+            724,
+            543,
+            362,
+            271.5
+          ],
+          "description": "elbows begin happy lift"
+        },
+        {
+          "frame": 12,
+          "pixelBox": [
+            1086,
+            543,
+            362,
+            271.5
+          ],
+          "description": "hands raised near chest"
+        },
+        {
+          "frame": 13,
+          "pixelBox": [
+            0,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "delighted open smile"
+        },
+        {
+          "frame": 14,
+          "pixelBox": [
+            362,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "hands settle"
+        },
+        {
+          "frame": 15,
+          "pixelBox": [
+            724,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "eyes close happily"
+        },
+        {
+          "frame": 16,
+          "pixelBox": [
+            1086,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "final lit-lamp joyful pose"
+        }
+      ],
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "pngVerified": true,
+        "uniqueCroppedFrameHashes": 16,
+        "grid": "Four equal columns and four equal rows, borderless, complete scenes; fractional vertical pixel boundaries are intentional at actual output resolution.",
+        "findings": [
+          "Frame1 off; frame2 immediately bright on; all remaining frames lit.",
+          "Hand release, arm movement, facial expression and painted cord light advance through sixteen scenes.",
+          "Character full body visible; warm style matches source."
+        ],
+        "limitations": [
+          "Generative painted animation has small natural line and background variation; it is not pixel-registered 3D rendering.",
+          "Actual imagegen output is 1448×1086 rather than the requested preferred 2048×1536. Every cell remains exactly 4:3 in geometric coordinates."
+        ]
+      }
+    },
+    {
+      "filename": "island-zip-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "columns": 4,
+      "rows": 4,
+      "frameCount": 16,
+      "frameWidth": 362,
+      "frameHeight": 271.5,
+      "frameAspectRatio": "4:3",
+      "order": "row-major",
+      "reference": "island-zip-v3.png",
+      "prompt": "Use case: scientific-educational. Create a production FULLY PAINTED ANIMATION SPRITE ATLAS for a Chinese Primary 2 learning game. The supplied two-panel image is a STYLE, CHARACTER and SCENE reference, NOT the requested output format. OUTPUT exact 2048×1536 pixels, overall 4:3 landscape, FOUR COLUMNS and FOUR ROWS, SIXTEEN equal 512×384 (4:3) cells, ordered left-to-right then top-to-bottom. One complete painted scene per cell. Direct abutting tiles: NO gutters, borders, grid lines, margins, numbers, labels or text anywhere. All sixteen scenes are successive real animation frames: each differs perceptibly from the previous through advancing action. No duplicate frames and no copied before/after alternation. LOCK camera, registration, background, object geometry, boy identity, size, clothing and palette across all16. Warm gouache and colored-pencil East Asian primary textbook illustration on creamy paper, same black-haired blue-shirt seven-year-old boy with normal believable child anatomy and exactly two arms/hands. Enough margin for entire head, limbs and shoes: no limbs cropped by image edge; objects may naturally occlude seated legs but do not amputate. Background lines align identically across corresponding cell locations. Do NOT add speech bubbles, arrows, boxes, words, letters or numbers.\nScene: same warm classroom, boy left of same upright blue schoolbag on wooden table, bag in right center. Adapt reference to a slightly wider full-body framing so boy shoes and all limbs fit safely inside every cell; same camera for all16. Preserve distinctive rounded rectangular bag shape, front zipped pocket, side mesh, blue handle, yellow pull. Frame1 matches reference BEFORE with TOP ZIPPER fully OPEN and dark opening across top, boy fingers at far-left end. Frame16 matches reference AFTER with TOP ZIPPER fully CLOSED and yellow pull at far-right end. Animate a single continuous left-to-right zip stroke. Frame-by-frame yellow slider progress along top opening: 1=0%,2=6%,3=13%,4=20%,5=27%,6=34%,7=41%,8=48%,9=55%,10=62%,11=69%,12=76%,13=83%,14=90%,15=96%,16=100%. Boy's gripping right hand and arm follow slider in each frame, elbow extends gradually; left hand stabilizes bag in a consistent position. Important mechanics: teeth are JOINED behind the slider on LEFT, but remain OPEN to its RIGHT, dark gap continuously SHORTENS. Opening is gone only at final frame. Bag body/silhouette fixed, no flaps, no lid, no bag transformation. Boy's face transitions attentive to smiling continuously. Each successive hand/slider position is clearly distinct. Do not just show two states repeated.",
+      "revisionPrompt": "Use case: precise-object-edit. CRITICAL LAYOUT AND FRAMING REPAIR of this sixteen-frame painted zipper animation atlas. Recompose into EXACT FOUR EQUAL-WIDTH COLUMNS and FOUR EQUAL-HEIGHT ROWS across full2048×1536 canvas. Exact columnsx0..511,512..1023,1024..1535,1536..2047; rowsy0..383,384..767,768..1151,1152..1535. Each complete scene aspect4:3. Current fourth-column frames too narrow/clipped; fix all16 to exact same width. NO gutters, borders, grid lines, labels or text. ZOOM OUT each identical fixed camera enough that full boy head, BOTH LEGS, BOTH COMPLETE SHOES fit comfortably INSIDE every cell with 20px margin at bottom, alongside complete bag and table. No limb can be cut by cell edge. Preserve same blue bag geometry, child, warmgouache style and classroom. In sixteen distinct successive poses right hand pulls YELLOW TOP ZIPPER SLIDER steadily LEFT TO RIGHT at progress0,6,13,20,27,34,41,48,55,62,69,76,83,90,96,100 percent. Dark open top gap shrinks behind slider progressively, front pocket stays same; finaltopzipper fully CLOSED. Hand doesn't jump backward in finalframe; keep hand at far-right end. Entire bag remains safely within each cell. Need sixteen complete distinct frames, exact4×4 grid.",
+      "finalPrompt": "Create ONE4:3 landscape SPRITE SHEET with EXACTLY16 animation frames in a neat FOUR by FOUR grid. Each individual frame is also4:3, ALL framewidths exactly25%entireimage and heights25%. Exact2048x1536canvas. NO visiblelines,separators,borders,words,numerals. Four COMPLETE scenes across EVERYrow, no cropped fourthcolumn. Reference provides warmgouache EastAsianboy character, bluebag and classroom style. In EVERY cell, use a COMPACT WIDE fullbody composition: boyleft of blueSCHOOLBAG that sits on smalltable at right; completeboyhead, twoarms, twohands, BOTH LEGS and BOTH SHOES fit withincell with clearfloor marginbelow. Bag fits within cell with15%marginonright. Samefixedcamera sameobjects and boy scale inall16. Sixteen different successiveframes of ONE continuous LEFTTORIGHT yellow zipper slider pull along TOP of bag. Orderedpositions percent0,6,13,20 /27,34,41,48 /55,62,69,76 /83,90,96,100. Boyrightgrippinghand follows yellowpulltab steadily acrossbagtop; elbowextends gradually, otherhand stabilizesbag. Topzipper OPEN inframe1, CLOSEDteeth continuously extend onLEFT behindslider, darkopening onRIGHT progressivelyshrinks. Frame16fullyCLOSEDnoopening, boysmiles handatfarrightend. Bagbody neverchangesits silhouette. Backgroundclassroomwindow/bookshelf identicalregistrationall16. Exactly4×4complete4:3framessafelywithinboundaries, notwidepanelsclippedbycanvas.",
+      "frames": [
+        {
+          "frame": 1,
+          "pixelBox": [
+            0,
+            0,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 0%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 2,
+          "pixelBox": [
+            362,
+            0,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 6%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 3,
+          "pixelBox": [
+            724,
+            0,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 13%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 4,
+          "pixelBox": [
+            1086,
+            0,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 20%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 5,
+          "pixelBox": [
+            0,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 27%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 6,
+          "pixelBox": [
+            362,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 34%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 7,
+          "pixelBox": [
+            724,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 41%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 8,
+          "pixelBox": [
+            1086,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 48%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 9,
+          "pixelBox": [
+            0,
+            543,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 55%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 10,
+          "pixelBox": [
+            362,
+            543,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 62%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 11,
+          "pixelBox": [
+            724,
+            543,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 69%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 12,
+          "pixelBox": [
+            1086,
+            543,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 76%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 13,
+          "pixelBox": [
+            0,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 83%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 14,
+          "pixelBox": [
+            362,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 90%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 15,
+          "pixelBox": [
+            724,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 96%; joined teeth extend behind slider"
+        },
+        {
+          "frame": 16,
+          "pixelBox": [
+            1086,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "zipper slider progress 100%; joined teeth extend behind slider"
+        }
+      ],
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "pngVerified": true,
+        "uniqueCroppedFrameHashes": 16,
+        "grid": "Four equal columns and four equal rows, borderless, complete scenes; fractional vertical pixel boundaries are intentional at actual output resolution.",
+        "findings": [
+          "Hand and yellow slider advance left-to-right across sixteen successive scenes.",
+          "Open top gap progressively closes, final teeth joined.",
+          "Blue bag silhouette retained; full boy and shoes visible."
+        ],
+        "limitations": [
+          "Generative painted animation has small natural line and background variation; it is not pixel-registered 3D rendering.",
+          "Actual imagegen output is 1448×1086 rather than the requested preferred 2048×1536. Every cell remains exactly 4:3 in geometric coordinates."
+        ]
+      }
+    },
+    {
+      "filename": "island-fan-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "columns": 4,
+      "rows": 4,
+      "frameCount": 16,
+      "frameWidth": 362,
+      "frameHeight": 271.5,
+      "frameAspectRatio": "4:3",
+      "order": "row-major",
+      "reference": "island-fan-v3.png",
+      "prompt": "Use case: scientific-educational. Create a production FULLY PAINTED ANIMATION SPRITE ATLAS for a Chinese Primary 2 learning game. The supplied two-panel image is a STYLE, CHARACTER and SCENE reference, NOT the requested output format. OUTPUT exact 2048×1536 pixels, overall 4:3 landscape, FOUR COLUMNS and FOUR ROWS, SIXTEEN equal 512×384 (4:3) cells, ordered left-to-right then top-to-bottom. One complete painted scene per cell. Direct abutting tiles: NO gutters, borders, grid lines, margins, numbers, labels or text anywhere. All sixteen scenes are successive real animation frames: each differs perceptibly from the previous through advancing action. No duplicate frames and no copied before/after alternation. LOCK camera, registration, background, object geometry, boy identity, size, clothing and palette across all16. Warm gouache and colored-pencil East Asian primary textbook illustration on creamy paper, same black-haired blue-shirt seven-year-old boy with normal believable child anatomy and exactly two arms/hands. Enough margin for entire head, limbs and shoes: no limbs cropped by image edge; objects may naturally occlude seated legs but do not amputate. Background lines align identically across corresponding cell locations. Do NOT add speech bubbles, arrows, boxes, words, letters or numbers.\nScene: same cozy desk/classroom reference: boy left seated at table, pale teal plugged-in tablefan at right, full circular safety guard faces camera with three orange blades behind. Same wall outlet and cord. Use a slightly wider view than reference to fit entire boy including shoes below desk, no cropping. Same exact fan center and scale in every cell. The outer guard/grille wires, central hub, rim, stand, base, button, cord and background MUST be perfectly stationary across16. ONLY internal orange fan BLADES rotate plus normal child's button-press/withdrawal/pleased expression motion. Frame1 reference BEFORE: fan OFF and 3 blades completely still, fingertip poised above green power button. Frame2 index finger presses button, blades IMMEDIATELY move 8 degrees. Subsequent frames3–16 blades smoothly rotate clockwise ever faster; distinct visible orientations at cumulative angles 20,35,55,80,110,145,185,230,280,335,395,460,530,605 degrees respectively. Keep exactly THREE identifiable orange blades, add only slight curved motion blur at later frames; do not replace fan by flat disk. Finger releases gradually frames3–6, wrist withdraws frames7–10, hand rests on table frames11–16 as boy slowly smiles. Final frame matches reference AFTER spinning fan, boy pleased. Guard does NOT rotate or change geometry. All sixteen whole-scene painted cells must differ through the continuous blade orientation and hand progress.",
+      "revisionPrompt": "Use case: precise-object-edit. One targeted framing correction to this exact4×4 fan animation spriteatlas. Keep sixteen frame order, same boy, same fan, same backgrounds, same warmgouache style, fan blade sequence and body/face movement. Current boy shoes partly touch/cross bottom edge of cells. ZOOM OUT identical fixed camera in EVERY cell by about15percent, extending same roomfloor so BOTH COMPLETE FEET AND SHOES are fully visible with at least20px clear floor under them WITHIN each cell. All head/arms/hands/legs/shoes fully fit. Do not change storyboard: frame1 finger poised fanOFF; frame2press makes fan immediatelyspin; frames3–16 distinct clockwise angles of three orangeblades plus withdrawinghand and wideningboysmile. Guard/rim/stand/base remain fixed and sharp. Exact4columns×4rows equal4:3cells on overall4:3 canvas2048×1536, eachcell512×384. No gutters/borders/lines/text/numerals. Each cell same camera position/scale; nothing is clipped at frame edge.",
+      "finalPrompt": "Use case: precise-object-edit. One targeted framing correction to this exact4×4 fan animation spriteatlas. Keep sixteen frame order, same boy, same fan, same backgrounds, same warmgouache style, fan blade sequence and body/face movement. Current boy shoes partly touch/cross bottom edge of cells. ZOOM OUT identical fixed camera in EVERY cell by about15percent, extending same roomfloor so BOTH COMPLETE FEET AND SHOES are fully visible with at least20px clear floor under them WITHIN each cell. All head/arms/hands/legs/shoes fully fit. Do not change storyboard: frame1 finger poised fanOFF; frame2press makes fan immediatelyspin; frames3–16 distinct clockwise angles of three orangeblades plus withdrawinghand and wideningboysmile. Guard/rim/stand/base remain fixed and sharp. Exact4columns×4rows equal4:3cells on overall4:3 canvas2048×1536, eachcell512×384. No gutters/borders/lines/text/numerals. Each cell same camera position/scale; nothing is clipped at frame edge.",
+      "frames": [
+        {
+          "frame": 1,
+          "pixelBox": [
+            0,
+            0,
+            362,
+            271.5
+          ],
+          "description": "off, finger poised"
+        },
+        {
+          "frame": 2,
+          "pixelBox": [
+            362,
+            0,
+            362,
+            271.5
+          ],
+          "description": "button pressed, blades start"
+        },
+        {
+          "frame": 3,
+          "pixelBox": [
+            724,
+            0,
+            362,
+            271.5
+          ],
+          "description": "blades rotate further, fingertip release begins"
+        },
+        {
+          "frame": 4,
+          "pixelBox": [
+            1086,
+            0,
+            362,
+            271.5
+          ],
+          "description": "new blade angle, hand starts lift"
+        },
+        {
+          "frame": 5,
+          "pixelBox": [
+            0,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "new blade angle, wrist relaxes"
+        },
+        {
+          "frame": 6,
+          "pixelBox": [
+            362,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "hand retracts"
+        },
+        {
+          "frame": 7,
+          "pixelBox": [
+            724,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "hand moves back"
+        },
+        {
+          "frame": 8,
+          "pixelBox": [
+            1086,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "forearm settles"
+        },
+        {
+          "frame": 9,
+          "pixelBox": [
+            0,
+            543,
+            362,
+            271.5
+          ],
+          "description": "hands resting, rotating blades"
+        },
+        {
+          "frame": 10,
+          "pixelBox": [
+            362,
+            543,
+            362,
+            271.5
+          ],
+          "description": "smile opens"
+        },
+        {
+          "frame": 11,
+          "pixelBox": [
+            724,
+            543,
+            362,
+            271.5
+          ],
+          "description": "new blade angle, delighted smile"
+        },
+        {
+          "frame": 12,
+          "pixelBox": [
+            1086,
+            543,
+            362,
+            271.5
+          ],
+          "description": "eyes close briefly"
+        },
+        {
+          "frame": 13,
+          "pixelBox": [
+            0,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "eyes open with smile"
+        },
+        {
+          "frame": 14,
+          "pixelBox": [
+            362,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "new blade angle, smile widens"
+        },
+        {
+          "frame": 15,
+          "pixelBox": [
+            724,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "eyes close happily"
+        },
+        {
+          "frame": 16,
+          "pixelBox": [
+            1086,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "final happy pose, fan spinning"
+        }
+      ],
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "pngVerified": true,
+        "uniqueCroppedFrameHashes": 16,
+        "grid": "Four equal columns and four equal rows, borderless, complete scenes; fractional vertical pixel boundaries are intentional at actual output resolution.",
+        "findings": [
+          "Three internal orange blades progress through different angles, initially crisp then moving.",
+          "Button press and hand withdrawal progress across frames; smiling reaction follows.",
+          "Guard, rim, hub, stand and base remain stationary in scene; both shoes complete after framing repair."
+        ],
+        "limitations": [
+          "Generative painted animation has small natural line and background variation; it is not pixel-registered 3D rendering.",
+          "Actual imagegen output is 1448×1086 rather than the requested preferred 2048×1536. Every cell remains exactly 4:3 in geometric coordinates."
+        ]
+      }
+    },
+    {
+      "filename": "island-stamp-16-v4.png",
+      "width": 1448,
+      "height": 1086,
+      "columns": 4,
+      "rows": 4,
+      "frameCount": 16,
+      "frameWidth": 362,
+      "frameHeight": 271.5,
+      "frameAspectRatio": "4:3",
+      "order": "row-major",
+      "reference": "island-stamp-v3.png",
+      "prompt": "Use case: scientific-educational. Create a production FULLY PAINTED ANIMATION SPRITE ATLAS for a Chinese Primary 2 learning game. The supplied two-panel image is a STYLE, CHARACTER and SCENE reference, NOT the requested output format. OUTPUT exact 2048×1536 pixels, overall 4:3 landscape, FOUR COLUMNS and FOUR ROWS, SIXTEEN equal 512×384 (4:3) cells, ordered left-to-right then top-to-bottom. One complete painted scene per cell. Direct abutting tiles: NO gutters, borders, grid lines, margins, numbers, labels or text anywhere. All sixteen scenes are successive real animation frames: each differs perceptibly from the previous through advancing action. No duplicate frames and no copied before/after alternation. LOCK camera, registration, background, object geometry, boy identity, size, clothing and palette across all16. Warm gouache and colored-pencil East Asian primary textbook illustration on creamy paper, same black-haired blue-shirt seven-year-old boy with normal believable child anatomy and exactly two arms/hands. Enough margin for entire head, limbs and shoes: no limbs cropped by image edge; objects may naturally occlude seated legs but do not amputate. Background lines align identically across corresponding cell locations. Do NOT add speech bubbles, arrows, boxes, words, letters or numbers.\nScene: same sunlit classroom reference, boy at wooden table, white rectangular paper fixed in rightcenter, open blue inkpad to right. Widen view enough that full boy and shoes fit safely within everycell, preserve three-quarter camera and identities. One wooden star rubberstamp in right hand. Left hand rests motionless beside paper. Paper and printed impression NEVER move. Frame1 matches source BEFORE: boy has pressed inked stamp onto blank paper at one fixed point, impression hidden beneath. Frame2 pressure compresses wrist slightly and blue star is immediately deposited at contact location, hidden under stamp until revealed. Frames3–16 stamp AND gripping hand lift smoothly straight UP, same stamp grip intact. Heights above contact plane for frames3..16 are 2,4,7,10,14,18,23,28,34,40,47,54,61,68 pixels in each 512×384 frame. Small natural elbow and wrist adjustment follows lift, boy smile gradually widens. From first uncovering, ONE crisp blue FIVE-POINTED STAR stays exactly at contact point on fixed paper. The stamp has visibly star-shaped inked blue rubber underside and lifts away rather than sliding across paper. Frame16 matches source AFTER: raised stamp clear of fully exposed star. Distinct incremental hand/stamp heights across each of sixteen frames, not two-state repeats. No extra stars anywhere, no writing.",
+      "revisionPrompt": null,
+      "finalPrompt": "Use case: scientific-educational. Create a production FULLY PAINTED ANIMATION SPRITE ATLAS for a Chinese Primary 2 learning game. The supplied two-panel image is a STYLE, CHARACTER and SCENE reference, NOT the requested output format. OUTPUT exact 2048×1536 pixels, overall 4:3 landscape, FOUR COLUMNS and FOUR ROWS, SIXTEEN equal 512×384 (4:3) cells, ordered left-to-right then top-to-bottom. One complete painted scene per cell. Direct abutting tiles: NO gutters, borders, grid lines, margins, numbers, labels or text anywhere. All sixteen scenes are successive real animation frames: each differs perceptibly from the previous through advancing action. No duplicate frames and no copied before/after alternation. LOCK camera, registration, background, object geometry, boy identity, size, clothing and palette across all16. Warm gouache and colored-pencil East Asian primary textbook illustration on creamy paper, same black-haired blue-shirt seven-year-old boy with normal believable child anatomy and exactly two arms/hands. Enough margin for entire head, limbs and shoes: no limbs cropped by image edge; objects may naturally occlude seated legs but do not amputate. Background lines align identically across corresponding cell locations. Do NOT add speech bubbles, arrows, boxes, words, letters or numbers.\nScene: same sunlit classroom reference, boy at wooden table, white rectangular paper fixed in rightcenter, open blue inkpad to right. Widen view enough that full boy and shoes fit safely within everycell, preserve three-quarter camera and identities. One wooden star rubberstamp in right hand. Left hand rests motionless beside paper. Paper and printed impression NEVER move. Frame1 matches source BEFORE: boy has pressed inked stamp onto blank paper at one fixed point, impression hidden beneath. Frame2 pressure compresses wrist slightly and blue star is immediately deposited at contact location, hidden under stamp until revealed. Frames3–16 stamp AND gripping hand lift smoothly straight UP, same stamp grip intact. Heights above contact plane for frames3..16 are 2,4,7,10,14,18,23,28,34,40,47,54,61,68 pixels in each 512×384 frame. Small natural elbow and wrist adjustment follows lift, boy smile gradually widens. From first uncovering, ONE crisp blue FIVE-POINTED STAR stays exactly at contact point on fixed paper. The stamp has visibly star-shaped inked blue rubber underside and lifts away rather than sliding across paper. Frame16 matches source AFTER: raised stamp clear of fully exposed star. Distinct incremental hand/stamp heights across each of sixteen frames, not two-state repeats. No extra stars anywhere, no writing.",
+      "frames": [
+        {
+          "frame": 1,
+          "pixelBox": [
+            0,
+            0,
+            362,
+            271.5
+          ],
+          "description": "stamp in contact with paper"
+        },
+        {
+          "frame": 2,
+          "pixelBox": [
+            362,
+            0,
+            362,
+            271.5
+          ],
+          "description": "pressure/contact completes; ink deposited"
+        },
+        {
+          "frame": 3,
+          "pixelBox": [
+            724,
+            0,
+            362,
+            271.5
+          ],
+          "description": "stamp begins to uncover fixed star"
+        },
+        {
+          "frame": 4,
+          "pixelBox": [
+            1086,
+            0,
+            362,
+            271.5
+          ],
+          "description": "stamp slightly higher"
+        },
+        {
+          "frame": 5,
+          "pixelBox": [
+            0,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "hand and stamp lift further"
+        },
+        {
+          "frame": 6,
+          "pixelBox": [
+            362,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "stamp rises, paper remains fixed"
+        },
+        {
+          "frame": 7,
+          "pixelBox": [
+            724,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "stamp higher again"
+        },
+        {
+          "frame": 8,
+          "pixelBox": [
+            1086,
+            271.5,
+            362,
+            271.5
+          ],
+          "description": "wrist adjusts while rising"
+        },
+        {
+          "frame": 9,
+          "pixelBox": [
+            0,
+            543,
+            362,
+            271.5
+          ],
+          "description": "star fully exposed, stamp rising"
+        },
+        {
+          "frame": 10,
+          "pixelBox": [
+            362,
+            543,
+            362,
+            271.5
+          ],
+          "description": "hand rises further"
+        },
+        {
+          "frame": 11,
+          "pixelBox": [
+            724,
+            543,
+            362,
+            271.5
+          ],
+          "description": "elbow bends"
+        },
+        {
+          "frame": 12,
+          "pixelBox": [
+            1086,
+            543,
+            362,
+            271.5
+          ],
+          "description": "stamp approaches face level"
+        },
+        {
+          "frame": 13,
+          "pixelBox": [
+            0,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "head tilts, stamp rising"
+        },
+        {
+          "frame": 14,
+          "pixelBox": [
+            362,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "smile grows, stamp higher"
+        },
+        {
+          "frame": 15,
+          "pixelBox": [
+            724,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "final lift nearly complete"
+        },
+        {
+          "frame": 16,
+          "pixelBox": [
+            1086,
+            814.5,
+            362,
+            271.5
+          ],
+          "description": "raised stamp and fully exposed star"
+        }
+      ],
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "pngVerified": true,
+        "uniqueCroppedFrameHashes": 16,
+        "grid": "Four equal columns and four equal rows, borderless, complete scenes; fractional vertical pixel boundaries are intentional at actual output resolution.",
+        "findings": [
+          "Stamp pressure/contact then distinct rising hand/stamp poses across sixteen scenes.",
+          "One blue star remains on fixed paper after impression is uncovered.",
+          "Intact stamp, normal hands, complete shoes and consistent room."
+        ],
+        "limitations": [
+          "Generative painted animation has small natural line and background variation; it is not pixel-registered 3D rendering.",
+          "Actual imagegen output is 1448×1086 rather than the requested preferred 2048×1536. Every cell remains exactly 4:3 in geometric coordinates."
+        ]
+      }
+    },
+    {
+      "filename": "fish-traffic-v4.png",
+      "width": 1774,
+      "height": 887,
+      "columns": 2,
+      "rows": 1,
+      "cellWidth": 887,
+      "cellHeight": 887,
+      "reference": "fish-words-v3.png",
+      "prompt": "Use case: scientific-educational. The provided 4×4 vocabulary sheet is a STYLE and CHARACTER reference only. Create exact 2048×1024 landscape image, overall2:1, TWO equal SQUARE1024×1024 vignettes side-by-side. No gutter, divider, grid line, margins, text, letters, labels, numerals or watermark. Match warm gouache East Asian textbook style and same short-black-haired boy wearing blue T-shirt,darkblue shorts,white socks,blue shoes. Normal believable child anatomy, both arms,hands,legs and feet fully inside each panel, full body with margins. SAME street scene,camera,sidewalk,curb,zebra crossing and boy scale in both. Crucial red light is a proper PEDESTRIAN traffic signal: clearly illuminated RED STANDING HUMAN pictogram on black signal box, not a vehicle traffic dot. It stays RED in both panels. LEFT panel action: boy WALKING ALONG SIDEWALK toward zebra crossing, one foot advancing but whole body/feet still SAFELY BEHIND CURB, head and eyes looking up toward the bright red standing-person pedestrian signal. RIGHT panel immediate result: same boy has STOPPED with BOTH FEET firmly together or parallel ON SIDEWALK BEHIND CURB, weight balanced and still, arms relaxed, looking at red pedestrian light and WAITING. He has not stepped on roadway, not crossing street. A couple very small stopping motion ticks near shoes optional, no X. Make transition from moving footstep to clear static waiting unmistakable. No cars or other distracting characters needed. Both signals must unmistakably show RED standing person. No green lights. Scene illustrates seeing red signal and stopping immediately.",
+      "sentence": "我一看到紅燈，就停下腳步。",
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "pngVerified": true,
+        "findings": [
+          "Two equal square cells, no gutter or writing.",
+          "Clearly illuminated red standing-person PEDESTRIAN signal in both cells.",
+          "Left boy stepping along sidewalk, looking at red signal; right boy both feet planted waiting.",
+          "Boy stays behind curb in both cells; full body, intact hands and feet.",
+          "Same camera, street, signal and boy identity in both cells."
+        ]
+      }
+    }
+  ]
+}

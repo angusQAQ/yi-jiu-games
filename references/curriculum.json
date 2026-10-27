@@ -1,0 +1,997 @@
+{
+  "purpose": "CUHK-verified vocabulary and pedagogical audit for Primary 2 一……就…… games",
+  "verification_date": "2026-10-26",
+  "official_guide": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/guide.php",
+  "pronunciation_policy": "Use official Hong Kong Linguistic Society/Jyutping readings appropriate to meaning; UI removes tone numbers. Dictionary tone-level recording is not natural sentence narration. Read written Chinese as Cantonese rather than silently translating the card text.",
+  "vocabulary": [
+    {
+      "text": "我",
+      "jyutping": "ngo",
+      "jyutping_with_tones": "ngo5",
+      "characters": [
+        {
+          "character": "我",
+          "reading": "ngo5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%DA"
+        }
+      ]
+    },
+    {
+      "text": "哥哥",
+      "jyutping": "go go",
+      "jyutping_with_tones": "go1 go1",
+      "characters": [
+        {
+          "character": "哥",
+          "reading": "go1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%F4"
+        },
+        {
+          "character": "哥",
+          "reading": "go1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AD%F4"
+        }
+      ]
+    },
+    {
+      "text": "妹妹",
+      "jyutping": "mui mui",
+      "jyutping_with_tones": "mui6 mui6",
+      "characters": [
+        {
+          "character": "妹",
+          "reading": "mui6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9f"
+        },
+        {
+          "character": "妹",
+          "reading": "mui6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9f"
+        }
+      ]
+    },
+    {
+      "text": "媽媽",
+      "jyutping": "maa maa",
+      "jyutping_with_tones": "maa1 maa1",
+      "characters": [
+        {
+          "character": "媽",
+          "reading": "maa1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%FD"
+        },
+        {
+          "character": "媽",
+          "reading": "maa1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%FD"
+        }
+      ]
+    },
+    {
+      "text": "一",
+      "jyutping": "jat",
+      "jyutping_with_tones": "jat1",
+      "characters": [
+        {
+          "character": "一",
+          "reading": "jat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%40"
+        }
+      ]
+    },
+    {
+      "text": "就",
+      "jyutping": "zau",
+      "jyutping_with_tones": "zau6",
+      "characters": [
+        {
+          "character": "就",
+          "reading": "zau6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4N"
+        }
+      ]
+    },
+    {
+      "text": "肚餓",
+      "jyutping": "tou ngo",
+      "jyutping_with_tones": "tou5 ngo6",
+      "characters": [
+        {
+          "character": "肚",
+          "reading": "tou5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%7B"
+        },
+        {
+          "character": "餓",
+          "reading": "ngo6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BEj"
+        }
+      ]
+    },
+    {
+      "text": "口渴",
+      "jyutping": "hau hot",
+      "jyutping_with_tones": "hau2 hot3",
+      "characters": [
+        {
+          "character": "口",
+          "reading": "hau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4f"
+        },
+        {
+          "character": "渴",
+          "reading": "hot3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B4%F7"
+        }
+      ]
+    },
+    {
+      "text": "下雨",
+      "jyutping": "haa jyu",
+      "jyutping_with_tones": "haa6 jyu5",
+      "characters": [
+        {
+          "character": "下",
+          "reading": "haa6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4U"
+        },
+        {
+          "character": "雨",
+          "reading": "jyu5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%ABB"
+        }
+      ]
+    },
+    {
+      "text": "手髒",
+      "jyutping": "sau zong",
+      "jyutping_with_tones": "sau2 zong1",
+      "characters": [
+        {
+          "character": "手",
+          "reading": "sau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%E2"
+        },
+        {
+          "character": "髒",
+          "reading": "zong1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C5%BC"
+        }
+      ]
+    },
+    {
+      "text": "天黑",
+      "jyutping": "tin hak",
+      "jyutping_with_tones": "tin1 hak1",
+      "characters": [
+        {
+          "character": "天",
+          "reading": "tin1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%D1"
+        },
+        {
+          "character": "黑",
+          "reading": "hak1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%C2"
+        }
+      ]
+    },
+    {
+      "text": "起床",
+      "jyutping": "hei cong",
+      "jyutping_with_tones": "hei2 cong4",
+      "characters": [
+        {
+          "character": "起",
+          "reading": "hei2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B0_"
+        },
+        {
+          "character": "床",
+          "reading": "cong4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%C9"
+        }
+      ]
+    },
+    {
+      "text": "吃飯",
+      "jyutping": "hek faan",
+      "jyutping_with_tones": "hek3 faan6",
+      "characters": [
+        {
+          "character": "吃",
+          "reading": "hek3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6Y"
+        },
+        {
+          "character": "飯",
+          "reading": "faan6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%BA"
+        }
+      ]
+    },
+    {
+      "text": "喝水",
+      "jyutping": "hot seoi",
+      "jyutping_with_tones": "hot3 seoi2",
+      "characters": [
+        {
+          "character": "喝",
+          "reading": "hot3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B3%DC"
+        },
+        {
+          "character": "水",
+          "reading": "seoi2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%F4"
+        }
+      ]
+    },
+    {
+      "text": "打傘",
+      "jyutping": "daa saan",
+      "jyutping_with_tones": "daa2 saan3",
+      "characters": [
+        {
+          "character": "打",
+          "reading": "daa2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%B4"
+        },
+        {
+          "character": "傘",
+          "reading": "saan3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B3%CA"
+        }
+      ]
+    },
+    {
+      "text": "洗手",
+      "jyutping": "sai sau",
+      "jyutping_with_tones": "sai2 sau2",
+      "characters": [
+        {
+          "character": "洗",
+          "reading": "sai2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AC~"
+        },
+        {
+          "character": "手",
+          "reading": "sau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%E2"
+        }
+      ]
+    },
+    {
+      "text": "開燈",
+      "jyutping": "hoi dang",
+      "jyutping_with_tones": "hoi1 dang1",
+      "characters": [
+        {
+          "character": "開",
+          "reading": "hoi1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6%7D"
+        },
+        {
+          "character": "燈",
+          "reading": "dang1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BFO"
+        }
+      ]
+    },
+    {
+      "text": "刷牙",
+      "jyutping": "caat ngaa",
+      "jyutping_with_tones": "caat3 ngaa4",
+      "characters": [
+        {
+          "character": "刷",
+          "reading": "caat3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%EA"
+        },
+        {
+          "character": "牙",
+          "reading": "ngaa4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%FA"
+        }
+      ]
+    },
+    {
+      "text": "放學",
+      "jyutping": "fong hok",
+      "jyutping_with_tones": "fong3 hok6",
+      "characters": [
+        {
+          "character": "放",
+          "reading": "fong3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A9%F1"
+        },
+        {
+          "character": "學",
+          "reading": "hok6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BE%C7"
+        }
+      ]
+    },
+    {
+      "text": "回家",
+      "jyutping": "wui gaa",
+      "jyutping_with_tones": "wui4 gaa1",
+      "characters": [
+        {
+          "character": "回",
+          "reading": "wui4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%5E"
+        },
+        {
+          "character": "家",
+          "reading": "gaa1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AEa"
+        }
+      ]
+    },
+    {
+      "text": "看書",
+      "jyutping": "hon syu",
+      "jyutping_with_tones": "hon3 syu1",
+      "characters": [
+        {
+          "character": "看",
+          "reading": "hon3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AC%DD"
+        },
+        {
+          "character": "書",
+          "reading": "syu1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%D1"
+        }
+      ]
+    },
+    {
+      "text": "睡覺",
+      "jyutping": "seoi gaau",
+      "jyutping_with_tones": "seoi6 gaau3",
+      "characters": [
+        {
+          "character": "睡",
+          "reading": "seoi6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BA%CE"
+        },
+        {
+          "character": "覺",
+          "reading": "gaau3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C4%B1"
+        }
+      ]
+    },
+    {
+      "text": "聽見鈴聲",
+      "jyutping": "ting gin ling sing",
+      "jyutping_with_tones": "ting1 gin3 ling4 sing1",
+      "characters": [
+        {
+          "character": "聽",
+          "reading": "ting1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C5%A5"
+        },
+        {
+          "character": "見",
+          "reading": "gin3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%A3"
+        },
+        {
+          "character": "鈴",
+          "reading": "ling4",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B9a"
+        },
+        {
+          "character": "聲",
+          "reading": "sing1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C1n"
+        }
+      ]
+    },
+    {
+      "text": "走進課室",
+      "jyutping": "zau zeon fo sat",
+      "jyutping_with_tones": "zau2 zeon3 fo3 sat1",
+      "characters": [
+        {
+          "character": "走",
+          "reading": "zau2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A8%AB"
+        },
+        {
+          "character": "進",
+          "reading": "zeon3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B6i"
+        },
+        {
+          "character": "課",
+          "reading": "fo3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%BD%D2"
+        },
+        {
+          "character": "室",
+          "reading": "sat1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AB%C7"
+        }
+      ]
+    },
+    {
+      "text": "穿衣服",
+      "jyutping": "cyun ji fuk",
+      "jyutping_with_tones": "cyun1 ji1 fuk6",
+      "characters": [
+        {
+          "character": "穿",
+          "reading": "cyun1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AC%EF"
+        },
+        {
+          "character": "衣",
+          "reading": "ji1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%E7"
+        },
+        {
+          "character": "服",
+          "reading": "fuk6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AAA"
+        }
+      ]
+    },
+    {
+      "text": "用耳朵看書",
+      "jyutping": "jung ji do hon syu",
+      "jyutping_with_tones": "jung6 ji5 do2 hon3 syu1",
+      "characters": [
+        {
+          "character": "用",
+          "reading": "jung6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A5%CE"
+        },
+        {
+          "character": "耳",
+          "reading": "ji5",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%D5"
+        },
+        {
+          "character": "朵",
+          "reading": "do2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A6%B7"
+        },
+        {
+          "character": "看",
+          "reading": "hon3",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AC%DD"
+        },
+        {
+          "character": "書",
+          "reading": "syu1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%AE%D1"
+        }
+      ]
+    },
+    {
+      "text": "把月亮關掉",
+      "jyutping": "baa jyut loeng gwaan diu",
+      "jyutping_with_tones": "baa2 jyut6 loeng6 gwaan1 diu6",
+      "characters": [
+        {
+          "character": "把",
+          "reading": "baa2",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A7%E2"
+        },
+        {
+          "character": "月",
+          "reading": "jyut6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%A4%EB"
+        },
+        {
+          "character": "亮",
+          "reading": "loeng6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%ABG"
+        },
+        {
+          "character": "關",
+          "reading": "gwaan1",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%C3%F6"
+        },
+        {
+          "character": "掉",
+          "reading": "diu6",
+          "source": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/search.php?q=%B1%BC"
+        }
+      ]
+    }
+  ],
+  "fishing": {
+    "first_events": [
+      "肚餓",
+      "口渴",
+      "下雨",
+      "手髒",
+      "天黑",
+      "起床"
+    ],
+    "results": [
+      "吃飯",
+      "喝水",
+      "打傘",
+      "洗手",
+      "開燈",
+      "刷牙"
+    ],
+    "matrix": [
+      {
+        "first": "肚餓",
+        "second": "吃飯",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "吃飯可以解餓。",
+        "teacher_note": null
+      },
+      {
+        "first": "肚餓",
+        "second": "喝水",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "肚餓",
+        "second": "打傘",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "肚餓",
+        "second": "洗手",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "吃飯前先洗手，是好習慣。",
+        "teacher_note": null
+      },
+      {
+        "first": "肚餓",
+        "second": "開燈",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "肚餓",
+        "second": "刷牙",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "口渴",
+        "second": "吃飯",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "口渴",
+        "second": "喝水",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "喝水可以解渴。",
+        "teacher_note": null
+      },
+      {
+        "first": "口渴",
+        "second": "打傘",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "口渴",
+        "second": "洗手",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "口渴",
+        "second": "開燈",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "口渴",
+        "second": "刷牙",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "下雨",
+        "second": "吃飯",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "下雨",
+        "second": "喝水",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "下雨",
+        "second": "打傘",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "打傘可以擋雨。",
+        "teacher_note": null
+      },
+      {
+        "first": "下雨",
+        "second": "洗手",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "下雨",
+        "second": "開燈",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "下雨",
+        "second": "刷牙",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "手髒",
+        "second": "吃飯",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "手髒",
+        "second": "喝水",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "手髒",
+        "second": "打傘",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "手髒",
+        "second": "洗手",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "洗手可以把髒手洗乾淨。",
+        "teacher_note": null
+      },
+      {
+        "first": "手髒",
+        "second": "開燈",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "手髒",
+        "second": "刷牙",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "天黑",
+        "second": "吃飯",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "天黑",
+        "second": "喝水",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "天黑",
+        "second": "打傘",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "天黑",
+        "second": "洗手",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "天黑",
+        "second": "開燈",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "開燈後可以看清楚。",
+        "teacher_note": null
+      },
+      {
+        "first": "天黑",
+        "second": "刷牙",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "起床",
+        "second": "吃飯",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "起床後可以吃早飯。",
+        "teacher_note": null
+      },
+      {
+        "first": "起床",
+        "second": "喝水",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "起床後可以喝水。",
+        "teacher_note": null
+      },
+      {
+        "first": "起床",
+        "second": "打傘",
+        "semantic_class": "context_needed",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "這兩件事可以先後發生；單憑這句話，不能說一定不合理。",
+        "teacher_note": "不是典型因果，但「一……就……」亦能表達個人習慣或緊接動作。若未設定情境，不能把非標準配對一律判錯。"
+      },
+      {
+        "first": "起床",
+        "second": "洗手",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "起床後可以先洗手。",
+        "teacher_note": null
+      },
+      {
+        "first": "起床",
+        "second": "開燈",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "房間昏暗時，起床後可以開燈。",
+        "teacher_note": null
+      },
+      {
+        "first": "起床",
+        "second": "刷牙",
+        "semantic_class": "common_reasonable",
+        "intrinsic_contradiction": false,
+        "safe_binary_if_forced": "合理",
+        "explanation": "起床後刷牙，是常見的習慣。",
+        "teacher_note": null
+      }
+    ],
+    "warning": "No pair in this 6×6 bank is intrinsically impossible. Binary disapproval based on unmatched standard answers would overstate semantic certainty.",
+    "recommended_judgement": "Accept every plausible ordinary-action sequence; give specific positive explanations for common pairs. To retain meaningful binary visual feedback without setting a fixed scenario, add explicitly impossible result phrases. A visibly dirty-hands→eating combination may be judged 不合理 on hygiene grounds when the illustration makes the remaining dirt explicit; explain 先洗手 rather than declaring the Chinese construction wrong.",
+    "optional_unreasonable_results": [
+      {
+        "text": "用耳朵看書",
+        "reason": "看書要用眼睛，耳朵不能看見文字。",
+        "illustration": "A puzzled child holding an open book beside one ear; show a clear cross, without harm."
+      },
+      {
+        "text": "把月亮關掉",
+        "reason": "月亮不是家裏的電燈，不能用開關關掉。",
+        "illustration": "Child pointing remote control at the moon; moon remains visible and remote has no effect."
+      }
+    ],
+    "extended_matrix_rule": "Every combination of any ordinary first-event and an explicitly impossible result is unreasonable; ordinary second-event cards remain accepted when plausible. No live AI semantic judgment is required.",
+    "behavioural_caution": {
+      "first": "手髒",
+      "second": "吃飯",
+      "classification": "不合理（衞生習慣）",
+      "explanation": "雙手還有泥污就吃飯不衞生，應先洗手。",
+      "illustration_constraint": "Only give this feedback if the composed picture explicitly shows the same visibly dirty hands touching food; do not call the sentence ungrammatical.",
+      "note": "This is a behavioural judgment rather than an impossible event or invalid 一……就…… structure."
+    }
+  },
+  "sushi": [
+    {
+      "first": "肚餓",
+      "answer": "吃飯",
+      "choices": [
+        "吃飯",
+        "打傘",
+        "刷牙"
+      ],
+      "sentence": "我一肚餓，就吃飯。",
+      "visual_cue": "客人摸着肚子；旁邊有空碗。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "口渴",
+      "answer": "喝水",
+      "choices": [
+        "喝水",
+        "看書",
+        "開燈"
+      ],
+      "sentence": "我一口渴，就喝水。",
+      "visual_cue": "客人指着空水杯；嘴巴乾。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "下雨",
+      "answer": "打傘",
+      "choices": [
+        "打傘",
+        "刷牙",
+        "吃飯"
+      ],
+      "sentence": "我一下雨，就打傘。",
+      "visual_cue": "客人站在下雨的店門旁。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "手髒",
+      "answer": "洗手",
+      "choices": [
+        "洗手",
+        "睡覺",
+        "打傘"
+      ],
+      "sentence": "我一手髒，就洗手。",
+      "visual_cue": "客人伸出沾泥的雙手；旁邊有洗手盆。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "天黑",
+      "answer": "開燈",
+      "choices": [
+        "開燈",
+        "洗手",
+        "喝水"
+      ],
+      "sentence": "我一天黑，就開燈。",
+      "visual_cue": "客人在黑暗房間；旁邊有熄掉的燈。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "起床",
+      "answer": "刷牙",
+      "choices": [
+        "刷牙",
+        "打傘",
+        "回家"
+      ],
+      "sentence": "我一起床，就刷牙。",
+      "visual_cue": "客人在床邊拿着牙刷。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "放學",
+      "answer": "回家",
+      "choices": [
+        "回家",
+        "刷牙",
+        "睡覺"
+      ],
+      "sentence": "我一放學，就回家。",
+      "visual_cue": "客人在校門外背書包；箭頭指向家。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "聽見鈴聲",
+      "answer": "走進課室",
+      "choices": [
+        "走進課室",
+        "睡覺",
+        "打傘"
+      ],
+      "sentence": "我一聽見鈴聲，就走進課室。",
+      "visual_cue": "學校上課鈴響；學生在課室門外。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "起床",
+      "answer": "穿衣服",
+      "choices": [
+        "穿衣服",
+        "打傘",
+        "回家"
+      ],
+      "sentence": "我一起床，就穿衣服。",
+      "visual_cue": "客人在床邊，手拿校服。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    },
+    {
+      "first": "天黑",
+      "answer": "睡覺",
+      "choices": [
+        "睡覺",
+        "打傘",
+        "刷牙"
+      ],
+      "sentence": "我一天黑，就睡覺。",
+      "visual_cue": "客人在床上蓋好被子；窗外有月亮。",
+      "feedback_policy": "Ask for the most fitting response to the visual cue; do not state that other possible life routines are universally impossible."
+    }
+  ],
+  "sources_note": "Each character record links to its actual CUHK entry. Full raw evidence in work/cuhk-character-audit.json and work/cuhk-entries/. Not every UI word in the eventual website is included here; audit additions before claiming full verification."
+}

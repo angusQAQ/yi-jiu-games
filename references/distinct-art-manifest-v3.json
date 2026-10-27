@@ -1,0 +1,531 @@
+{
+  "version": 3,
+  "mode": "built-in image_gen",
+  "createdDate": "2026-10-27",
+  "assetsDirectory": "work/ocean-classroom/dist/assets",
+  "styleReferences": [
+    "vocab-v2.png",
+    "island-lamp-v2.png"
+  ],
+  "notes": [
+    "Only new v3 PNG files and this manifest were created. Existing assets and application code were not changed.",
+    "All images inspected with view_image. Reported pixel dimensions verified from PNG files.",
+    "Scene target geometry is measured in the AFTER panel, not full atlas coordinates. Source boxes additionally supplied for full atlas use.",
+    "Scene ROIs are production hints. For fan motion, retain the guard as a static foreground layer and animate internal blade pixels only."
+  ],
+  "assets": [
+    {
+      "filename": "fish-words-v3.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "cellWidth": 313.5,
+      "cellHeight": 313.5,
+      "prompt": "Use case: scientific-educational. Production raster art for a Chinese Primary 2 browser learning game, illustration only. Warm gouache and colored-pencil children's textbook illustration, pale warm cream paper, soft watercolor texture, clean expressive forms, gentle sunlight, muted blue/green/yellow palette. A consistent ordinary East Asian boy age seven with short tousled black hair, rounded friendly face, black eyes, blue short-sleeved T-shirt, dark blue shorts, normal believable child anatomy, two arms and two hands. No words, letters, numerals, labels, logos or watermarks anywhere.\nCreate a perfectly square 2048 by 2048 image, exact FOUR columns and FOUR rows, sixteen equal square cells, every cell 512 by 512, row-major reading order. NO gutters, NO borders, no inset frames. Keep everything for one vignette inside its own square. Same boy across all sixteen. Each vignette must communicate one precise concept with a single clear scene. Row 1 cells: (1) boy standing with BOTH EYES visibly tightly CLOSED, hands down. (2) boy BITING a fresh yellow lemon wedge at mouth, sour beginning expression. (3) boy touching a large clear blue ICE CUBE with his BARE right hand, cube on table. (4) boy walking into clearly falling RAIN wearing only blue shirt and shorts, NO umbrella and NO raincoat. Row 2 cells: (5) boy visibly SQUEEZING a very WET yellow SPONGE over a bowl, water streams out. (6) boy using a felt board eraser to WIPE a simple blue STAR drawing on a WHITEBOARD, partial star still visible. (7) boy has just opened fingers to RELEASE an unsupported yellow PENCIL above the FLOOR, pencil floating below his hand with clear gap. (8) boy CLAPPING his two hands together at chest level. Row 3 cells: (9) boy with CLOSED EYES; beside him a dark dim thought bubble contains a nearly hidden toy ball, clearly unable to see. (10) boy eating lemon with obvious SOUR face, pursed mouth and squeezed-shut eyes, lemon visible. (11) boy's bare hand touching ICE cube with blue CHILL lines and startled cold face. (12) boy standing in rain with visibly DRIPPING WET blue clothes, water droplets and wet darker fabric, no umbrella or coat. Row 4 cells: (13) close view same boy compressing yellow sponge, several unambiguous WATER streams squeezed into bowl. (14) same boy beside an entirely BLANK clean WHITEBOARD, a felt eraser in hand; the previous star has been erased completely. (15) boy WATCHING a yellow PENCIL FALL down below open empty hand, strong downward motion marks, floor underneath. (16) same boy hears CLAPPING: his hands clapping at chest with orange curved SOUND arcs around hands, ear visible and listening smile. Make each prompt's exact objects visible, all cells square. No extra props or limbs. No text.",
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "grid": "Borderless 4×4 square cells; use fractional pixel crop boundaries or percentage positioning.",
+        "conceptsRowMajor": [
+          "閉上眼睛",
+          "咬檸檬",
+          "摸冰塊",
+          "走進雨中",
+          "捏濕海綿",
+          "擦白板",
+          "放開鉛筆",
+          "拍手",
+          "看不見東西",
+          "覺得很酸",
+          "覺得冰冷",
+          "淋濕了",
+          "擠出水來",
+          "擦掉圖案",
+          "看見鉛筆掉下",
+          "聽到掌聲"
+        ],
+        "findings": [
+          "All sixteen requested concepts visible in correct row-major order.",
+          "Rain scenes contain no umbrella or raincoat.",
+          "Released/falling pencil unsupported beneath open hand.",
+          "Whiteboard changes partial star to blank board.",
+          "Normal child anatomy, consistent blue-shirt East Asian boy, no writing."
+        ]
+      }
+    },
+    {
+      "filename": "island-zip-v3.png",
+      "width": 2048,
+      "height": 768,
+      "panels": 2,
+      "panelWidth": 1024,
+      "panelHeight": 768,
+      "prompt": "Use case: scientific-educational. Production raster art for a Chinese Primary 2 browser learning game, illustration only. Warm gouache and colored-pencil children's textbook illustration, pale warm cream paper, soft watercolor texture, clean expressive forms, gentle sunlight, muted blue/green/yellow palette. A consistent ordinary East Asian boy age seven with short tousled black hair, rounded friendly face, black eyes, blue short-sleeved T-shirt, dark blue shorts, normal believable child anatomy, two arms and two hands. No words, letters, numerals, labels, logos or watermarks anywhere.\nCreate exact 2048x768 landscape image (8:3) of TWO equal side-by-side 1024x768 panels, each panel exact 4:3. Fixed same camera and composition, boy and room same scale and positions. No border, gutter, text, labels, arrows or divider. Cozy sunlit classroom work table. Boy stands at left of each panel, blue SCHOOLBAG upright on table in right-center of each panel. Same bag shape, same blue fabric, same front pocket and same top-opening geometry in BOTH panels. BEFORE left panel: the TOP ZIPPER of bag is OPEN across its full width, visible dark wide opening and separated zipper teeth. Boy's right fingers hold yellow zipper pull at left end, just beginning to pull it. AFTER right panel: same bag TOP ZIPPER fully CLOSED from left to right, dark opening completely gone, zipper edges meet neatly; boy's right fingers hold yellow pull tab at far RIGHT end. Boy looks pleased. Important: same bag silhouette and body, it is a zipper closing, no lid or flap, no bag transformation. Put top zipper around y360 within each panel, bag spans x510 to860 local panel, pull end unobstructed. All important props inside panel boundaries. Two ordinary hands only, intact bag. Purpose is clear cause and result: pulling zipper makes schoolbag close.",
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "findings": [
+          "Same camera, boy, room and bag shape across pair.",
+          "Left top zipper visibly open; right zipper fully joined and opening gone.",
+          "Intact bag and normal child hands; no words."
+        ]
+      },
+      "afterROI": {
+        "coordinateSystem": "Local pixels within right 1024×768 panel, origin at source x1024,y0.",
+        "sourcePanelPixelBox": [
+          1024,
+          0,
+          1024,
+          768
+        ],
+        "targets": [
+          {
+            "name": "zipper_pull_tab",
+            "pixelBox": [
+              798,
+              347,
+              41,
+              30
+            ],
+            "sourcePixelBox": [
+              1822,
+              347,
+              41,
+              30
+            ],
+            "clip": {
+              "type": "polygon",
+              "points": [
+                [
+                  799,
+                  357
+                ],
+                [
+                  808,
+                  352
+                ],
+                [
+                  817,
+                  351
+                ],
+                [
+                  830,
+                  356
+                ],
+                [
+                  835,
+                  363
+                ],
+                [
+                  833,
+                  372
+                ],
+                [
+                  814,
+                  373
+                ],
+                [
+                  802,
+                  368
+                ]
+              ]
+            },
+            "animation": {
+              "target": "yellow zipper pull tab only",
+              "pivot": [
+                809,
+                359
+              ],
+              "suggested": "small 4deg pivot wiggle or <=6px horizontal nudge",
+              "keepStationary": [
+                "bag body",
+                "zipper teeth",
+                "boy torso"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filename": "island-fan-v3.png",
+      "width": 2048,
+      "height": 768,
+      "panels": 2,
+      "panelWidth": 1024,
+      "panelHeight": 768,
+      "prompt": "Use case: scientific-educational. Production raster art for a Chinese Primary 2 browser learning game, illustration only. Warm gouache and colored-pencil children's textbook illustration, pale warm cream paper, soft watercolor texture, clean expressive forms, gentle sunlight, muted blue/green/yellow palette. A consistent ordinary East Asian boy age seven with short tousled black hair, rounded friendly face, black eyes, blue short-sleeved T-shirt, dark blue shorts, normal believable child anatomy, two arms and two hands. No words, letters, numerals, labels, logos or watermarks anywhere.\nCreate exact 2048x768 landscape image (8:3) of TWO equal side-by-side 1024x768 panels, each panel exact 4:3. Fixed same camera, exactly same boy scale and same cozy classroom desk location in both panels. No border, gutter, text, labels, arrows or divider. Boy at left, pale teal tabletop ELECTRIC FAN at right on wooden desk, full circular fan FRONT faces camera. Show intact stationary round safety GUARD with fine grille, centered hub, exactly THREE broad peach/orange fan BLADES behind the grille. Fan circular face center local x720,y330 radius150; full stand and base visible beneath it. Visible power cord runs from fan base to wall electrical outlet, PLUGGED IN in BOTH panels. BEFORE left: blades crisp STILL, boy's right index finger poised just above round green POWER BUTTON on fan base, fan off. AFTER right: right index finger presses same base button, internal THREE BLADES rotate with soft circular blade-motion marks behind the grille; the protective grille, outer rim, stand and base remain completely STILL with sharp stable outlines. Do not turn spinning fan into disk, keep blade forms visible. No sparks or electricity effects. Hands outside fan grille, normal anatomy. Air movement can gently lift a small hair tuft. Clear cause and result: press power button then fan rotates.",
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "findings": [
+          "Visible plug and cord in both panels.",
+          "Before blades crisp and still; after circular blade motion is visible behind stationary sharp grille.",
+          "Power button press visible; guard, stand and base intact; normal anatomy."
+        ]
+      },
+      "afterROI": {
+        "coordinateSystem": "Local pixels within right 1024×768 panel, origin at source x1024,y0.",
+        "sourcePanelPixelBox": [
+          1024,
+          0,
+          1024,
+          768
+        ],
+        "targets": [
+          {
+            "name": "fan_blades_only",
+            "pixelBox": [
+              625,
+              172,
+              309,
+              310
+            ],
+            "sourcePixelBox": [
+              1649,
+              172,
+              309,
+              310
+            ],
+            "clip": {
+              "type": "ellipse",
+              "cx": 779,
+              "cy": 327,
+              "rx": 151,
+              "ry": 151
+            },
+            "excludeClips": [
+              {
+                "type": "ellipse",
+                "cx": 779,
+                "cy": 327,
+                "rx": 47,
+                "ry": 47
+              }
+            ],
+            "mask": {
+              "source": "Orange blade pixels only within ellipse; create alpha from orange hue (approximately 18–47 degrees, saturation >0.3), excluding the pale grille/rim, green hub and green fan structure.",
+              "guardLayer": "The white grille/guard and green central hub remain on a STATIC foreground layer. Never rotate the entire circular raster crop.",
+              "fallback": "If alpha/foreground extraction is unavailable, keep the raster fully static and animate an independent subtle airflow overlay; do not rotate the guard."
+            },
+            "animation": {
+              "target": "internal orange blade pixels only",
+              "pivot": [
+                779,
+                327
+              ],
+              "suggested": "clockwise rotation behind stationary grille",
+              "keepStationary": [
+                "all guard grille wires",
+                "outer rim",
+                "central hub",
+                "fan stand and base",
+                "button",
+                "cord",
+                "boy"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filename": "island-stamp-v3.png",
+      "width": 2048,
+      "height": 768,
+      "panels": 2,
+      "panelWidth": 1024,
+      "panelHeight": 768,
+      "prompt": "Use case: scientific-educational. Production raster art for a Chinese Primary 2 browser learning game, illustration only. Warm gouache and colored-pencil children's textbook illustration, pale warm cream paper, soft watercolor texture, clean expressive forms, gentle sunlight, muted blue/green/yellow palette. A consistent ordinary East Asian boy age seven with short tousled black hair, rounded friendly face, black eyes, blue short-sleeved T-shirt, dark blue shorts, normal believable child anatomy, two arms and two hands. No words, letters, numerals, labels, logos or watermarks anywhere.\nCreate exact 2048x768 landscape image (8:3) of TWO equal side-by-side 1024x768 panels, each panel exact 4:3. Fixed same camera, exactly same boy scale and same classroom desk and props in both panels. No border, gutter, labels, arrows or divider. Boy sitting left-center at wooden table, seen at three-quarter view. A plain white rectangular PAPER is centered on table in right-center. A small dark-blue open INK PAD beside paper, no text. Same boy right hand holds small wooden RUBBER STAMP with a clearly STAR-shaped inked rubber base. BEFORE left panel: hand presses the stamp straight DOWN on initially blank paper, star impression concealed directly under stamp, paper elsewhere completely blank. AFTER right panel: same hand lifts stamp straight UP a short distance, revealing ONE crisp large blue FIVE-POINTED STAR impression on paper underneath. Stamp and lifted hand clear of printed star, star fully visible. Paper local panel spans approximately x490..880 y470..640, stamp hand local center approximately x650,y420. Left hand rests at side of paper, ordinary five-finger child hands. No duplicate stamps, no stars floating in room, no writing on paper. Clear cause and result: press inked stamp, then lift to reveal star.",
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "findings": [
+          "Same desk, boy and paper across pair.",
+          "Before stamp is pressed on blank paper; after hand lifts stamp to reveal one crisp five-point blue star.",
+          "Ink pad visible and stamp intact; no writing or extra limbs."
+        ]
+      },
+      "afterROI": {
+        "coordinateSystem": "Local pixels within right 1024×768 panel, origin at source x1024,y0.",
+        "sourcePanelPixelBox": [
+          1024,
+          0,
+          1024,
+          768
+        ],
+        "targets": [
+          {
+            "name": "stamp_hand_and_stamp",
+            "pixelBox": [
+              275,
+              348,
+              283,
+              172
+            ],
+            "sourcePixelBox": [
+              1299,
+              348,
+              283,
+              172
+            ],
+            "clip": {
+              "type": "polygon",
+              "points": [
+                [
+                  277,
+                  390
+                ],
+                [
+                  305,
+                  376
+                ],
+                [
+                  345,
+                  367
+                ],
+                [
+                  369,
+                  352
+                ],
+                [
+                  405,
+                  350
+                ],
+                [
+                  439,
+                  360
+                ],
+                [
+                  467,
+                  379
+                ],
+                [
+                  486,
+                  399
+                ],
+                [
+                  491,
+                  418
+                ],
+                [
+                  514,
+                  439
+                ],
+                [
+                  548,
+                  444
+                ],
+                [
+                  553,
+                  475
+                ],
+                [
+                  544,
+                  509
+                ],
+                [
+                  493,
+                  515
+                ],
+                [
+                  465,
+                  499
+                ],
+                [
+                  459,
+                  468
+                ],
+                [
+                  447,
+                  449
+                ],
+                [
+                  417,
+                  450
+                ],
+                [
+                  386,
+                  447
+                ],
+                [
+                  357,
+                  446
+                ],
+                [
+                  326,
+                  447
+                ],
+                [
+                  297,
+                  431
+                ],
+                [
+                  279,
+                  414
+                ]
+              ]
+            },
+            "animation": {
+              "target": "right hand plus lifted wooden star stamp",
+              "pivot": [
+                318,
+                410
+              ],
+              "suggested": "gentle <=7px vertical press/lift hint",
+              "keepStationary": [
+                "boy torso and head",
+                "paper",
+                "printed star",
+                "ink pad",
+                "left resting hand"
+              ]
+            }
+          },
+          {
+            "name": "printed_star_on_paper",
+            "pixelBox": [
+              468,
+              546,
+              131,
+              82
+            ],
+            "sourcePixelBox": [
+              1492,
+              546,
+              131,
+              82
+            ],
+            "clip": {
+              "type": "polygon",
+              "points": [
+                [
+                  530,
+                  550
+                ],
+                [
+                  548,
+                  568
+                ],
+                [
+                  591,
+                  567
+                ],
+                [
+                  565,
+                  588
+                ],
+                [
+                  572,
+                  618
+                ],
+                [
+                  540,
+                  604
+                ],
+                [
+                  514,
+                  622
+                ],
+                [
+                  514,
+                  596
+                ],
+                [
+                  478,
+                  581
+                ],
+                [
+                  521,
+                  575
+                ]
+              ]
+            },
+            "animation": {
+              "target": "blue printed star impression only",
+              "pivot": [
+                537,
+                587
+              ],
+              "suggested": "opacity reveal or gentle pulse; paper stays fixed"
+            }
+          },
+          {
+            "name": "paper",
+            "pixelBox": [
+              304,
+              508,
+              544,
+              203
+            ],
+            "sourcePixelBox": [
+              1328,
+              508,
+              544,
+              203
+            ],
+            "clip": {
+              "type": "polygon",
+              "points": [
+                [
+                  307,
+                  563
+                ],
+                [
+                  690,
+                  510
+                ],
+                [
+                  845,
+                  624
+                ],
+                [
+                  446,
+                  709
+                ]
+              ]
+            },
+            "animation": {
+              "target": "paper surface region for reveal clipping",
+              "pivot": [
+                565,
+                606
+              ],
+              "suggested": "static; use as reveal mask only"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filename": "island-extra-words-v3.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "cellWidth": 512,
+      "cellHeight": 512,
+      "prompt": "Use case: scientific-educational. Production raster art for a Chinese Primary 2 browser learning game, illustration only. Warm gouache and colored-pencil children's textbook illustration, pale warm cream paper, soft watercolor texture, clean expressive forms, gentle sunlight, muted blue/green/yellow palette. A consistent ordinary East Asian boy age seven with short tousled black hair, rounded friendly face, black eyes, blue short-sleeved T-shirt, dark blue shorts, normal believable child anatomy, two arms and two hands. No words, letters, numerals, labels, logos or watermarks anywhere.\nCreate exact 1536x1024 landscape image (3:2), exact THREE columns and TWO rows, SIX equal SQUARE vignette cells, each 512x512, row-major. NO gutters, borders, labels, text or numerals. Same boy across all cells. Cozy cream classroom watercolor backgrounds. First row ACTIONS: (1) boy right hand PULLING yellow ZIPPER TAB across the top zipper on a BLUE SCHOOLBAG on table, bag initially partly open, ordinary intact schoolbag. (2) boy right index finger PRESSING round green POWER BUTTON on base of plugged-in pale teal TABLE FAN; full circular guard and three orange blades visible. (3) boy right hand PRESSING wooden STAR RUBBER STAMP straight onto BLANK white paper on table, small open blue inkpad nearby. Second row RESULTS: (4) same blue schoolbag fully CLOSED with top zipper teeth joined and yellow pull tab at end, no opening, boy smiles beside it. (5) same plugged-in tabletop fan SPINNING its three orange blades, round protective GUARD and rim remain sharp and stationary, subtle circular motion marks around blades ONLY, boy happy nearby. (6) same boy lifting wooden stamp off paper, revealing ONE crisp BLUE FIVE-POINT STAR printed on otherwise blank white paper, impression fully visible. All objects inside their exact square cell. Blue schoolbag must have same geometry for cells1and4; tablefan same geometry for cells2and5; stamp/paper same geometry for cells3and6. No extra limbs, no words.",
+      "editPrompt": "Use case: precise-object-edit. Edit target is the supplied 1536×1024 warm gouache 3-column ×2-row educational vignette sheet. Change ONLY the thin pale cream separator gutters: remove all vertical and horizontal gutters/border lines by extending each existing illustration background all the way to the exact adjacent tile edge. Preserve all six illustrations, all characters, all objects, poses, colours, shape, details and relative positions. Final exact 1536×1024 canvas, tiles must be equal square512×512, first column x0..511, second512..1023, third1024..1535, row1y0..511, row2y512..1023. No divider strips anywhere at x512,x1024,y512; direct continuous abutment at the grid cut. No text or numbers. Keep zipper pull, closed schoolbag, fan button, spinning fan, pressed stamp and printed blue star all unchanged. It must be a borderless square-tile sprite atlas.",
+      "QA": {
+        "status": "pass",
+        "visualInspection": true,
+        "grid": "Exact 3×2 equal 512px square cells. Targeted built-in edit removed generated separator gutters.",
+        "conceptsRowMajor": [
+          "拉上拉鏈",
+          "按下風扇開關",
+          "蓋印章",
+          "書包合上了",
+          "風扇轉動了",
+          "紙上印出星星"
+        ],
+        "findings": [
+          "All six concepts present in correct row-major order.",
+          "Same bag, fan, stamp and boy across corresponding action/result cells.",
+          "No words, numerals, labels or logos; ordinary child hands."
+        ]
+      }
+    }
+  ]
+}

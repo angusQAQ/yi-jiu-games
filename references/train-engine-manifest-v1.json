@@ -1,0 +1,580 @@
+{
+  "version": 1,
+  "createdDate": "2026-10-27",
+  "mode": "built-in image_gen",
+  "asset": "work/ocean-classroom/dist/assets/train-engine-16-v1.png",
+  "width": 1448,
+  "height": 1086,
+  "format": "PNG",
+  "colorMode": "RGBA",
+  "sha256": "46ac6039662a424660ae9bf7d455cbd05e5c9cb67efa34ce481754b0e06397ac",
+  "alpha": {
+    "hasAlpha": true,
+    "extrema": [
+      0,
+      255
+    ],
+    "fullyTransparentPixelCount": 964407,
+    "alpha1To10PixelCount": 139838,
+    "alpha11To127PixelCount": 19197,
+    "alpha128To254PixelCount": 447728,
+    "fullyOpaquePixelCount": 1358,
+    "pixelCount": 1572528
+  },
+  "grid": {
+    "columns": 4,
+    "rows": 4,
+    "frameCount": 16,
+    "frameWidth": 362,
+    "frameHeight": 271.5,
+    "frameAspectRatio": "4:3",
+    "atlasAspectRatio": "4:3",
+    "order": "row-major",
+    "coordinateSystem": "Fractional pixel cell boundaries preserve native 4:3 geometry. Do not round or resample the stored atlas."
+  },
+  "fullPrompt": "Create a transparent PNG SPRITE ATLAS: exactly FOUR COLUMNS and FOUR ROWS of SIXTEEN equal4:3 cells, overall canvas4:3 landscape. Transparent background is essential. NO visible grid, dividers, text, numerals, labels, ground, rails, shadows, rooms, frames or painted background.\n\nEach of the sixteen invisible equal cells contains the SAME SMALL hand-painted cute rounded steam locomotive in strict SIDE VIEW FACING RIGHT. Coral-red boiler, sky-blue cab at LEFT with cream roof, black chimney at RIGHT-front, golden bell, exactly THREE round spoked wheels. Coupling for carriages sticks out at the LEFT rear. Front bumper faces RIGHT. No carriages, people, face, eyes or logos. Match the warm rich gouache/colored-pencil primary-school textbook paint quality of the supplied references, ONLY use references for style.\n\nCRITICAL SPACING: the locomotive is SMALL, with broad empty transparent padding all around each individual sprite. Entire train plus steam fits in the CENTRAL60% OF CELL WIDTH and CENTRAL68% OF CELL HEIGHT. Leave at least20% completely empty cell-width at BOTH LEFT AND RIGHT; at least16% empty cell-height at BOTH TOP AND BOTTOM. All16 sprites have IDENTICAL local size and local placement in equal-sized cells. Engine baseline is exactly at76% of every cell height. Cab roof is at47%, top of chimney at42%, steam NEVER above20%. The small silhouette including steam must never touch a neighbor or any cell edge. Arrange four compact sprites on each of four evenly spaced aligned rows; equal center-to-center distance horizontally and vertically. Same body geometry, no scale change or body movement. No cropping anywhere.\n\nSixteen TRUE successive animation frames ordered row-major. Frame1 idle, tiny steam wisp. Frames2–16 wheel SPOKES rotate clockwise progressively by22.5degrees each frame, with connecting rod rotating; wheel CIRCLES and CENTERS remain stationary and exactly three visible at all times. Soft white/light-blue steam puffs gradually grow from the chimney, rise upward and drift slightly left, fade, new puffs emerge. Distinct smooth progressing puff silhouettes in every frame. Do not translate the locomotive. Body, wheel size, wheel count, camera, all mechanical geometry stay identical across all16; ONLY rotating spokes/rod and small changing steam puffs. Keep small puffs entirely inside the central68% height safe area.\n\nAll pixels outside locomotive and clean steam silhouettes are fully transparent alpha0. NO colored speckles/flecks, artifacts or paper rectangle. Steam uses gentle alpha feathers just at its edge. One production sprite atlas PNG, not a mockup. Native4:3 landscape preferred2048×1536.",
+  "provenance": {
+    "tool": "image_gen.imagegen",
+    "transparentBackgroundRequested": true,
+    "styleReferences": [
+      "work/ocean-classroom/dist/assets/island-lamp-16-v4.png",
+      "work/ocean-classroom/dist/assets/fish-words-v3.png"
+    ],
+    "styleReferencesInspected": true,
+    "styleReferenceRole": "Style only, not scenes or subjects.",
+    "selectedNativeSource": "generated-source:exec-63ba9dd6-d15e-486c-a86e-13131db33379.png",
+    "preservation": "Byte-for-byte native PNG copy; no resampling, cropping, alpha cleanup, editing, or raster manipulation.",
+    "attemptCount": 3,
+    "earlierAttempts": [
+      {
+        "source": "generated-source:exec-aa6aa4fa-b7ab-4857-90c1-d1f02d072266.png",
+        "prompt": "Use case: illustration-story.\nAsset type: production transparent 16-frame animation sprite atlas for a Primary 2 browser learning game.\nInput images: both supplied images are STYLE REFERENCES ONLY: warm, polished hand-painted East Asian primary-school textbook gouache with soft colored-pencil texture. Do not copy their scenes, people, rooms, or backgrounds.\nCreate ONE PNG with a genuinely TRANSPARENT alpha background. Overall canvas 4:3 landscape, preferred 2048×1536. EXACTLY FOUR equal columns by FOUR equal rows, SIXTEEN equal 4:3 cells. Each cell occupies exactly 25% of canvas width and height. Read left to right, then top to bottom. NO visible frame borders, separators, gutters, boxes, text, numerals, labels, checkerboard painting, paper rectangle, shadows, ground, rails, room or scenery. Everything outside the train and its steam must be fully transparent.\n\nSubject in EVERY cell: exactly ONE small, cute, rounded steam locomotive in strict SIDE PROFILE facing RIGHT. Train FRONT is at RIGHT. Cab and short rear coupling for cars are at LEFT. No cars attached, no passengers, no character, no face, no eyes, no logos. Consistent coral-red rounded boiler, sky-blue cab with cream roof, cream trim, black chimney near the front-right of the boiler, one golden bell. Exactly THREE visible round wheels of consistent size, black rubber rims and warm cream spoke details, with a connecting rod. Normal believable mechanical geometry. A small clear coupling sticks out at LEFT REAR; the engine's rounded front and front bumper point RIGHT. All train components and all three wheels are fully present in every frame.\n\nLOCK REGISTRATION: Same exact train body, geometry, scale, position, cab, boiler, chimney, bell, wheel count and wheel-center coordinates in ALL SIXTEEN CELLS. Stationary train body; do not move the train left/right/up/down within frames, do not zoom, do not change perspective. In local cell coordinates, whole engine including left coupling and right bumper fits between x=12% and x=88%, wheels bottom at y=85%, cab roof near y=47%, chimney top near y=40%. Generous transparent margins on every side. Steam fits in y=10% through y=43%, entirely within the same cell, never touching or crossing cell edges. No content cropped at canvas edges.\n\nAnimation: sixteen TRUE successive progressive drawings of the same engine, not sixteen identical copies. Only wheel spokes/connecting-rod orientation and steam change. Wheel spokes rotate clockwise by 22.5 degrees per successive frame: f1 0°, f2 22.5°, f3 45°, f4 67.5°, f5 90°, f6 112.5°, f7 135°, f8 157.5°, f9 180°, f10 202.5°, f11 225°, f12 247.5°, f13 270°, f14 292.5°, f15 315°, f16 337.5°. Wheel circles and centers stay fixed; do not deform or change their number. Use visibly asymmetric spoke highlights/rod to make rotational progress legible.\nSteam is soft warm-white/pale-blue gouache cutout puffs with softly feathered alpha edges, emerging from the BLACK CHIMNEY at the right-front, rising upward and drifting slightly left, separated from roof and bell. Frame1 is idle, minimal single tiny steam wisp. Frames2–4 a little puff grows from the chimney. Frames5–8 the puff rises and a second puff emerges. Frames9–12 older puff expands upward-left while fresh puffs billow from chimney. Frames13–16 older cloud thins and rises, fresh puffs continue, forming an unmistakable gentle continuous chugging progression. Every frame's puff silhouette is distinct from adjacent frames. Maintain the exact same train body throughout.\n\nStyle: crisp but gently hand-painted warm gouache and colored pencil, polished children's textbook illustration, friendly rounded forms, rich coral red and sky blue, subtle warm paper-like pigment texture ONLY WITHIN the locomotive paint. Clean readable silhouette suitable for game sprites. No background painted whatsoever. Deliver only the transparent 4×4 atlas, no presentation mockup.",
+        "rejectedReason": "Large packed sprites; colored low-alpha outer flecks and insufficient frame-edge breathing room."
+      },
+      {
+        "source": "generated-source:exec-9859cb2d-c823-4eb8-aaa8-29210a79beea.png",
+        "prompt": "Use case: precise-object-edit.\nEdit the supplied transparent locomotive animation atlas for clean production framing and alpha only. Preserve the same lovely coral-red and sky-blue locomotive, side profile facing RIGHT, cab and rear coupling at LEFT, black chimney, golden bell, cream roof, exactly THREE fixed round wheels, the continuous sixteen wheel-spoke/connecting-rod poses and sixteen progressive steam-puff states. Keep the FOUR equal columns × FOUR equal rows (sixteen equal 4:3 cells, overall4:3 canvas), row-major. Do not add anything.\n\nRepair required: remove ALL stray tiny colorful marks/speckles/flecks around trains and steam. Those stray red/yellow/white dots are unwanted alpha contamination, not part of this artwork. Outside the clean train silhouette and the softly feathered white-and-pale-blue steam silhouettes, every pixel must be genuinely fully transparent alpha0. No colored noise, shadows, background, floor, paper texture, rails, borders, gutters, numerals, text, checkerboard or scene.\n\nGive every cell generous clear transparent breathing room: fit entire train and steam in x=12%..88% and y=10%..88% of its own cell; neither steam nor wheels can cross the cell boundaries or canvas edges. Shrink/center the same engine equally in all16 frames if required. All sixteen locomotive BODY silhouettes must have the exact same local size and position, identical wheel-center coordinates and wheel count. Only the rotating spokes/connecting rod and progressively rising/changing steam may differ. The train itself stays stationary within every frame. Frame1 idle has minimal steam. Frames2–16 progressively chug and puff upward, every puff silhouette different from its predecessor, older puffs rise then fade. Preserve true transparent alpha and the hand-painted textbook charm. Output one clean transparent PNG atlas only.",
+        "rejectedReason": "Alpha improved but strong train pixels approached/crossed ideal equal-row boundaries."
+      }
+    ],
+    "workspaceFilesCreated": [
+      "work/ocean-classroom/dist/assets/train-engine-16-v1.png",
+      "work/train-engine-manifest-v1.json"
+    ]
+  },
+  "QA": {
+    "status": "usable-with-documented-native-limitations",
+    "visualInspection": true,
+    "pngVerified": true,
+    "nativeDimensionsVerified": true,
+    "fileCopiedWithoutPixelChanges": true,
+    "uniqueCroppedFramePixelHashes": 16,
+    "contentFindings": [
+      "Sixteen progressive row-major drawings; wheel rods/spokes rotate and steam puffs grow, rise, thin, and renew.",
+      "One right-facing coral-red/sky-blue/cream locomotive per frame, black chimney, golden bell, exactly three visible round wheels.",
+      "Cab and rear coupling are at left; front bumper is at right. No cars, people, face, logos, words or numerals.",
+      "Transparent cutout sprites with no painted room, tracks, ground, visible grid, borders or gutters.",
+      "All strong-alpha train and steam silhouettes are inside each ideal equal-sized cell; no core silhouette is cropped.",
+      "Frame1 is idle with a small wisp. Frames2–16 have differing chugging wheel/steam states."
+    ],
+    "strictRegistrationPass": false,
+    "limitations": [
+      "Native generation is 1448×1086 rather than the preferred 2048×1536. All geometric cells remain exactly 4:3.",
+      "Native body registration is not pixel-identical across the ideal grid: local horizontal anchor drifts approximately 10px between columns, and bottom anchor varies by about5px across rows. Optional per-frame offsets below align the measured body center/bottom to a common anchor without editing native pixels.",
+      "Small generative paint/geometry variations remain; wheels retain count and round shape, but exact mathematical22.5-degree increments cannot be certified from raster drawings.",
+      "Low-alpha outer colored flecks remain, mostly alpha1/255. Alpha is real and preserved, but outer background is not uniformly alpha0 around every sprite. No alpha cleanup was performed.",
+      "Softly rendered paint is somewhat more polished/toy-like than the supplied gouache classroom references."
+    ],
+    "registrationGuidance": {
+      "optional": true,
+      "targetAnchorXBottomY": [
+        181,
+        243
+      ],
+      "offsetMeaning": "Translate each selected frame by optionalRegistrationOffsetXY in native frame pixels; use optionalRegistrationOffsetPercentXY for CSS positioning. This compensates measured native registration drift and does not resample the PNG.",
+      "measurement": "Visible silhouette bounding box at alpha>=128; anchor is horizontal midpoint and bottom. Frame hash crops are read-only validation, not saved derivatives."
+    }
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "column": 0,
+      "row": 0,
+      "pixelBoxXYWH": [
+        0,
+        0,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        69,
+        51,
+        331,
+        242
+      ],
+      "measuredAnchorXBottomY": [
+        200,
+        242
+      ],
+      "optionalRegistrationOffsetXY": [
+        -19,
+        1
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -5.248618784530387,
+        0.3683241252302026
+      ],
+      "croppedFramePixelsSHA256": "e4b7eb0b2f2d1a7b0b8de4f6de8ef534290f1596b14bb9f1adb0df71cd96a939"
+    },
+    {
+      "frame": 2,
+      "column": 1,
+      "row": 0,
+      "pixelBoxXYWH": [
+        362,
+        0,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        59,
+        47,
+        321,
+        242
+      ],
+      "measuredAnchorXBottomY": [
+        190,
+        242
+      ],
+      "optionalRegistrationOffsetXY": [
+        -9,
+        1
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -2.4861878453038675,
+        0.3683241252302026
+      ],
+      "croppedFramePixelsSHA256": "fd7e09d484a1c4df905602cdadd9c41e940ca31368ca8d730b806ec65c798b84"
+    },
+    {
+      "frame": 3,
+      "column": 2,
+      "row": 0,
+      "pixelBoxXYWH": [
+        724,
+        0,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        50,
+        46,
+        311,
+        242
+      ],
+      "measuredAnchorXBottomY": [
+        180.5,
+        242
+      ],
+      "optionalRegistrationOffsetXY": [
+        0.5,
+        1
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        0.13812154696132595,
+        0.3683241252302026
+      ],
+      "croppedFramePixelsSHA256": "9bc2dbd65d57dfd7f043f639dd82aaf4c802f1b42fdaae4338335dfb97625175"
+    },
+    {
+      "frame": 4,
+      "column": 3,
+      "row": 0,
+      "pixelBoxXYWH": [
+        1086,
+        0,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        39,
+        34,
+        301,
+        242
+      ],
+      "measuredAnchorXBottomY": [
+        170,
+        242
+      ],
+      "optionalRegistrationOffsetXY": [
+        11,
+        1
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        3.0386740331491713,
+        0.3683241252302026
+      ],
+      "croppedFramePixelsSHA256": "7d3864735be7dd6ceccf02c4069908f1815bc898de7de8cec6198e09167ef0f3"
+    },
+    {
+      "frame": 5,
+      "column": 0,
+      "row": 1,
+      "pixelBoxXYWH": [
+        0,
+        271.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        69,
+        21.5,
+        331,
+        244.5
+      ],
+      "measuredAnchorXBottomY": [
+        200,
+        244.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        -19,
+        -1.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -5.248618784530387,
+        -0.5524861878453038
+      ],
+      "croppedFramePixelsSHA256": "633721c6c6871f802e387f19ed380b65d16c64565a8e49b8b0e14dec364650b7"
+    },
+    {
+      "frame": 6,
+      "column": 1,
+      "row": 1,
+      "pixelBoxXYWH": [
+        362,
+        271.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        59,
+        21.5,
+        321,
+        244.5
+      ],
+      "measuredAnchorXBottomY": [
+        190,
+        244.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        -9,
+        -1.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -2.4861878453038675,
+        -0.5524861878453038
+      ],
+      "croppedFramePixelsSHA256": "94a9baee94714f73ad4502249ec83cc57833cd331ecf74b2c79485d48b764f34"
+    },
+    {
+      "frame": 7,
+      "column": 2,
+      "row": 1,
+      "pixelBoxXYWH": [
+        724,
+        271.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        49,
+        20.5,
+        312,
+        245.5
+      ],
+      "measuredAnchorXBottomY": [
+        180.5,
+        245.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        0.5,
+        -2.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        0.13812154696132595,
+        -0.9208103130755065
+      ],
+      "croppedFramePixelsSHA256": "65e643e104f9e3616252eeabbe02a02c3c4143df7bbe38f2886469e929710528"
+    },
+    {
+      "frame": 8,
+      "column": 3,
+      "row": 1,
+      "pixelBoxXYWH": [
+        1086,
+        271.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        39,
+        21.5,
+        301,
+        245.5
+      ],
+      "measuredAnchorXBottomY": [
+        170,
+        245.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        11,
+        -2.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        3.0386740331491713,
+        -0.9208103130755065
+      ],
+      "croppedFramePixelsSHA256": "7db0f04232444aa485225bdfeb00abef0a94456bc90053f29c5d12232e88dca3"
+    },
+    {
+      "frame": 9,
+      "column": 0,
+      "row": 2,
+      "pixelBoxXYWH": [
+        0,
+        543,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        69,
+        24,
+        331,
+        246
+      ],
+      "measuredAnchorXBottomY": [
+        200,
+        246
+      ],
+      "optionalRegistrationOffsetXY": [
+        -19,
+        -3
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -5.248618784530387,
+        -1.1049723756906076
+      ],
+      "croppedFramePixelsSHA256": "265888ec0d6e7c213e498901fb54a78e05e891c3adf76884ff66e4a07c11ca49"
+    },
+    {
+      "frame": 10,
+      "column": 1,
+      "row": 2,
+      "pixelBoxXYWH": [
+        362,
+        543,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        59,
+        25,
+        321,
+        246
+      ],
+      "measuredAnchorXBottomY": [
+        190,
+        246
+      ],
+      "optionalRegistrationOffsetXY": [
+        -9,
+        -3
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -2.4861878453038675,
+        -1.1049723756906076
+      ],
+      "croppedFramePixelsSHA256": "4197ff4413e52d8c9a55625f9c3637cdbc4b27f43662120ce5d9762564b53557"
+    },
+    {
+      "frame": 11,
+      "column": 2,
+      "row": 2,
+      "pixelBoxXYWH": [
+        724,
+        543,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        49,
+        28,
+        311,
+        247
+      ],
+      "measuredAnchorXBottomY": [
+        180,
+        247
+      ],
+      "optionalRegistrationOffsetXY": [
+        1,
+        -4
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        0.2762430939226519,
+        -1.4732965009208103
+      ],
+      "croppedFramePixelsSHA256": "87c7938036bb19ded44f8077a9f595ca2d278c490b538a454ced471ac935161b"
+    },
+    {
+      "frame": 12,
+      "column": 3,
+      "row": 2,
+      "pixelBoxXYWH": [
+        1086,
+        543,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        39,
+        31,
+        301,
+        247
+      ],
+      "measuredAnchorXBottomY": [
+        170,
+        247
+      ],
+      "optionalRegistrationOffsetXY": [
+        11,
+        -4
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        3.0386740331491713,
+        -1.4732965009208103
+      ],
+      "croppedFramePixelsSHA256": "7fd31a96bdec2cd4a8277ae4b93008e810797e5047a6673cffa1fc888873e9bb"
+    },
+    {
+      "frame": 13,
+      "column": 0,
+      "row": 3,
+      "pixelBoxXYWH": [
+        0,
+        814.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        69,
+        31.5,
+        331,
+        241.5
+      ],
+      "measuredAnchorXBottomY": [
+        200,
+        241.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        -19,
+        1.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -5.248618784530387,
+        0.5524861878453038
+      ],
+      "croppedFramePixelsSHA256": "8cc643b9af7333685361e6231e641cd4de9840c8b0844122d7fd594a065f39b1"
+    },
+    {
+      "frame": 14,
+      "column": 1,
+      "row": 3,
+      "pixelBoxXYWH": [
+        362,
+        814.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        59,
+        60.5,
+        321,
+        241.5
+      ],
+      "measuredAnchorXBottomY": [
+        190,
+        241.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        -9,
+        1.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        -2.4861878453038675,
+        0.5524861878453038
+      ],
+      "croppedFramePixelsSHA256": "cb70d55f769285fce8dcfd766ab6b61dc0c23817d52033e95ac48204b48779ba"
+    },
+    {
+      "frame": 15,
+      "column": 2,
+      "row": 3,
+      "pixelBoxXYWH": [
+        724,
+        814.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        49,
+        52.5,
+        312,
+        241.5
+      ],
+      "measuredAnchorXBottomY": [
+        180.5,
+        241.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        0.5,
+        1.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        0.13812154696132595,
+        0.5524861878453038
+      ],
+      "croppedFramePixelsSHA256": "d4783ed09c3e50cd71779508f6ea152bade981afbc662c0f978ed6952ab098cd"
+    },
+    {
+      "frame": 16,
+      "column": 3,
+      "row": 3,
+      "pixelBoxXYWH": [
+        1086,
+        814.5,
+        362,
+        271.5
+      ],
+      "visibleAlpha128BoundsXYXY": [
+        39,
+        46.5,
+        301,
+        241.5
+      ],
+      "measuredAnchorXBottomY": [
+        170,
+        241.5
+      ],
+      "optionalRegistrationOffsetXY": [
+        11,
+        1.5
+      ],
+      "optionalRegistrationOffsetPercentXY": [
+        3.0386740331491713,
+        0.5524861878453038
+      ],
+      "croppedFramePixelsSHA256": "133daa22ceee0bf1ba0212a2a79d4c50ee97ff244bb089e6fbd2ab4a2fa2ef0c"
+    }
+  ]
+}

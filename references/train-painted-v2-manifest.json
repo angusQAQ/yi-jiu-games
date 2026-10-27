@@ -1,0 +1,303 @@
+{
+  "version": "train-painted-v2",
+  "date": "2026-10-27",
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "file": "dist/assets/train-words-v2.png",
+      "nativeSource": "generated-source:exec-2a5ba74c-d286-4c71-baa3-d6a4154a6abd.png",
+      "width": 1448,
+      "height": 1086,
+      "prompt": "Use case: illustration-story.\nAsset type: painted vocabulary picture atlas for the existing Chinese sentence train educational game.\nPrimary request: Create exactly 12 clearly separated square illustrations in a precise 4-column by 3-row grid, no gutters, no labels. The entire canvas has aspect ratio 4:3. Each cell is one complete child-friendly scene. Match the warm watercolor/gouache textbook style and the same black-haired Hong Kong schoolboy, blue short sleeve shirt, navy shorts, friendly round face as the style reference. Make actions immediately clear for children who cannot read Chinese. Natural body proportions, correct hands, no distorted faces. Keep each scene's key action in the central 80% so it remains clear at thumbnail size.\nCell order, left to right, top to bottom:\n1. School morning: boy has just arrived at the classroom doorway and notices his female teacher standing close by. He looks at her; morning sunlight, school bag.\n2. Same classroom, immediately afterward: boy smiles, waves respectfully and bows slightly to greet the teacher. Teacher smiles and responds with a small wave. This is greeting, not cheering.\n3. Family dining table: boy has just finished his meal; his empty rice bowl with chopsticks and an empty small plate clearly on table in front of him. He is sitting with hands free, no food left in his bowl.\n4. Same dining room: boy stands and carefully carries his empty rice bowl and chopsticks from the table toward nearby kitchen counter. Show collecting the bowl, not washing dishes.\n5. At a homework desk: close view of boy's pencil and exercise book; one incorrectly written simple character is clearly marked with a SMALL red X beside it; boy notices his pencil mistake. Focus on the error, book and pencil, not a bad mood.\n6. Same desk: boy uses a white rectangular eraser on that pencilled error, clearly visible eraser shavings on paper. Focus on hand using eraser.\n7. Library entrance: boy is walking through the doorway into a quiet children's library with clearly visible bookshelves, librarian and children reading quietly.\n8. Same library: boy walks quietly on tiptoe, lowering his feet gently; small blue footstep marks, finger near lips; readers remain calm. Show careful quiet footsteps, not running.\n9. Inside a stopped school bus: boy has just sat down fully on a forward-facing passenger seat; a visible UNFASTENED lap seatbelt rests at his waist, both buckle pieces near his hands. Not a driver, no vehicle motion.\n10. Same school bus seat: boy immediately fastens his lap seat belt, two pieces connected clearly across waist; hands at buckle, satisfied calm smile. The bus remains stopped, correct safe seating, no shoulder belt through neck.\n11. Same boy in a simple waist-up portrait pointing to himself, neutral pale green backdrop (pronoun picture).\n12. Peaceful pastel seaside railway platform with flowers, little school flags and empty cream signboard, no people.\nText constraints: no words, no labels, no speech bubbles, no watermark. Only a small red X on cell 5 and simple pencil marks in homework scenes are permitted. No gridline drawing. Vivid clear actions, consistent painted style, each scene complete and naturally framed.",
+      "sha256": "4866e8484b5f533d3513613292327cca3fce63fe636a600ae0a2590a0bf9cdfd"
+    },
+    {
+      "file": "dist/assets/train-carriages-16-v3.png",
+      "nativeSource": "generated-source:exec-167f66ed-a94c-4967-96b5-0e2c9a253995.png",
+      "width": 1086,
+      "height": 1448,
+      "prompt": "Use case: illustration-story.\nAsset type: 16-frame painted sprite atlas of a high-sided railway word-card wagon.\nPrimary request: EXACT 4 by 4 grid of sixteen consecutive frames of one SAME single railway wagon with two rotating wheels. Use the reference locomotive's warm blue, red and gold watercolor schoolbook painting style. NOT the locomotive. NOT a complete train.\nCanvas and grid: portrait canvas aspect 3:4. Precisely 4 columns and 4 rows. Each cell portrait 3:4. Do NOT make short wide wagons; make each wagon TALL, NEARLY SQUARE, a high-sided educational toy rail wagon carrying a very large EMPTY cream writing board. This tall blank panel must be large enough to hold two rows of big Chinese characters in the game. Warm gold wood frame with mint-blue edges; red and gold wheels. No window, no roof.\nPrecise registration inside EVERY cell: drawing spans x=4%..96%. Large empty cream writing panel is x=15%..85%, y=15%..70%, completely blank with no texture marks resembling letters. Frame top y=8%, body bottom y=78%, wheel bottoms y=94%. Two compact wheels under the body, diameters18% of cell width, centers x=25% and75%. Small couplers at sides y=79%. Keep all wheels, body frame and corners at identical positions and sizes in every frame.\nAnimation: 16 frames read left to right, top to bottom. Both painted red wheels have three asymmetrically spaced gold spokes and one distinctive small BLUE rim dot. The blue dot and spokes rotate CLOCKWISE by 22.5 degrees per frame, completing one turn. Body is exactly static and registered. No deformation, no body wobble. Each frame is a genuine next wheel position, NOT a repeated still.\nBackground: TRUE TRANSPARENT alpha around each wagon. No scenery, no ground shadows, no printed grid, no frame borders, no checkered pattern painted into pixels.\nConstraints: exactly sixteen wagons, one in each cell, identical design. No text, no words, no numbers, no icons, no people, no watermark. Painterly 2D cutout sprites, with warm soft edges but clearly defined geometry.",
+      "frames": 16,
+      "registration": "Read-only alpha component bounds registered in SVG; native pixels untouched; preserve aspect ratio.",
+      "sha256": "bdd5e02a47ded60d1f90d01cc648480dcbc9b50aab491dd3abcc20f64f33ef9f",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "frameBounds": [
+        {
+          "index": 0,
+          "cell": [
+            0,
+            0,
+            272,
+            362
+          ],
+          "bounds": [
+            17,
+            78,
+            272,
+            345
+          ],
+          "sha256": "45bd83aebb803cced01893718f4b67c5db07c4ec5c9de04356b0b18360cc2d65"
+        },
+        {
+          "index": 1,
+          "cell": [
+            272,
+            0,
+            543,
+            362
+          ],
+          "bounds": [
+            287,
+            77,
+            543,
+            345
+          ],
+          "sha256": "cfebe55dd0cea463497bb88e0145401232a8f45ef117c40fba04f07c4a7b424b"
+        },
+        {
+          "index": 2,
+          "cell": [
+            543,
+            0,
+            814,
+            362
+          ],
+          "bounds": [
+            546,
+            78,
+            803,
+            345
+          ],
+          "sha256": "2760fa23c61cd74cb0a9741f9e0bc1acef50f90a17c45ce1f239822c019062f3"
+        },
+        {
+          "index": 3,
+          "cell": [
+            814,
+            0,
+            1086,
+            362
+          ],
+          "bounds": [
+            814,
+            78,
+            1069,
+            345
+          ],
+          "sha256": "9d00b0f1bd5180a0ed3facc5b63da54edba1a050e0f71e16c95ccf21a71cd4ef"
+        },
+        {
+          "index": 4,
+          "cell": [
+            0,
+            362,
+            272,
+            724
+          ],
+          "bounds": [
+            18,
+            423,
+            272,
+            690
+          ],
+          "sha256": "6451b0cf56fad23954d62181aadd51d079aafcc5de2d7cfb090615a624a034ba"
+        },
+        {
+          "index": 5,
+          "cell": [
+            272,
+            362,
+            543,
+            724
+          ],
+          "bounds": [
+            287,
+            423,
+            543,
+            692
+          ],
+          "sha256": "3804b15a7284e3889f0e035e6be4be5d1a03e6c55f4709d1982a2387a88931a8"
+        },
+        {
+          "index": 6,
+          "cell": [
+            543,
+            362,
+            814,
+            724
+          ],
+          "bounds": [
+            546,
+            423,
+            803,
+            691
+          ],
+          "sha256": "f9a645f0448aa69cf6077eabf4cf3b89c8770f843c0ed823844ffec7b673c674"
+        },
+        {
+          "index": 7,
+          "cell": [
+            814,
+            362,
+            1086,
+            724
+          ],
+          "bounds": [
+            814,
+            423,
+            1069,
+            691
+          ],
+          "sha256": "6b701b7e4735b4565cb326c5bbc81507f1f2e80327c6c035f0417833b01b549e"
+        },
+        {
+          "index": 8,
+          "cell": [
+            0,
+            724,
+            272,
+            1086
+          ],
+          "bounds": [
+            18,
+            776,
+            272,
+            1044
+          ],
+          "sha256": "97c840f2086c9c8e5635a693483f72d167895779d2aa3bd78e1e008f4bfbf7ec"
+        },
+        {
+          "index": 9,
+          "cell": [
+            272,
+            724,
+            543,
+            1086
+          ],
+          "bounds": [
+            287,
+            776,
+            543,
+            1043
+          ],
+          "sha256": "7d9fd218cb254278380aa875c4c12ea534a9ffc2a1c4feeb5807473aec8c1fdb"
+        },
+        {
+          "index": 10,
+          "cell": [
+            543,
+            724,
+            814,
+            1086
+          ],
+          "bounds": [
+            546,
+            776,
+            802,
+            1044
+          ],
+          "sha256": "ed0cff5dfad479abfa4c38ed89ccda73859183f2b6bb9f78c2386202b747016b"
+        },
+        {
+          "index": 11,
+          "cell": [
+            814,
+            724,
+            1086,
+            1086
+          ],
+          "bounds": [
+            814,
+            776,
+            1068,
+            1044
+          ],
+          "sha256": "32eb54a0acf5aad25ee5dc0d1232f26eca77b9ab1327678d6d3dd2015d5e1be9"
+        },
+        {
+          "index": 12,
+          "cell": [
+            0,
+            1086,
+            272,
+            1448
+          ],
+          "bounds": [
+            18,
+            1120,
+            272,
+            1388
+          ],
+          "sha256": "dedd9ea3b703ab9470cde8429b9c7e9d0095c6f48816cf6afcfccc627b4ae996"
+        },
+        {
+          "index": 13,
+          "cell": [
+            272,
+            1086,
+            543,
+            1448
+          ],
+          "bounds": [
+            287,
+            1120,
+            543,
+            1389
+          ],
+          "sha256": "be3f631ab2066b66b8685758da6ff4bc41f3761806390d779552ab867cb6a719"
+        },
+        {
+          "index": 14,
+          "cell": [
+            543,
+            1086,
+            814,
+            1448
+          ],
+          "bounds": [
+            547,
+            1121,
+            804,
+            1389
+          ],
+          "sha256": "93b7ad765584e2305d544d29c6e23b627988542eb3ce01f3105b60de1a7b8249"
+        },
+        {
+          "index": 15,
+          "cell": [
+            814,
+            1086,
+            1086,
+            1448
+          ],
+          "bounds": [
+            814,
+            1120,
+            1069,
+            1388
+          ],
+          "sha256": "d02179013bf1a2f3cad7f49a45a3ff164c7eda2f19caa25cbf8532ce24a394c7"
+        }
+      ]
+    },
+    {
+      "file": "dist/assets/train-engine-16-v1.png",
+      "frames": 16,
+      "provenance": "Existing generated locomotive retained; native 16 painted steam/wheel frames synchronised with carriage frames.",
+      "sha256": "46ac6039662a424660ae9bf7d455cbd05e5c9cb67efa34ce481754b0e06397ac"
+    }
+  ],
+  "animation": "16 painted frames on every carriage and locomotive, synchronised over 2.4s; the assembled train departs to the right in 2.8s. All animated layers freeze directly when paused.",
+  "curriculum": [
+    "我一見到老師，就問好。",
+    "我一吃完飯，就收碗。",
+    "我一寫錯字，就用橡皮擦。",
+    "我一走進圖書館，就放輕腳步。",
+    "我一坐上校巴，就扣好安全帶。"
+  ],
+  "dictionaryAudit": "references/cuhk-train-v2-audit.json",
+  "voice": "15 new zh-HK-HiuMaanNeural clips at -12%; Times New Roman pinyin on word cards only."
+}

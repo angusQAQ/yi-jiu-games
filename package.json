@@ -1,0 +1,12 @@
+{
+  "name": "yi-jiu-games",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Four illustrated Cantonese-supported Chinese sentence games for Primary 2",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node --check dist/app.js && node check.mjs && node check-navigation-train.mjs",
+    "preview": "python3 -m http.server 8792 --bind 127.0.0.1 --directory dist"
+  }
+}
