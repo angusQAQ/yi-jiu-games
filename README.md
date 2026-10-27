@@ -25,7 +25,7 @@
 
 ## 本機運行
 
-需要 Node.js 22 或以上及 Python 3；沒有 npm 套件或建置依賴。
+需要 Node.js 22 或以上及 Python 3；遊戲執行及檢查不需 npm 套件；匯出單檔 HTML 才需要匯出工具依賴。
 
 ```sh
 npm run check
@@ -45,3 +45,17 @@ npm run preview
 彩繪、人物、魚兒和火車素材由內建 image_gen 依教材風格生成。生成提示詞、原圖尺寸、逐幀位置和審核紀錄保存在 `references/`。原生像素及比例保留，程式只負責取景、等比顯示與動畫排程。
 
 「床」依教師要求統一寫作「牀」。因原教育部楷體不包含 U+7240，僅此字補用全字庫正楷體的原比例單字子集；來源及政府資料開放授權說明見 `dist/assets/kai-variant-license.txt`，讀音仍為 hei cong。
+
+## 下載及匯出單檔離線 HTML
+
+[下載最新離線 HTML](https://github.com/angusQAQ/yi-jiu-games/releases/latest/download/yi-jiu-games-offline.html)
+
+離線檔包含四款遊戲、所有圖片、16 幀動畫、字型及預錄粵語，下載後不需另外的素材資料夾。
+
+```sh
+npm ci
+npm run export:offline
+npm run check:offline
+```
+
+輸出為 `exports/yi-jiu-games-offline.html`。以桌面版 Chrome 或 Edge 開啟即可。匯出檔為該次原始碼版本的快照；內嵌壓縮素材、相依程式及授權說明，不需要遊玩時的網絡連線。大型輸出檔不提交到原始碼儲存庫，可從 GitHub Releases 下載。

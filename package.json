@@ -4,9 +4,17 @@
   "private": true,
   "type": "module",
   "description": "Four illustrated Cantonese-supported Chinese sentence games for Primary 2",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "check": "node --check dist/app.js && node check.mjs && node check-navigation-train.mjs",
-    "preview": "python3 -m http.server 8792 --bind 127.0.0.1 --directory dist"
+    "preview": "python3 -m http.server 8792 --bind 127.0.0.1 --directory dist",
+    "export:offline": "node scripts/export-offline.mjs",
+    "check:offline": "node scripts/check-offline.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "fflate": "0.8.3"
   }
 }
